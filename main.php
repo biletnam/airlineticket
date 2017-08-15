@@ -27,8 +27,35 @@
 include "data.php";
 
 
+$old      = 0;  # Old ticket, departure date in the past
+$match    = 0;  # Ticket found and its data matches
+$mismatch = 0;  # Ticket found but its data does not match
+$notfound = 0;  # Ticket was not found
+$error    = 0;  # Error trying to access ticket data
+
 foreach (list_tickets() as $key => $data) {
+
+	# Ignore old tickets
+	if(strtotime($data['saida']) < time()) {
+		$old++;
+		continue;
+	}
+
 	echo("\n${key}\n");
 	print_r($data);
+
+	$match++;
 }
+
+printf("
+OK       : %3d
+Old      : %3d
+Mismatch : %3d
+Error    : %3d
+NotFound : %3d
+Total    : %3d
+",
+$match,  $old,  $mismatch,  $error,  $notfound,
+$match + $old + $mismatch + $error + $notfound
+);
 ?>
