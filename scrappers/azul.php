@@ -21,8 +21,27 @@
 ################################################################################
 
 
-function scrape_AZUL($data)
+function scrape_AZUL($pnr, $name)
 {
+	$url = 'https://viajemais.voeazul.com.br/RetrieveBookingAjax.aspx';
+	$data = array();
+
+	# Get first passenger's last name
+	$name = explode(', ', $name);
+	$name = explode(' ', $name[0]);
+	$name = $name[count($name)-1];
+
+	$url .= "?pnr=${pnr}&lastName=${name}";
+
+	$json = json_decode(file_get_contents($url), TRUE);
+
+	switch($json['Message']) {
+		case 'Booking Invalid':  # Not found
+		case 'noJourneysError':  # Cancelled
+		default:
+			return $json;
+	}
+
 	return $data;
 }
 ?>

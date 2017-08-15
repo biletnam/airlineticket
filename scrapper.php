@@ -23,17 +23,16 @@
 include "scrappers/azul.php";
 
 
-function scrape_ticket($data)
+function scrape_ticket($airline, $pnr, $name)
 {
-	switch($data['companhia']) {
+	switch($airline) {
 		case "AZUL":
-			return scrape_AZUL($data);
+			return scrape_AZUL($pnr, $name);
 		case "TAM":
 		case "GOL":
 			return $data;
 		default:
-			$data['error'] = "No scrapper for airline ${data['companhia']}!";
-			return $data;
+			return array('error' => "No scrapper for airline ${airline}!");
 	}
 }
 ?>
