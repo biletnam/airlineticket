@@ -23,8 +23,8 @@
 
 ################################################################################
 
-
 include "data.php";
+include "scrapper.php";
 
 
 $old      = 0;  # Old ticket, departure date in the past
@@ -35,6 +35,9 @@ $error    = 0;  # Error trying to access ticket data
 
 foreach (list_tickets() as $key => $data) {
 
+	if($data['companhia'] != 'AZUL')
+		continue;
+
 	# Ignore old tickets
 	if(strtotime($data['saida']) < time()) {
 		$old++;
@@ -43,6 +46,13 @@ foreach (list_tickets() as $key => $data) {
 
 	echo("\n${key}\n");
 	print_r($data);
+
+	$web = scrape_ticket($data);
+	if(isset($web['error'])) {
+		echo("Error in ticket ${data['ticket']}: ${web['error']}\n");
+		$error++;
+		continue;
+	}
 
 	$match++;
 }
