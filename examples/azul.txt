@@ -1,0 +1,331 @@
+AZUL.GER2WQ
+Array
+(
+    [companhia] => AZUL
+    [ticket] => GER2WQ
+    [origem] => Rio de Janeiro, Santos Dumont (SDU)
+    [destino] => Belo Horizonte, Confins (CNF)
+    [saida] => 2017-08-19 10:15
+    [chegada] => 2017-08-19 11:20
+    [idaevolta] => 1
+    [milhas] => 40000
+    [taxas] => 118.06
+    [moeda] => BRL
+    [voo] => 2590
+    [passageiro] => Yuri Mourao, Marta mariana Negry
+)
+Array
+(
+    [Status] => 1
+    [Message] => sucesso
+    [StackTrace] =>
+    [ReturnObject] => Array
+        (
+            [RecordLocator] => GER2WQ
+            [CultureCode] => pt-BR
+            [CurrencyCode] => BRL
+            [IsPaymentDeclined] =>
+            [FareType] => PointsAndMoney
+            [BookingInHold] =>
+            [HasTarifaAzul] =>
+            [IsInternacional] =>
+            [IsBookingTaws] => 1
+            [HoldDate] =>
+            [HoldTime] =>
+            [TotalMoney] => 59.03
+            [FormatedTotalMoney] => R$ 59,03
+            [TotalPoints] => 20000
+            [FormatedTotalPoints] => 20.000 Pts
+            [hasChangeButton] => 1
+            [hasEspacoAzulButton] =>
+            [hasCheckinButton] => 1
+            [hasCancelButton] => 1
+            [hasPaymentButton] =>
+            [hasEmailButton] => 1
+            [hasTSAButton] =>
+            [actionTravelDocs] =>
+            [hasPrintItineraryButton] => 1
+            [hasInsurance] =>
+            [hasVoucher] =>
+            [hasExtraBaggage] =>
+            [hasCarouselCar] =>
+            [hasCarouselHotel] =>
+            [IsChangeable] => 1
+            [IsCancelable] => 1
+            [ItineraryJourneyList] => Array
+                (
+                    [0] => Array
+                        (
+                            [ConvenienceFee] => 0
+                            [Departure] => Rio de Janeiro - Santos Dumont (SDU)
+                            [Arrival] => Belo Horizonte - Confins (CNF)
+                            [FareValue] => 0
+                            [FormatedFareValue] => R$ 0,00
+                            [FeesValue] => 29.9
+                            [FormatedFeesValue] => R$ 29,90
+                            [FareValuePoints] => 13000
+                            [FormatedFareValuePoints] => 13.000 Pts
+                            [SubtotalFareFees] => 29.9
+                            [FormatedSubtotalFareFees] => R$ 29,90
+                            [SubtotalFarePoints] => 13000
+                            [BoardingFee] => 29.9
+                            [FormatedBoardingFee] => R$ 29,90
+                            [FormatedSubtotalFarePoints] => 13.000 Pts
+                            [SegmentList] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [PassengerSeat] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [PassengerSeat] =>
+                                                            [PassengerNumber] => 0
+                                                            [ButtonSeats] => MarcarAssento
+                                                        )
+
+                                                )
+
+                                            [PassengerAdditionalBaggage] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [BagsQty] => 1
+                                                            [AdditionalBaggage] =>
+                                                            [CarryOn] => 10kg
+                                                            [PassengerTier] =>
+                                                            [PassengerNumber] => 0
+                                                            [HasButtonAdditionalBaggage] => 1
+                                                        )
+
+                                                )
+
+                                            [LegList] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [DepartureStation] => SDU
+                                                            [ArrivalStation] => CNF
+                                                            [FlightNumber] => 2590
+                                                            [CarrierCode] => AD
+                                                            [DepartureTime] => 10:15
+                                                            [ArrivalTime] => 11:20
+                                                            [ProductClass] => f
+                                                            [EquipmentType] => Embraer 195
+                                                        )
+
+                                                )
+
+                                            [ProductClass] => f
+                                            [FlightNumber] => 2590
+                                            [CarrierCode] => AD
+                                            [DepartureStation] => SDU
+                                            [ArrivalStation] => CNF
+                                            [DepartureTime] => 10:15
+                                            [ArrivalTime] => 11:20
+                                            [DepartureDate] => 19/08/2017
+                                            [ArrivalDate] => 19/08/2017
+                                        )
+
+                                )
+
+                            [isCheckinAvailableButton] => 1
+                            [AdditionalBaggage] => Array
+                                (
+                                    [Quantity] => 00
+                                    [FareValue] => 0
+                                    [FormatedFareValue] => R$ 0,00
+                                )
+
+                            [WarningMessage] =>
+                            [DepartureIATA] => SDU
+                            [ArrivalIATA] => CNF
+                        )
+
+                    [1] => Array
+                        (
+                            [ConvenienceFee] => 0
+                            [Departure] => Belo Horizonte - Confins (CNF)
+                            [Arrival] => Rio de Janeiro - Santos Dumont (SDU)
+                            [FareValue] => 0
+                            [FormatedFareValue] => R$ 0,00
+                            [FeesValue] => 29.13
+                            [FormatedFeesValue] => R$ 29,13
+                            [FareValuePoints] => 7000
+                            [FormatedFareValuePoints] => 7.000 Pts
+                            [SubtotalFareFees] => 29.13
+                            [FormatedSubtotalFareFees] => R$ 29,13
+                            [SubtotalFarePoints] => 7000
+                            [BoardingFee] => 29.13
+                            [FormatedBoardingFee] => R$ 29,13
+                            [FormatedSubtotalFarePoints] => 7.000 Pts
+                            [SegmentList] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [PassengerSeat] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [PassengerSeat] =>
+                                                            [PassengerNumber] => 0
+                                                            [ButtonSeats] => MarcarAssento
+                                                        )
+
+                                                )
+
+                                            [PassengerAdditionalBaggage] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [BagsQty] => 1
+                                                            [AdditionalBaggage] =>
+                                                            [CarryOn] => 10kg
+                                                            [PassengerTier] =>
+                                                            [PassengerNumber] => 0
+                                                            [HasButtonAdditionalBaggage] => 1
+                                                        )
+
+                                                )
+
+                                            [LegList] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [DepartureStation] => CNF
+                                                            [ArrivalStation] => SDU
+                                                            [FlightNumber] => 4264
+                                                            [CarrierCode] => AD
+                                                            [DepartureTime] => 10:15
+                                                            [ArrivalTime] => 11:25
+                                                            [ProductClass] => Promo
+                                                            [EquipmentType] => Embraer 195
+                                                        )
+
+                                                )
+
+                                            [ProductClass] => Promo
+                                            [FlightNumber] => 4264
+                                            [CarrierCode] => AD
+                                            [DepartureStation] => CNF
+                                            [ArrivalStation] => SDU
+                                            [DepartureTime] => 10:15
+                                            [ArrivalTime] => 11:25
+                                            [DepartureDate] => 20/08/2017
+                                            [ArrivalDate] => 20/08/2017
+                                        )
+
+                                )
+
+                            [isCheckinAvailableButton] => 1
+                            [AdditionalBaggage] => Array
+                                (
+                                    [Quantity] => 00
+                                    [FareValue] => 0
+                                    [FormatedFareValue] => R$ 0,00
+                                )
+
+                            [WarningMessage] =>
+                            [DepartureIATA] => CNF
+                            [ArrivalIATA] => SDU
+                        )
+
+                )
+
+            [ItineraryPaymentList] => Array
+                (
+                    [0] => Array
+                        (
+                            [Status] => 0
+                            [MethodType] => 0
+                            [AccountNumber] =>
+                            [AuthorizationCode] =>
+                            [Installments] => 1
+                            [MethodCode] => XX
+                            [Amount] => 610.4
+                            [FormatAmount] => R$ 610,40
+                            [IsItauCard] =>
+                        )
+
+                    [1] => Array
+                        (
+                            [Status] => 0
+                            [MethodType] => 1
+                            [AccountNumber] => XXXXXXXXXXXX2164
+                            [AuthorizationCode] => 042038
+                            [Installments] => 1
+                            [MethodCode] => MC
+                            [Amount] => 118.06
+                            [FormatAmount] => R$ 118,06
+                            [IsItauCard] =>
+                        )
+
+                    [2] => Array
+                        (
+                            [Status] => 0
+                            [MethodType] => 1
+                            [AccountNumber] => XXXXXXXXXXXX2164
+                            [AuthorizationCode] =>
+                            [Installments] => 1
+                            [MethodCode] => MC
+                            [Amount] => -59.03
+                            [FormatAmount] => R$ -59,03
+                            [IsItauCard] =>
+                        )
+
+                    [3] => Array
+                        (
+                            [Status] => 0
+                            [MethodType] => 0
+                            [AccountNumber] =>
+                            [AuthorizationCode] =>
+                            [Installments] => 1
+                            [MethodCode] => XX
+                            [Amount] => -305.2
+                            [FormatAmount] => R$ -305,20
+                            [IsItauCard] =>
+                        )
+
+                )
+
+            [ItineraryServiceList] => Array
+                (
+                )
+
+            [ItineraryPassengerList] => Array
+                (
+                    [0] => Array
+                        (
+                            [FirstName] => yuri
+                            [LastName] => mourao
+                            [MiddleName] =>
+                            [CustomerNumber] =>
+                            [PassengerNumber] => 0
+                            [PassengerIsInfant] =>
+                        )
+
+                )
+
+            [ItineraryContact] => Array
+                (
+                    [FirstName] => RODRIGO
+                    [LastName] => KALINOWSKI
+                    [MiddleName] =>
+                    [AddressLine1] => RUA ANTONIO PARREIRAS
+                    [AddressLine2] => 138 AP 704
+                    [AddressLine3] => IPANEMA
+                    [City] => RIO DE JANEIRO
+                    [PostalCode] => 22411020
+                    [ProvinceState] => RJ
+                    [Country] => BR
+                    [FoneNumber] => (21) 8757-0000
+                    [EmailAddress] => RODRIGO.KALINOWSKI@GMAIL.COM
+                )
+
+            [ItineraryCrossSellList] => Array
+                (
+                )
+
+        )
+
+)

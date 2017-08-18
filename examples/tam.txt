@@ -1,0 +1,638 @@
+Ticket TAM.JFANHM: data mismatch
+Array
+(
+    [companhia] => TAM
+    [ticket] => JFANHM
+    [origem] => SAO PAULO GRU
+    [destino] => MANAUS
+    [idaevolta] => 1
+    [saida] => 2017-08-22 11:05
+    [chegada] => 2017-08-22 14:00
+    [milhas] => 0
+    [taxas] => 60
+    [moeda] => BRL
+    [voo] => JJ 3408
+    [passageiro] => TOMYAMA/DOMINGOS MR
+)
+Array
+(
+    [WDS_WEBAPP_URL] => https://book.latam.com/TAM
+    [CONTACT_PHONE_CODE] => +55
+    [WDS_MAX_DATE_REVENUE] => 360
+    [WDS_CORPORATE_SALES] =>
+    [WDS_HOTEL_TEASER_PROGRESSIVE_TIMEOUT] => 30
+    [ITINERARY_DATA] => Array
+        (
+            [0] => Array
+                (
+                    [BOOL_FLOWN] =>
+                    [ACTIVE_GDS] => 1A
+                    [INITIAL_ELEMENT] => 1
+                    [PERMISSIONS] => Array
+                        (
+                            [CANCELLATION_NON_ELIGIBILITY_REASON] => ALLOW_TKT_AIR_CANCEL
+                            [IS_CANCELLATION_ALLOWED] =>
+                            [IS_DATE_CHANGE_ONLY_ALLOWED] => 1
+                            [IS_MODIFICATION_ALLOWED] => 1
+                        )
+
+                    [B_DATE] => 1503399900000
+                    [PNR_INFORMATION] => Array
+                        (
+                            [PARENT_PNR_ID] => 1
+                        )
+
+                    [ITEM_ID] => 1
+                    [ALLOW_ELEMENT_MODIF] => 1
+                    [LIST_SEGMENT] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [SEGMENT_FLIGHT_DURATION] => 14100000
+                                    [LIST_STATUS] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [STATUS] => HK
+                                                )
+
+                                        )
+
+                                    [EQUIPMENT] => Array
+                                        (
+                                            [NAME] => Airbus Industrie A321
+                                            [CODE] => 321
+                                        )
+
+                                    [STATUS] => HK
+                                    [E_TICKETING] => 1
+                                    [HAS_GOVT_APPROVAL] =>
+                                    [FLOWN_INDICATOR] =>
+                                    [FLIGHT_NUMBER] => 3408
+                                    [DAY_OF_WEEK] => 2
+                                    [NUMBER_OF_STOPS] => 0
+                                    [B_LOCATION] => Array
+                                        (
+                                            [LOCATION_CODE] => GRU
+                                            [CITY_CODE] => SAO
+                                            [STATE_NAME] => São Paulo
+                                            [CITY_NAME] => São Paulo
+                                            [COUNTRY_CODE] => BR
+                                            [STATE_CODE] => SP
+                                            [LOCATION_NAME] => Guarulhos International
+                                            [COUNTRY_NAME] => Brasil
+                                        )
+
+                                    [B_TIME] => 1105
+                                    [B_TERMINAL] => 2
+                                    [NB_SEATS] => 1
+                                    [SHUTTLE] =>
+                                    [B_DATE] => 1503399900000
+                                    [E_TIME] => 1400
+                                    [CHECK_IN_PROPERTIES] => Array
+                                        (
+                                            [LIST_PASSENGER] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [TRAVELER_ID] => 1
+                                                            [ELIGIBILITY_STATUS] => 0
+                                                        )
+
+                                                )
+
+                                            [CHECK_IN] => Array
+                                                (
+                                                    [ACCEPTANCE_PERIOD] => Array
+                                                        (
+                                                            [END] => 1503396600567
+                                                            [BEGIN] => 1503140700567
+                                                        )
+
+                                                    [STATUS_CODE] => 1
+                                                )
+
+                                        )
+
+                                    [SEGMENT_TATTOO] => 5
+                                    [AIRLINE] => Array
+                                        (
+                                            [NAME] => LATAM Airlines Brasil
+                                            [CODE] => JJ
+                                        )
+
+                                    [IS_SEATMAP_AVAILABLE] => 1
+                                    [LIST_MEAL] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [MEAL_CODE] => S
+                                                    [DESCRIPTION] => LANCHE
+                                                )
+
+                                        )
+
+                                    [IS_TICKETLESSACCESS] =>
+                                    [E_LOCATION] => Array
+                                        (
+                                            [LOCATION_CODE] => MAO
+                                            [CITY_CODE] => MAO
+                                            [STATE_NAME] => Amazonas
+                                            [CITY_NAME] => Manaus
+                                            [COUNTRY_CODE] => BR
+                                            [STATE_CODE] => AM
+                                            [LOCATION_NAME] => Eduardo Gomes International
+                                            [COUNTRY_NAME] => Brasil
+                                        )
+
+                                    [REC_LOC] => JFANHM
+                                    [SEGMENT_ID] => 5
+                                    [E_DATE] => 1503410400000
+                                    [UI_AIR_ID] => 1
+                                    [FLIGHT_TIME] => 14100000
+                                    [LINE_NUMBER] => 2
+                                    [LIST_CABIN] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [LIST_RBD] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [STATUS] => 9
+                                                                    [RBD] => T
+                                                                )
+
+                                                        )
+
+                                                    [CABIN] => E
+                                                    [STATUS] => 9
+                                                )
+
+                                        )
+
+                                    [RBD] => T
+                                )
+
+                        )
+
+                    [ELEMENT_FLIGHT_DURATION] => 14100000
+                    [E_LOCATION] => Array
+                        (
+                            [LOCATION_CODE] => MAO
+                            [CITY_CODE] => MAO
+                            [STATE_NAME] => Amazonas
+                            [CITY_NAME] => Manaus
+                            [COUNTRY_CODE] => BR
+                            [STATE_CODE] => AM
+                            [LOCATION_NAME] => Eduardo Gomes International
+                            [COUNTRY_NAME] => Brasil
+                        )
+
+                    [E_DATE] => 1503410400000
+                    [B_LOCATION] => Array
+                        (
+                            [LOCATION_CODE] => GRU
+                            [CITY_CODE] => SAO
+                            [STATE_NAME] => São Paulo
+                            [CITY_NAME] => São Paulo
+                            [COUNTRY_CODE] => BR
+                            [STATE_CODE] => SP
+                            [LOCATION_NAME] => Guarulhos International
+                            [COUNTRY_NAME] => Brasil
+                        )
+
+                    [TYPE] => AIR
+                )
+
+            [1] => Array
+                (
+                    [BOOL_FLOWN] =>
+                    [ACTIVE_GDS] => 1A
+                    [INITIAL_ELEMENT] => 1
+                    [PERMISSIONS] => Array
+                        (
+                            [CANCELLATION_NON_ELIGIBILITY_REASON] => ALLOW_TKT_AIR_CANCEL
+                            [IS_CANCELLATION_ALLOWED] =>
+                            [IS_DATE_CHANGE_ONLY_ALLOWED] => 1
+                            [IS_MODIFICATION_ALLOWED] => 1
+                        )
+
+                    [B_DATE] => 1503636060000
+                    [PNR_INFORMATION] => Array
+                        (
+                            [PARENT_PNR_ID] => 1
+                        )
+
+                    [ITEM_ID] => 2
+                    [ALLOW_ELEMENT_MODIF] => 1
+                    [LIST_SEGMENT] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [SEGMENT_FLIGHT_DURATION] => 14040000
+                                    [LIST_STATUS] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [STATUS] => HK
+                                                )
+
+                                        )
+
+                                    [EQUIPMENT] => Array
+                                        (
+                                            [NAME] => Airbus Industrie A321
+                                            [CODE] => 321
+                                        )
+
+                                    [STATUS] => HK
+                                    [E_TICKETING] => 1
+                                    [HAS_GOVT_APPROVAL] =>
+                                    [FLOWN_INDICATOR] =>
+                                    [FLIGHT_NUMBER] => 3751
+                                    [DAY_OF_WEEK] => 5
+                                    [NUMBER_OF_STOPS] => 0
+                                    [B_LOCATION] => Array
+                                        (
+                                            [LOCATION_CODE] => MAO
+                                            [CITY_CODE] => MAO
+                                            [STATE_NAME] => Amazonas
+                                            [CITY_NAME] => Manaus
+                                            [COUNTRY_CODE] => BR
+                                            [STATE_CODE] => AM
+                                            [LOCATION_NAME] => Eduardo Gomes International
+                                            [COUNTRY_NAME] => Brasil
+                                        )
+
+                                    [B_TIME] => 0441
+                                    [NB_SEATS] => 1
+                                    [SHUTTLE] =>
+                                    [B_DATE] => 1503636060000
+                                    [E_TIME] => 0935
+                                    [CHECK_IN_PROPERTIES] => Array
+                                        (
+                                            [LIST_PASSENGER] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [TRAVELER_ID] => 1
+                                                            [ELIGIBILITY_STATUS] => 0
+                                                        )
+
+                                                )
+
+                                            [CHECK_IN] => Array
+                                                (
+                                                    [ACCEPTANCE_PERIOD] => Array
+                                                        (
+                                                            [END] => 1503633360567
+                                                            [BEGIN] => 1503376860567
+                                                        )
+
+                                                    [STATUS_CODE] => 1
+                                                )
+
+                                        )
+
+                                    [SEGMENT_TATTOO] => 6
+                                    [AIRLINE] => Array
+                                        (
+                                            [NAME] => LATAM Airlines Brasil
+                                            [CODE] => JJ
+                                        )
+
+                                    [E_TERMINAL] => 2
+                                    [IS_SEATMAP_AVAILABLE] => 1
+                                    [LIST_MEAL] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [MEAL_CODE] => S
+                                                    [DESCRIPTION] => LANCHE
+                                                )
+
+                                        )
+
+                                    [IS_TICKETLESSACCESS] =>
+                                    [E_LOCATION] => Array
+                                        (
+                                            [LOCATION_CODE] => GRU
+                                            [CITY_CODE] => SAO
+                                            [STATE_NAME] => São Paulo
+                                            [CITY_NAME] => São Paulo
+                                            [COUNTRY_CODE] => BR
+                                            [STATE_CODE] => SP
+                                            [LOCATION_NAME] => Guarulhos International
+                                            [COUNTRY_NAME] => Brasil
+                                        )
+
+                                    [REC_LOC] => JFANHM
+                                    [SEGMENT_ID] => 6
+                                    [E_DATE] => 1503653700000
+                                    [UI_AIR_ID] => 2
+                                    [FLIGHT_TIME] => 14040000
+                                    [LINE_NUMBER] => 3
+                                    [LIST_CABIN] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [LIST_RBD] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [STATUS] => 9
+                                                                    [RBD] => T
+                                                                )
+
+                                                        )
+
+                                                    [CABIN] => E
+                                                    [STATUS] => 9
+                                                )
+
+                                        )
+
+                                    [RBD] => T
+                                )
+
+                        )
+
+                    [ELEMENT_FLIGHT_DURATION] => 14040000
+                    [E_LOCATION] => Array
+                        (
+                            [LOCATION_CODE] => GRU
+                            [CITY_CODE] => SAO
+                            [STATE_NAME] => São Paulo
+                            [CITY_NAME] => São Paulo
+                            [COUNTRY_CODE] => BR
+                            [STATE_CODE] => SP
+                            [LOCATION_NAME] => Guarulhos International
+                            [COUNTRY_NAME] => Brasil
+                        )
+
+                    [E_DATE] => 1503653700000
+                    [B_LOCATION] => Array
+                        (
+                            [LOCATION_CODE] => MAO
+                            [CITY_CODE] => MAO
+                            [STATE_NAME] => Amazonas
+                            [CITY_NAME] => Manaus
+                            [COUNTRY_CODE] => BR
+                            [STATE_CODE] => AM
+                            [LOCATION_NAME] => Eduardo Gomes International
+                            [COUNTRY_NAME] => Brasil
+                        )
+
+                    [TYPE] => AIR
+                )
+
+        )
+
+    [CONTACT_EMAIL] => ticket@yesmiles.com.br
+    [PROFILE] =>
+    [GENERIC_SEARCH] => https://book.latam.com/TAM/dyn/air/search?SITE=JJBKJJBK&LANGUAGE=BR&WDS_MARKET=BR
+    [REQUEST_SMS] =>
+    [WDS_ASSISTANT_ENABLED_MARKETS] => 1
+    [CURRENCIES_MAP] => Array
+        (
+            [JPY] => ¥
+            [CNY] => ¥
+            [VEF] => Bs
+            [MXN] => Mex$
+            [COP] => COL$
+            [CAD] => C$
+            [AUD] => A$
+            [CLP] => CHL$
+            [PEN] => S/.
+            [GBP] => £
+            [ILS] => ₪
+            [SEK] => kr
+            [BRL] => R$
+            [CHF] => Fr
+            [EUR] => €
+            [UYU] => $U
+            [ARS] => ARG$
+            [INR] => Rs
+            [PYG] => Gs
+            [USD] => US$
+            [BOB] => $b
+        )
+
+    [PORTAL_DOMAIN] => www.latam.com
+    [KEEP_SESSION_URL] => https://www.latam.com/b2c/jsp/keepAliveB2C.jsp
+    [CONTACT_PHONE_PROVIDER] => MBL
+    [WDS_BEFORE_TIMEOUT] => 450
+    [WDS_LATE_LOGIN_SERVICE] => https://www.latam.com/b2c/jsp/latam/TAMFacadeAction.jhtml
+    [FAILED_IN_CARL] =>
+    [WDS_MAX_DATE_REDEMPTION_DOM] => 360
+    [WDS_MARKET] => BR
+    [WDS_GOOGLE_ANALYTICS] => 1
+    [ArVal] => Array
+        (
+            [77] => FALSE
+            [113] => assynchronous
+            [111] => FALSE
+            [35] => BR
+            [36] => Fri Aug 25 04:41:00 +0000 2017
+            [159] => 0
+            [33] => BR
+            [158] => 0
+            [34] => GRU
+            [157] => 1
+            [39] => LATAM Airlines Brasil
+            [37] => Fri Aug 25 09:35:00 +0000 2017
+            [38] => 3751
+            [40] => JJ
+            [82] => 0
+            [81] => 119.43
+            [67] => 60.00
+            [66] => BRL
+            [127] => FALSE
+            [68] => JFANHM
+            [123] => 0.00
+            [124] => 0.00
+            [169] => false
+            [166] => 3
+            [167] => 3
+            [3] => GRU
+            [2] => MAO
+            [1] => MAO
+            [0] => GRU
+            [7] => BR
+            [6] => MAO
+            [32] => MAO
+            [5] => BR
+            [4] => GRU
+            [9] => Tue Aug 22 14:00:00 +0000 2017
+            [71] => Tue Aug 08 23:57:00 +0000 2017
+            [8] => Tue Aug 22 11:05:00 +0000 2017
+            [72] => Sun Aug 20 22:12:00 +0000 2017
+            [75] => SERVICING
+            [76] => BKGD
+            [11] => LATAM Airlines Brasil
+            [12] => JJ
+            [108] => BR
+            [107] => JJBKJJBK
+            [64] => BRL
+            [106] => BOOKING
+            [65] => 60.00
+            [62] => BR
+            [63] => SAOJJ08AA
+            [60] => 1
+            [61] => NEWBUNDLE
+            [95] => 0
+            [94] => 119.43
+            [93] => SAOJJ08AA
+            [92] => 0
+            [91] => 1.0
+            [10] => 3408
+            [255] => true
+        )
+
+    [ACKNOWLEDGE_SCHEDULE_URL] =>
+    [MARKET_BY_LANGUAGE] => Array
+        (
+            [ES] => OC
+            [BR] => BR
+            [GB] => OC
+        )
+
+    [VirtualAssistantJs] => https://agentevirtual.tam.com.br/ui/includes/NIT.Embed.js https://agentevirtual.tam.com.br/ui/includes/NIT.Embed.js
+    [WDS_DISABLE_ATC_LOGIN] => 1
+    [WDS_GTM_ID] => GTM-8SMZ
+    [WDS_CAR_TEASER_TIMEOUT] => 8
+    [ACKNOWLEDGE_SCHEDULE_CHANGE] => Array
+        (
+            [HAS_SCHEDULE_CHANGE] =>
+        )
+
+    [FLOW_STATE] => Array
+        (
+            [IS_REVENUE] => 1
+            [IS_PURF] =>
+            [IS_REDEMPTION] =>
+            [IS_HOTEL] =>
+            [IS_OTEL_STANDALONE] =>
+            [IS_PROMOCODE] =>
+            [IS_CAR_STANDALONE] =>
+            [IS_CAR] =>
+            [IS_REBOOKING_REDEMPTION] =>
+            [IS_SPECIALFARES] =>
+            [IS_HTTPS] =>
+            [IS_CORPORATE] =>
+            [IS_SERVICING] => 1
+            [IS_ATC] =>
+        )
+
+    [SHOW_CEP_LOOKUP] => 1
+    [jSessionId] => nncJFRfEnSBeoOeqmPmH7kdZS4l4533LIPKN8JTEaJ47muzcCbPo!1674812299!333767997!1503390930884
+    [LOCATIONS_TRANSLATION] => Array
+        (
+            [JUJ] => Array
+                (
+                    [airport] => Gobernador H.Guzman
+                    [city] => Jujuy
+                )
+        )
+
+    [SESSION_INTERVAL] => 5
+    [WDS_ASSISTANT_ERROR_HANDLING] =>
+    [WDS_HOTEL_TEASER_NEW_PROGRESSIVE] => 20
+    [LIST_MSG] => Array
+        (
+            [0] => Array
+                (
+                    [SUB_TEXT] =>
+                    [TEXT] => Para esta viagem não é possível comprar serviços adicionais, remarcar o voo ou reservar assento online. Se sua passagem foi comprada com uma agência de viagens, entre em contato com ela para personalizar seu voo.
+<br><br>
+Se esta viagem foi comprada com a gente, verifique quais serviços estão disponíveis para o seu perfil de tarifa. Para comprar serviços adicionais fale com a nossa Central de Vendas, Fidelidade e Serviços. (DDS:1034)
+                    [TYPE] => W
+                    [CODE] => 1034
+                )
+
+        )
+
+    [IS_ONLINE_DEBIT] => false
+    [CONTACT_PHONE] => 21982733747
+    [CAR_FLOW] =>
+    [WDS_ASSISTANT_TIMEOUT_HANDLING] =>
+    [CEP_LOOKUP_MAX_FAIL] => 1
+    [SITE] => JJBKJJBK
+    [WDS_GA_CDN_HTTP_DOMAIN] => https://eba.amadeus.netdna-cdn.com
+    [WDS_TEASER_CAR_OR_HOTEL_FIRST] => HOTEL
+    [WDS_GA_CDN_HTTPS_DOMAIN] => https://eba-amadeus.netdna-ssl.com
+    [REMARKETING] => Array
+        (
+            [REMARKETING_BOOKING_FLOW] => REVENUE
+            [NUMBER_OF_ADT_AND_CHD] => 1
+            [REMARKETING_URL] => https://wslatam.pmweb.com.br/DataNavigation.asmx/SendNavigation
+            [NUMBER_OF_INF] => 0
+            [REMARKETING_ENABLED] => 1
+            [REMARKETING_ENABLED_ON_EXIT] => 1
+        )
+
+    [FROM_EMAIL] =>
+    [WDS_WEBAPP_URL_RELATIVE] => /TAM
+    [MSG_PAGE_CODE] =>
+    [HOTEL_FLOW] =>
+    [cookies] => Array
+        (
+        )
+
+    [TRIP_TYPE] =>
+    [DOMAIN] => book.latam.com
+    [SKIN] => desktopLATAM
+    [WDS_MAX_DATE_REDEMPTION_INT] => 360
+    [WDS_HOTEL_TEASER_TIMEOUT] => 6
+    [DISPLAY_MANUAL_CHECKIN] => 1
+    [CORPORATE_PROFILE] =>
+    [LANGUAGE] => BR
+    [ENTRY_REQUEST] => Array
+        (
+            [SITE] => JJBKJJBK
+            [COMMERCIAL_FARE_FAMILY_1] => NEWBUNDLE
+            [B_DATE_1] => 201708220000
+            [B_DATE_2] => 201708250000
+            [B_LOCATION_1] => GRU
+            [LANGUAGE] => BR
+            [WDS_MARKET] => BR
+            [E_LOCATION_1] => MAO
+            [TRIP_TYPE] => R
+        )
+
+    [FLOW] => SERVICING
+    [WDS_DISABLE_ASSISTANT] => 1
+    [WDS_ENABLE_KEEP_SESSION_POPIN] => 1
+    [WDS_DISABLE_GTM] =>
+    [LOCALE] => pt
+    [WDS_DISABLE_BKGL] =>
+    [WDS_SHOW_PRICE_PANEL_EXPANDED] => 1
+    [CURRENCIES_TO_SWITCH] => Array
+        (
+            [0] => BRL
+            [1] => USD
+            [2] => ARS
+            [3] => GBP
+            [4] => AUD
+            [5] => BOB
+            [6] => CLP
+            [7] => CNY
+            [8] => COP
+            [9] => ILS
+            [10] => INR
+            [11] => JPY
+            [12] => MXN
+            [13] => PEN
+            [14] => PYG
+            [15] => UYU
+            [16] => VEF
+        )
+
+    [PAGE_CODE] => BKGD
+    [REDEMPTION_FLOW] => false
+    [SESSION_TIMEOUT] => 600
+    [FLOW_NAME] => REVENUE
+    [WDS_GA_CDN_FILE_NAME] => GA_JJ_ACC.js
+    [PNR_WITH_AIR] => 1
+)

@@ -1,0 +1,4813 @@
+{
+    "ACKNOWLEDGE_SCHEDULE_CHANGE": {
+        "HAS_SCHEDULE_CHANGE": false
+    },
+    "ACKNOWLEDGE_SCHEDULE_URL": null,
+    "ArVal": {
+        "0": "MAO",
+        "1": "GIG",
+        "10": "3747",
+        "106": "BOOKING",
+        "107": "JJBKJJBK",
+        "108": "BR",
+        "11": "LATAM Airlines Brasil",
+        "111": "FALSE",
+        "113": "assynchronous",
+        "114": "0",
+        "115": "0",
+        "116": "0",
+        "12": "JJ",
+        "123": "0.00",
+        "124": "0.00",
+        "127": "FALSE",
+        "13": "GRU",
+        "14": "BR",
+        "15": "GIG",
+        "157": "1",
+        "158": "0",
+        "159": "0",
+        "16": "BR",
+        "166": "3",
+        "167": "4",
+        "169": "false",
+        "17": "Tue Sep 26 09:45:00 +0000 2017",
+        "18": "Tue Sep 26 10:50:00 +0000 2017",
+        "19": "3570",
+        "20": "LATAM Airlines Brasil",
+        "21": "JJ",
+        "255": "true",
+        "31": "Nome da marca ainda n\u00e3o definido.",
+        "4": "MAO",
+        "5": "BR",
+        "6": "GRU",
+        "60": 1,
+        "61": "TAMAWFLX",
+        "62": "BR",
+        "63": "SAOJJ08AA",
+        "64": "BRL",
+        "65": "79.90",
+        "66": "BRL",
+        "67": "79.90",
+        "68": "QGZNK3",
+        "7": "BR",
+        "71": "Sat Aug 05 13:20:00 +0000 2017",
+        "72": "Sat Aug 05 13:20:00 +0000 2017",
+        "73": "Sat Aug 05 13:23:00 +0000 2017",
+        "75": "SERVICING",
+        "76": "BKGD",
+        "77": "FALSE",
+        "8": "Tue Sep 26 02:28:00 +0000 2017",
+        "81": "29.90",
+        "82": "0",
+        "85": "ECLASSICOD",
+        "89": "Nome da marca ainda n\u00e3o definido.",
+        "9": "Tue Sep 26 07:20:00 +0000 2017",
+        "91": "35.0",
+        "92": "8000",
+        "93": "SAOJJ08AA",
+        "94": "29.90",
+        "95": "0"
+    },
+    "CAR_FLOW": false,
+    "CEP_LOOKUP_MAX_FAIL": "1",
+    "CONTACT_EMAIL": "danieljms@gmail.com",
+    "CONTACT_PHONE": "19991042664",
+    "CONTACT_PHONE_CODE": "+55",
+    "CONTACT_PHONE_PROVIDER": "MBL",
+    "CORPORATE_PROFILE": null,
+    "CURRENCIES_MAP": {
+        "ARS": "ARG$",
+        "AUD": "A$",
+        "BOB": "$b",
+        "BRL": "R$",
+        "CAD": "C$",
+        "CHF": "Fr",
+        "CLP": "CHL$",
+        "CNY": "\u00a5",
+        "COP": "COL$",
+        "EUR": "\u20ac",
+        "GBP": "\u00a3",
+        "ILS": "\u20aa",
+        "INR": "Rs",
+        "JPY": "\u00a5",
+        "MXN": "Mex$",
+        "PEN": "S/.",
+        "PYG": "Gs",
+        "SEK": "kr",
+        "USD": "US$",
+        "UYU": "$U",
+        "VEF": "Bs"
+    },
+    "CURRENCIES_TO_SWITCH": [
+        "BRL",
+        "USD",
+        "ARS",
+        "GBP",
+        "AUD",
+        "BOB",
+        "CLP",
+        "CNY",
+        "COP",
+        "ILS",
+        "INR",
+        "JPY",
+        "MXN",
+        "PEN",
+        "PYG",
+        "UYU",
+        "VEF"
+    ],
+    "DISPLAY_MANUAL_CHECKIN": false,
+    "DOMAIN": "book.latam.com",
+    "ENTRY_REQUEST": {
+        "B_DATE_1": "201709260000",
+        "B_LOCATION_1": "MAO",
+        "COMMERCIAL_FARE_FAMILY_1": "TAMAWFLX",
+        "E_LOCATION_1": "GIG",
+        "LANGUAGE": "BR",
+        "SITE": "JJBKJJBK",
+        "TRIP_TYPE": "O",
+        "WDS_MARKET": "BR",
+        "passenger_useMyPoints": "true"
+    },
+    "FAILED_IN_CARL": false,
+    "FLOW": "SERVICING",
+    "FLOW_NAME": "REDEMPTION",
+    "FLOW_STATE": {
+        "IS_ATC": false,
+        "IS_CAR": false,
+        "IS_CAR_STANDALONE": false,
+        "IS_CORPORATE": false,
+        "IS_HOTEL": false,
+        "IS_HTTPS": null,
+        "IS_OTEL_STANDALONE": false,
+        "IS_PROMOCODE": false,
+        "IS_PURF": null,
+        "IS_REBOOKING_REDEMPTION": false,
+        "IS_REDEMPTION": false,
+        "IS_REVENUE": false,
+        "IS_SERVICING": true,
+        "IS_SPECIALFARES": false
+    },
+    "FROM_EMAIL": null,
+    "GENERIC_SEARCH": "https://book.latam.com/TAM/dyn/air/search?SITE=JJBKJJBK&LANGUAGE=BR&WDS_MARKET=BR",
+    "HOTEL_FLOW": false,
+    "IS_ONLINE_DEBIT": "false",
+    "ITINERARY_DATA": [
+        {
+            "ACTIVE_GDS": "1A",
+            "ALLOW_ELEMENT_MODIF": true,
+            "BOOL_FLOWN": false,
+            "BOOL_IS_OUT_OF_POLICY": false,
+            "B_DATE": 1506392880000,
+            "B_LOCATION": {
+                "CITY_CODE": "MAO",
+                "CITY_NAME": "Manaus",
+                "COUNTRY_CODE": "BR",
+                "COUNTRY_NAME": "Brasil",
+                "LOCATION_CODE": "MAO",
+                "LOCATION_NAME": "Eduardo Gomes International",
+                "STATE_CODE": "AM",
+                "STATE_NAME": "Amazonas"
+            },
+            "CABIN": "M",
+            "CREATION_MODE": "20",
+            "ELEMENT_FARE_FAMILY": {
+                "CODE": "ECLASSICOD",
+                "NAME": "Nome da marca ainda n\u00e3o definido."
+            },
+            "ELEMENT_FLIGHT_DURATION": 26520000,
+            "E_DATE": 1506423000000,
+            "E_LOCATION": {
+                "CITY_CODE": "RIO",
+                "CITY_NAME": "Rio de Janeiro",
+                "COUNTRY_CODE": "BR",
+                "COUNTRY_NAME": "Brasil",
+                "LOCATION_CODE": "GIG",
+                "LOCATION_NAME": "Galeao A.C Jobim International",
+                "STATE_CODE": "RJ",
+                "STATE_NAME": "Rio de Janeiro"
+            },
+            "INITIAL_ELEMENT": true,
+            "ITEM_ID": 1,
+            "LIST_SEGMENT": [
+                {
+                    "AIRLINE": {
+                        "CODE": "JJ",
+                        "NAME": "LATAM Airlines Brasil"
+                    },
+                    "B_DATE": 1506392880000,
+                    "B_LOCATION": {
+                        "CITY_CODE": "MAO",
+                        "CITY_NAME": "Manaus",
+                        "COUNTRY_CODE": "BR",
+                        "COUNTRY_NAME": "Brasil",
+                        "LOCATION_CODE": "MAO",
+                        "LOCATION_NAME": "Eduardo Gomes International",
+                        "STATE_CODE": "AM",
+                        "STATE_NAME": "Amazonas"
+                    },
+                    "B_TIME": "0228",
+                    "CHECK_IN_PROPERTIES": {
+                        "CHECK_IN": {
+                            "ACCEPTANCE_PERIOD": {
+                                "BEGIN": 1506133680060,
+                                "END": 1506390180060
+                            },
+                            "STATUS_CODE": 0
+                        },
+                        "LIST_PASSENGER": [
+                            {
+                                "ELIGIBILITY_STATUS": 2,
+                                "TRAVELER_ID": 2
+                            }
+                        ]
+                    },
+                    "DAY_OF_WEEK": 2,
+                    "EQUIPMENT": {
+                        "CODE": "321",
+                        "NAME": "Airbus Industrie A321"
+                    },
+                    "E_DATE": 1506410400000,
+                    "E_LOCATION": {
+                        "CITY_CODE": "SAO",
+                        "CITY_NAME": "S\u00e3o Paulo",
+                        "COUNTRY_CODE": "BR",
+                        "COUNTRY_NAME": "Brasil",
+                        "LOCATION_CODE": "GRU",
+                        "LOCATION_NAME": "Guarulhos International",
+                        "STATE_CODE": "SP",
+                        "STATE_NAME": "S\u00e3o Paulo"
+                    },
+                    "E_TERMINAL": "2",
+                    "E_TICKETING": true,
+                    "E_TIME": "0720",
+                    "FARE_FAMILY": {
+                        "CODE": "ECLASSICOD",
+                        "NAME": "Nome da marca ainda n\u00e3o definido."
+                    },
+                    "FLIGHT_NUMBER": "3747",
+                    "FLOWN_INDICATOR": false,
+                    "HAS_GOVT_APPROVAL": false,
+                    "IS_SEATMAP_AVAILABLE": true,
+                    "IS_TICKETLESSACCESS": false,
+                    "LINE_NUMBER": "2",
+                    "LIST_CABIN": [
+                        {
+                            "CABIN": "E",
+                            "LIST_RBD": [
+                                {
+                                    "RBD": "T",
+                                    "STATUS": "9"
+                                }
+                            ],
+                            "STATUS": "9"
+                        }
+                    ],
+                    "LIST_MEAL": [
+                        {
+                            "DESCRIPTION": "LANCHE",
+                            "MEAL_CODE": "S"
+                        }
+                    ],
+                    "LIST_STATUS": [
+                        {
+                            "STATUS": "HK"
+                        }
+                    ],
+                    "NB_SEATS": 1,
+                    "NUMBER_OF_STOPS": 0,
+                    "RBD": "T",
+                    "REC_LOC": "QGZNK3",
+                    "SEGMENT_FLIGHT_DURATION": 13920000,
+                    "SEGMENT_ID": 3,
+                    "SEGMENT_TATTOO": "3",
+                    "SHUTTLE": false,
+                    "STATUS": "HK",
+                    "UI_AIR_ID": 1
+                },
+                {
+                    "AIRLINE": {
+                        "CODE": "JJ",
+                        "NAME": "LATAM Airlines Brasil"
+                    },
+                    "B_DATE": 1506419100000,
+                    "B_LOCATION": {
+                        "CITY_CODE": "SAO",
+                        "CITY_NAME": "S\u00e3o Paulo",
+                        "COUNTRY_CODE": "BR",
+                        "COUNTRY_NAME": "Brasil",
+                        "LOCATION_CODE": "GRU",
+                        "LOCATION_NAME": "Guarulhos International",
+                        "STATE_CODE": "SP",
+                        "STATE_NAME": "S\u00e3o Paulo"
+                    },
+                    "B_TERMINAL": "2",
+                    "B_TIME": "0945",
+                    "CHECK_IN_PROPERTIES": {
+                        "CHECK_IN": {
+                            "ACCEPTANCE_PERIOD": {
+                                "BEGIN": 1506159900060,
+                                "END": 1506415800060
+                            },
+                            "STATUS_CODE": 0
+                        },
+                        "LIST_PASSENGER": [
+                            {
+                                "ELIGIBILITY_STATUS": 2,
+                                "TRAVELER_ID": 2
+                            }
+                        ]
+                    },
+                    "DAY_OF_WEEK": 2,
+                    "EQUIPMENT": {
+                        "CODE": "763",
+                        "NAME": "Boeing 767-300/300ER"
+                    },
+                    "E_DATE": 1506423000000,
+                    "E_LOCATION": {
+                        "CITY_CODE": "RIO",
+                        "CITY_NAME": "Rio de Janeiro",
+                        "COUNTRY_CODE": "BR",
+                        "COUNTRY_NAME": "Brasil",
+                        "LOCATION_CODE": "GIG",
+                        "LOCATION_NAME": "Galeao A.C Jobim International",
+                        "STATE_CODE": "RJ",
+                        "STATE_NAME": "Rio de Janeiro"
+                    },
+                    "E_TERMINAL": "2",
+                    "E_TICKETING": true,
+                    "E_TIME": "1050",
+                    "FARE_FAMILY": {
+                        "CODE": "ECLASSICOD",
+                        "NAME": "Nome da marca ainda n\u00e3o definido."
+                    },
+                    "FLIGHT_NUMBER": "3570",
+                    "FLIGHT_TIME": 26520000,
+                    "FLOWN_INDICATOR": false,
+                    "HAS_GOVT_APPROVAL": false,
+                    "IS_SEATMAP_AVAILABLE": true,
+                    "IS_TICKETLESSACCESS": false,
+                    "LINE_NUMBER": "3",
+                    "LIST_CABIN": [
+                        {
+                            "CABIN": "E",
+                            "LIST_RBD": [
+                                {
+                                    "RBD": "T",
+                                    "STATUS": "9"
+                                }
+                            ],
+                            "STATUS": "9"
+                        }
+                    ],
+                    "LIST_MEAL": [
+                        {
+                            "DESCRIPTION": "LANCHE",
+                            "MEAL_CODE": "S"
+                        }
+                    ],
+                    "LIST_STATUS": [
+                        {
+                            "STATUS": "HK"
+                        }
+                    ],
+                    "NB_SEATS": 1,
+                    "NUMBER_OF_STOPS": 0,
+                    "RBD": "T",
+                    "REC_LOC": "QGZNK3",
+                    "SEGMENT_FLIGHT_DURATION": 3900000,
+                    "SEGMENT_ID": 4,
+                    "SEGMENT_TATTOO": "4",
+                    "SHUTTLE": false,
+                    "STATUS": "HK",
+                    "UI_AIR_ID": 2
+                }
+            ],
+            "PERMISSIONS": {
+                "CANCELLATION_NON_ELIGIBILITY_REASON": "ALLOW_TKT_AIR_CANCEL",
+                "IS_CANCELLATION_ALLOWED": false,
+                "IS_DATE_CHANGE_ONLY_ALLOWED": true,
+                "IS_MODIFICATION_ALLOWED": true
+            },
+            "PNR_INFORMATION": {
+                "PARENT_PNR_ID": 1
+            },
+            "TYPE": "AIR"
+        }
+    ],
+    "KEEP_SESSION_URL": "https://www.latam.com/b2c/jsp/keepAliveB2C.jsp",
+    "LANGUAGE": "BR",
+    "LIST_MSG": [
+        {
+            "CODE": 1033,
+            "SUB_TEXT": "",
+            "TEXT": "Por favor, efetue login para alterar sua viagem. (DDS:1033)",
+            "TYPE": "W"
+        }
+    ],
+    "LOCALE": "pt",
+    "LOCATIONS_TRANSLATION": {
+        "AAL": {
+            "airport": "Aalborg",
+            "city": "Aalborg"
+        },
+        "AAR": {
+            "airport": "Aeroporto",
+            "city": "Aarhus"
+        },
+        "ABE": {
+            "airport": "Allentown Bethlehem",
+            "city": "Allentown Bthlehm"
+        },
+        "ABI": {
+            "airport": "Regional",
+            "city": "Abilene"
+        },
+        "ABQ": {
+            "airport": "International Sunport",
+            "city": "Albuquerque"
+        },
+        "ABZ": {
+            "airport": "Dyce",
+            "city": "Aberdeen"
+        },
+        "ACA": {
+            "airport": "Juan N. Alvarez Internacional",
+            "city": "Acapulco"
+        },
+        "ACE": {
+            "airport": "Lanzarote",
+            "city": "Lanzarote"
+        },
+        "ACK": {
+            "airport": "Memorial",
+            "city": "Nantucket"
+        },
+        "ACT": {
+            "airport": "Regional",
+            "city": "Waco"
+        },
+        "ACV": {
+            "airport": "Arcata Airport",
+            "city": "Arcata Eureka"
+        },
+        "ADA": {
+            "airport": "Sakirpasa",
+            "city": "Adana"
+        },
+        "ADB": {
+            "airport": "Adnan Menderes",
+            "city": "Izmir"
+        },
+        "ADL": {
+            "airport": "International",
+            "city": "Adelaide"
+        },
+        "ADZ": {
+            "airport": "Gustavo R Pinilla International",
+            "city": "San Andres Island"
+        },
+        "AEP": {
+            "airport": "J. Newbery",
+            "city": "Buenos Aires"
+        },
+        "AES": {
+            "airport": "Vigra",
+            "city": "Alesund"
+        },
+        "AEX": {
+            "airport": "Alexandria Internacional",
+            "city": "Alexandria"
+        },
+        "AFA": {
+            "airport": "San Rafael",
+            "city": "San Rafael"
+        },
+        "AGH": {
+            "airport": "Angelholm Aeroporto",
+            "city": "Angelholm/Helsingborg"
+        },
+        "AGP": {
+            "airport": "M\u00e1laga Aeroporto",
+            "city": "M\u00e1laga"
+        },
+        "AGS": {
+            "airport": "Regional (Bush Field)",
+            "city": "Augusta"
+        },
+        "AGT": {
+            "airport": "Guarani International",
+            "city": "Ciudad del Este"
+        },
+        "AGU": {
+            "airport": "Jesus Teran Peredo International",
+            "city": "Aguascalientes"
+        },
+        "AHJ": {
+            "airport": "Aba Hongyuan",
+            "city": "Aba Hongyuan"
+        },
+        "AJA": {
+            "airport": "Napoleon Bonaparte",
+            "city": "Ajaccio"
+        },
+        "AJU": {
+            "airport": "Santa Maria",
+            "city": "Aracaju"
+        },
+        "AKJ": {
+            "airport": "Asahikawa",
+            "city": "Asahikawa"
+        },
+        "AKL": {
+            "airport": "Auckland International",
+            "city": "Auckland"
+        },
+        "AKU": {
+            "airport": "Aksu",
+            "city": "Aksu"
+        },
+        "ALB": {
+            "airport": "Albany International Airport",
+            "city": "Alb\u00e2nia"
+        },
+        "ALC": {
+            "airport": "Alicante Aeroporto",
+            "city": "Alicante"
+        },
+        "ALF": {
+            "airport": "Alta",
+            "city": "Alta"
+        },
+        "ALG": {
+            "airport": "Houari Boumediene",
+            "city": "Argel"
+        },
+        "ALO": {
+            "airport": "Regional",
+            "city": "Waterloo"
+        },
+        "ALS": {
+            "airport": "San Luis Valley Regional",
+            "city": "Alamosa"
+        },
+        "ALW": {
+            "airport": "Regional",
+            "city": "Walla Walla"
+        },
+        "ALY": {
+            "airport": "El Nouzha",
+            "city": "Alexandria"
+        },
+        "AMA": {
+            "airport": "Rick Husband International",
+            "city": "Amarillo"
+        },
+        "AMM": {
+            "airport": "Queen Alia",
+            "city": "Amman"
+        },
+        "AMS": {
+            "airport": "Schiphol Airport",
+            "city": "Amsterd\u00e3"
+        },
+        "ANC": {
+            "airport": "Anchorage",
+            "city": "Anchorage"
+        },
+        "ANF": {
+            "airport": "Cerro Moreno",
+            "city": "Antofagasta"
+        },
+        "ANU": {
+            "airport": "V.C. Bird Internacional",
+            "city": "Antigua"
+        },
+        "AOI": {
+            "airport": "Falconara",
+            "city": "Ancona"
+        },
+        "AOJ": {
+            "airport": "Aomori",
+            "city": "Aomori"
+        },
+        "AOK": {
+            "airport": "Karpathos",
+            "city": "Karpathos"
+        },
+        "APO": {
+            "airport": "Carepa AR Betancourt",
+            "city": "Apartado"
+        },
+        "AQP": {
+            "airport": "Rodriguez Ballon International",
+            "city": "Arequipa"
+        },
+        "ARI": {
+            "airport": "Chacalluta",
+            "city": "Arica"
+        },
+        "ARN": {
+            "airport": "Arlanda",
+            "city": "Estocolmo"
+        },
+        "ASE": {
+            "airport": "Pitkin County",
+            "city": "Aspen"
+        },
+        "ASJ": {
+            "airport": "Amami",
+            "city": "Amami"
+        },
+        "ASP": {
+            "airport": "Aeroporto",
+            "city": "Alice Springs"
+        },
+        "ASU": {
+            "airport": "Silvio Pettirossi International",
+            "city": "Asuncion"
+        },
+        "ATH": {
+            "airport": "Athens International E. Venizelos",
+            "city": "Atenas"
+        },
+        "ATL": {
+            "airport": "Hartsfield-Jackson Int",
+            "city": "Atlanta"
+        },
+        "ATW": {
+            "airport": "Outagamie County",
+            "city": "Appleton"
+        },
+        "AUA": {
+            "airport": "Reina Beatrix",
+            "city": "Aruba"
+        },
+        "AUG": {
+            "airport": "State",
+            "city": "Augusta"
+        },
+        "AUH": {
+            "airport": "International",
+            "city": "Abu Dhabi"
+        },
+        "AUS": {
+            "airport": "Bergstrom Internacional",
+            "city": "Austin"
+        },
+        "AUW": {
+            "airport": "Downtown Airport",
+            "city": "Wausau"
+        },
+        "AUX": {
+            "airport": "Aragua\u00edna",
+            "city": "Aragua\u00edna"
+        },
+        "AVL": {
+            "airport": "Asheville Regional Aeroporto",
+            "city": "Asheville/Hendersonv."
+        },
+        "AVP": {
+            "airport": "Scranton Internacional",
+            "city": "Wilkes Barre Scranton"
+        },
+        "AXM": {
+            "airport": "El Eden International",
+            "city": "Armenia"
+        },
+        "AXT": {
+            "airport": "Akita",
+            "city": "Akita"
+        },
+        "AYT": {
+            "airport": "Antalya",
+            "city": "Antalya"
+        },
+        "AZO": {
+            "airport": "International",
+            "city": "Kalamazoo Battle Creek"
+        },
+        "AZS": {
+            "airport": "El Catey International",
+            "city": "Samana"
+        },
+        "BAH": {
+            "airport": "Bahrain Internacional",
+            "city": "Bahrain"
+        },
+        "BAQ": {
+            "airport": "Ernesto Cortissoz International",
+            "city": "Barranquilla"
+        },
+        "BAV": {
+            "airport": "Erliban",
+            "city": "Baotou"
+        },
+        "BBA": {
+            "airport": "Balmaceda",
+            "city": "Balmaceda"
+        },
+        "BCN": {
+            "airport": "Aeroporto de Barcelona-El-Prat",
+            "city": "Barcelona"
+        },
+        "BDA": {
+            "airport": "L.F Wade International",
+            "city": "Bermuda"
+        },
+        "BDL": {
+            "airport": "Bradley Internacional",
+            "city": "Hartford"
+        },
+        "BDS": {
+            "airport": "Casale",
+            "city": "Brindisi"
+        },
+        "BEG": {
+            "airport": "Nikola Tesla",
+            "city": "Belgrade"
+        },
+        "BEL": {
+            "airport": "Val De Cans International",
+            "city": "Bel\u00e9m"
+        },
+        "BER": {
+            "airport": "Brandenburg",
+            "city": "Berlim"
+        },
+        "BEY": {
+            "airport": "Rafic Hariri International",
+            "city": "Beirut"
+        },
+        "BFL": {
+            "airport": "Meadows Field",
+            "city": "Bakersfield"
+        },
+        "BFS": {
+            "airport": "Belfast Internacional",
+            "city": "Belfast"
+        },
+        "BGA": {
+            "airport": "Palonegro International",
+            "city": "Bucaramanga"
+        },
+        "BGI": {
+            "airport": "Grantley Adams",
+            "city": "Bridgetown"
+        },
+        "BGM": {
+            "airport": "Greater Binghamton",
+            "city": "Binghamton"
+        },
+        "BGO": {
+            "airport": "Flesland",
+            "city": "Bergen"
+        },
+        "BGR": {
+            "airport": "Bangor Internacional",
+            "city": "Bangor"
+        },
+        "BGW": {
+            "airport": "Baghdad Internacional",
+            "city": "Baghdad"
+        },
+        "BHI": {
+            "airport": "Comandante Espora",
+            "city": "Bahia Blanca"
+        },
+        "BHM": {
+            "airport": "Shuttlesworth International",
+            "city": "Birmingham"
+        },
+        "BHX": {
+            "airport": "Birmingham",
+            "city": "Birmingham"
+        },
+        "BHY": {
+            "airport": "Fucheng",
+            "city": "Beihai"
+        },
+        "BHZ": {
+            "airport": "Belo Horizonte",
+            "city": "Belo Horizonte"
+        },
+        "BIA": {
+            "airport": "Poretta",
+            "city": "Bastia"
+        },
+        "BIL": {
+            "airport": "Logan International",
+            "city": "Billings"
+        },
+        "BIO": {
+            "airport": "Bilbao Aeroporto",
+            "city": "Bilbao"
+        },
+        "BIQ": {
+            "airport": "Pays Basque",
+            "city": "Biarritz"
+        },
+        "BIS": {
+            "airport": "Municipal",
+            "city": "Bismarck"
+        },
+        "BJS": {
+            "airport": "Pequim",
+            "city": "Pequim"
+        },
+        "BJX": {
+            "airport": "Del Baj\u00edo International",
+            "city": "Leon Guanajuato"
+        },
+        "BKK": {
+            "airport": "Suvarnabhumi Internacional",
+            "city": "Bangkok"
+        },
+        "BLI": {
+            "airport": "International",
+            "city": "Bellingham"
+        },
+        "BLL": {
+            "airport": "Billund",
+            "city": "Billund"
+        },
+        "BLQ": {
+            "airport": "Guglielmo Marconi",
+            "city": "Bolonha"
+        },
+        "BLR": {
+            "airport": "Kempegowda International",
+            "city": "Bangalore"
+        },
+        "BMA": {
+            "airport": "Bromma",
+            "city": "Estocolmo"
+        },
+        "BME": {
+            "airport": "International",
+            "city": "Broome"
+        },
+        "BMI": {
+            "airport": "Central Illinois Regional",
+            "city": "Bloomington Normal"
+        },
+        "BNA": {
+            "airport": "Nashville International Airport",
+            "city": "Nashville"
+        },
+        "BNE": {
+            "airport": "Brisbane",
+            "city": "Brisbane"
+        },
+        "BNK": {
+            "airport": "Byron Gateway",
+            "city": "Ballina"
+        },
+        "BOD": {
+            "airport": "Merignac",
+            "city": "Bordeaux"
+        },
+        "BOG": {
+            "airport": "El Dorado International",
+            "city": "Bogot\u00e1"
+        },
+        "BOI": {
+            "airport": "Air Term Gowen Field",
+            "city": "Boise"
+        },
+        "BOM": {
+            "airport": "Chhatrapati Shivaji",
+            "city": "Mumbai"
+        },
+        "BON": {
+            "airport": "Flamingo Internacional",
+            "city": "Bonaire"
+        },
+        "BOO": {
+            "airport": "Bodo",
+            "city": "Bodo"
+        },
+        "BOS": {
+            "airport": "Edward L Logan International",
+            "city": "Boston"
+        },
+        "BPS": {
+            "airport": "Porto Seguro",
+            "city": "Porto Seguro"
+        },
+        "BPT": {
+            "airport": "Jack Brooks Regional",
+            "city": "Beaumont Port Authur"
+        },
+        "BPX": {
+            "airport": "Bamda/Bangda",
+            "city": "Qamdo/Changdu"
+        },
+        "BQN": {
+            "airport": "Rafael Hernandez",
+            "city": "Aguadilla"
+        },
+        "BRA": {
+            "airport": "Barreiras",
+            "city": "Barreiras"
+        },
+        "BRC": {
+            "airport": "Bariloche Internacional",
+            "city": "San Carlos Bariloche"
+        },
+        "BRE": {
+            "airport": "Bremen",
+            "city": "Bremen"
+        },
+        "BRI": {
+            "airport": "Palese",
+            "city": "Bari"
+        },
+        "BRO": {
+            "airport": "South Padre",
+            "city": "Brownsville"
+        },
+        "BRS": {
+            "airport": "Bristol Internacional",
+            "city": "Bristol"
+        },
+        "BRU": {
+            "airport": "Brussels Airport",
+            "city": "Bruxelas"
+        },
+        "BSB": {
+            "airport": "J.Kubitschek International",
+            "city": "Bras\u00edlia"
+        },
+        "BSL": {
+            "airport": "Basel Euroairport",
+            "city": "Mulhouse Basel"
+        },
+        "BTR": {
+            "airport": "Metropolita Ryan Field",
+            "city": "Baton Rouge"
+        },
+        "BTV": {
+            "airport": "Burlington Internacional",
+            "city": "Burlington"
+        },
+        "BUD": {
+            "airport": "Liszt Ferenc International",
+            "city": "Budapest"
+        },
+        "BUE": {
+            "airport": "Buenos Aires",
+            "city": "Buenos Aires"
+        },
+        "BUF": {
+            "airport": "Buffalo Niagara Internacional",
+            "city": "Buffalo"
+        },
+        "BUR": {
+            "airport": "Bob Hope Aeroporto",
+            "city": "Burbank"
+        },
+        "BVB": {
+            "airport": "A.B. Cantanhede International",
+            "city": "Boa Vista"
+        },
+        "BWI": {
+            "airport": "Baltimore/Washington International",
+            "city": "Washington"
+        },
+        "BZE": {
+            "airport": "P.S.W. Goldson International",
+            "city": "Belize City"
+        },
+        "BZN": {
+            "airport": "Yellowstone International",
+            "city": "Bozeman"
+        },
+        "CAC": {
+            "airport": "A.Mendes Da Silva",
+            "city": "Cascavel"
+        },
+        "CAE": {
+            "airport": "Metropolitan Airport",
+            "city": "Columbia"
+        },
+        "CAG": {
+            "airport": "Elmas",
+            "city": "Cagliari"
+        },
+        "CAI": {
+            "airport": "Cairo Internacional",
+            "city": "Cairo"
+        },
+        "CAK": {
+            "airport": "Regional",
+            "city": "Akron Canton"
+        },
+        "CAN": {
+            "airport": "Baiyun International",
+            "city": "Guangzhou"
+        },
+        "CAS": {
+            "airport": "Anfa",
+            "city": "Casablanca"
+        },
+        "CBR": {
+            "airport": "Canberra",
+            "city": "Canberra"
+        },
+        "CCC": {
+            "airport": "Jardines Del Rey",
+            "city": "Cayo Coco"
+        },
+        "CCP": {
+            "airport": "Carriel Sur",
+            "city": "Concepcion"
+        },
+        "CCS": {
+            "airport": "Simon Bolivar International",
+            "city": "Caracas"
+        },
+        "CCU": {
+            "airport": "Subhas Chandra Bose",
+            "city": "Kolkata"
+        },
+        "CDG": {
+            "airport": "Charles De Gaulle",
+            "city": "Paris"
+        },
+        "CEB": {
+            "airport": "Mactan Internacional",
+            "city": "Cebu"
+        },
+        "CEN": {
+            "airport": "International",
+            "city": "Ciudad Obregon"
+        },
+        "CFU": {
+            "airport": "Ioannis Kapodistrias",
+            "city": "Kerkyra"
+        },
+        "CGB": {
+            "airport": "Marechal Rondon International",
+            "city": "Cuiab\u00e1"
+        },
+        "CGH": {
+            "airport": "Congonhas",
+            "city": "S\u00e3o Paulo"
+        },
+        "CGK": {
+            "airport": "Soekarno Hatta Internacional",
+            "city": "Jakarta"
+        },
+        "CGN": {
+            "airport": "Cologne/Bonn",
+            "city": "Cologne/Bonn"
+        },
+        "CGO": {
+            "airport": "Zhengzhou",
+            "city": "Zhengzhou"
+        },
+        "CGQ": {
+            "airport": "Longjia International",
+            "city": "Changchun"
+        },
+        "CGR": {
+            "airport": "Campo Grande International",
+            "city": "Campo Grande"
+        },
+        "CHA": {
+            "airport": "Metropolitan Airport",
+            "city": "Chattanooga"
+        },
+        "CHC": {
+            "airport": "Christchurch",
+            "city": "Christchurch"
+        },
+        "CHG": {
+            "airport": "Chaoyang Aeroporto",
+            "city": "Chaoyang"
+        },
+        "CHI": {
+            "airport": "Chicago Fss",
+            "city": "Chicago"
+        },
+        "CHO": {
+            "airport": "Albemarl",
+            "city": "Charlottesville"
+        },
+        "CHQ": {
+            "airport": "I Daskalogiannis",
+            "city": "Chania"
+        },
+        "CHS": {
+            "airport": "International AFB",
+            "city": "Charleston"
+        },
+        "CID": {
+            "airport": "The Eastern Iowa",
+            "city": "Cedar Rapids"
+        },
+        "CIF": {
+            "airport": "Yulong",
+            "city": "Chifeng"
+        },
+        "CIH": {
+            "airport": "Wangcun",
+            "city": "Changzhi"
+        },
+        "CIX": {
+            "airport": "J A Quinones Gonzalez",
+            "city": "Chiclayo"
+        },
+        "CJA": {
+            "airport": "Armando R Iglesias",
+            "city": "Cajamarca"
+        },
+        "CJC": {
+            "airport": "Calama",
+            "city": "Calama"
+        },
+        "CJS": {
+            "airport": "Abraham Gonzalez International",
+            "city": "Ciudad Juarez"
+        },
+        "CJU": {
+            "airport": "Jeju International",
+            "city": "Jeju"
+        },
+        "CKG": {
+            "airport": "Jiangbei International",
+            "city": "Chongqing"
+        },
+        "CLE": {
+            "airport": "Hopkins Internacional",
+            "city": "Cleveland"
+        },
+        "CLJ": {
+            "airport": "Cluj Napoca",
+            "city": "Cluj Napoca"
+        },
+        "CLL": {
+            "airport": "Easterwood Field",
+            "city": "College Station"
+        },
+        "CLO": {
+            "airport": "Alfonso B Aragon International",
+            "city": "Cali"
+        },
+        "CLQ": {
+            "airport": "Miguel De La Madrid",
+            "city": "Colima"
+        },
+        "CLT": {
+            "airport": "Douglas International",
+            "city": "Charlotte"
+        },
+        "CLY": {
+            "airport": "Ste Catherine",
+            "city": "Calvi"
+        },
+        "CMB": {
+            "airport": "Bandaranaike Internacional",
+            "city": "Colombo"
+        },
+        "CME": {
+            "airport": "International",
+            "city": "Ciudad del Carmen"
+        },
+        "CMH": {
+            "airport": "Port Columbus",
+            "city": "Columbus"
+        },
+        "CMI": {
+            "airport": "University Of Illinois",
+            "city": "Champaign Urbana"
+        },
+        "CMX": {
+            "airport": "Houghton County Mem",
+            "city": "Hancock"
+        },
+        "CNF": {
+            "airport": "Tancredo Neves International",
+            "city": "Belo Horizonte"
+        },
+        "CNS": {
+            "airport": "International",
+            "city": "Cairns"
+        },
+        "CNX": {
+            "airport": "Chiang Mai Internacional",
+            "city": "Chiang Mai"
+        },
+        "COD": {
+            "airport": "Yellowstone Regional",
+            "city": "Cody"
+        },
+        "COR": {
+            "airport": "Pajas Blancas",
+            "city": "Cordoba"
+        },
+        "COS": {
+            "airport": "Colorado Springs Municipal",
+            "city": "Colorado Springs"
+        },
+        "COU": {
+            "airport": "Columbia Regional",
+            "city": "Columbia"
+        },
+        "CPE": {
+            "airport": "A.Acuna Ongay International",
+            "city": "Campeche"
+        },
+        "CPH": {
+            "airport": "Kastrup",
+            "city": "Copenhaga"
+        },
+        "CPO": {
+            "airport": "Desierto De Atacama",
+            "city": "Copiapo"
+        },
+        "CPR": {
+            "airport": "Natrona County International",
+            "city": "Casper"
+        },
+        "CPT": {
+            "airport": "Cape Town Internacional",
+            "city": "Cidade do Cabo"
+        },
+        "CRD": {
+            "airport": "General E.Mosconi",
+            "city": "Comodoro Rivadavia"
+        },
+        "CRP": {
+            "airport": "Corpus Christi Internacional",
+            "city": "Corpus Christi"
+        },
+        "CRW": {
+            "airport": "Yeager",
+            "city": "Charleston"
+        },
+        "CSG": {
+            "airport": "Columbus Airport",
+            "city": "Columbus"
+        },
+        "CSX": {
+            "airport": "Huanghua International",
+            "city": "Changsha"
+        },
+        "CTA": {
+            "airport": "Fontanarossa",
+            "city": "Catania"
+        },
+        "CTG": {
+            "airport": "Rafael Nunez International",
+            "city": "Cartagena"
+        },
+        "CTS": {
+            "airport": "New Chitose",
+            "city": "Sapporo"
+        },
+        "CTU": {
+            "airport": "Shuangliu International",
+            "city": "Chengdu"
+        },
+        "CUC": {
+            "airport": "Camilo Daza",
+            "city": "Cucuta"
+        },
+        "CUE": {
+            "airport": "Mariscal Lamar International",
+            "city": "Cuenca"
+        },
+        "CUL": {
+            "airport": "Fed. De Bachigualato",
+            "city": "Culiacan"
+        },
+        "CUN": {
+            "airport": "International",
+            "city": "Canc\u00fan"
+        },
+        "CUR": {
+            "airport": "Hato International",
+            "city": "Cura\u00e7au"
+        },
+        "CUU": {
+            "airport": "R. Fierro Villalobos",
+            "city": "Chihuahua"
+        },
+        "CUZ": {
+            "airport": "A Velasco Astete International",
+            "city": "Cusco"
+        },
+        "CVG": {
+            "airport": "Northern Kentucky International",
+            "city": "Cincinnati"
+        },
+        "CVM": {
+            "airport": "Pedro J. Mendez International",
+            "city": "Ciudad Victoria"
+        },
+        "CWA": {
+            "airport": "Central Wisonsin",
+            "city": "Wausau"
+        },
+        "CWB": {
+            "airport": "Afonso Pena International",
+            "city": "Curitiba"
+        },
+        "CWL": {
+            "airport": "Cardiff",
+            "city": "Cardiff"
+        },
+        "CYS": {
+            "airport": "Regional",
+            "city": "Cheyenne"
+        },
+        "CZM": {
+            "airport": "International",
+            "city": "Cozumel"
+        },
+        "CZX": {
+            "airport": "Benniu",
+            "city": "Changzhou"
+        },
+        "DAB": {
+            "airport": "International",
+            "city": "Daytona Beach"
+        },
+        "DAM": {
+            "airport": "Damascus Internacional",
+            "city": "Damascus"
+        },
+        "DAR": {
+            "airport": "Julius Nyerere International",
+            "city": "Dar Es Salaam"
+        },
+        "DAT": {
+            "airport": "Beijiazao",
+            "city": "Datong"
+        },
+        "DAX": {
+            "airport": "Heshi",
+            "city": "Dazhou"
+        },
+        "DAY": {
+            "airport": "James M Cox International",
+            "city": "Dayton"
+        },
+        "DBQ": {
+            "airport": "Regional",
+            "city": "Dubuque"
+        },
+        "DBV": {
+            "airport": "Dubrovnik",
+            "city": "Dubrovnik"
+        },
+        "DCA": {
+            "airport": "R Reagan National",
+            "city": "Washington"
+        },
+        "DCY": {
+            "airport": "Yading",
+            "city": "Daocheng"
+        },
+        "DDG": {
+            "airport": "Langtou",
+            "city": "Dandong"
+        },
+        "DEL": {
+            "airport": "Indira Gandhi Internacional",
+            "city": "Delhi"
+        },
+        "DEN": {
+            "airport": "Denver Internacional",
+            "city": "Denver"
+        },
+        "DFW": {
+            "airport": "Dallas Ft Worth International",
+            "city": "Dallas"
+        },
+        "DGO": {
+            "airport": "Guadalupe Victoria International",
+            "city": "Durango"
+        },
+        "DIK": {
+            "airport": "T.Roosevelt Regional",
+            "city": "Dickinson"
+        },
+        "DJE": {
+            "airport": "Zarzis",
+            "city": "Djerba"
+        },
+        "DLC": {
+            "airport": "Zhoushuizi International",
+            "city": "Dalian"
+        },
+        "DLH": {
+            "airport": "Duluth Internacional",
+            "city": "Duluth"
+        },
+        "DLU": {
+            "airport": "Dali",
+            "city": "Dali"
+        },
+        "DME": {
+            "airport": "Domodedovo",
+            "city": "Moscovo"
+        },
+        "DNH": {
+            "airport": "Dunhuang",
+            "city": "Dunhuang"
+        },
+        "DOH": {
+            "airport": "Hamad International",
+            "city": "Doha"
+        },
+        "DOU": {
+            "airport": "F.De Matos Pereira",
+            "city": "Dourados"
+        },
+        "DPS": {
+            "airport": "Ngurah Rai",
+            "city": "Denpasar-Bali"
+        },
+        "DQA": {
+            "airport": "Sartu",
+            "city": "Daqing"
+        },
+        "DRO": {
+            "airport": "La Plata County",
+            "city": "Durango"
+        },
+        "DRS": {
+            "airport": "Dresden",
+            "city": "Dresden"
+        },
+        "DRW": {
+            "airport": "International",
+            "city": "Darwin"
+        },
+        "DSM": {
+            "airport": "International",
+            "city": "Des Moines"
+        },
+        "DSN": {
+            "airport": "Ejin Horo",
+            "city": "Ordos"
+        },
+        "DTM": {
+            "airport": "Dortmund",
+            "city": "Dortmund"
+        },
+        "DTT": {
+            "airport": "Detroit",
+            "city": "Detroit"
+        },
+        "DTW": {
+            "airport": "Metropolitan Wayne Co",
+            "city": "Detroit"
+        },
+        "DUB": {
+            "airport": "Dublin International",
+            "city": "Dublin"
+        },
+        "DUD": {
+            "airport": "International",
+            "city": "Dunedin"
+        },
+        "DUR": {
+            "airport": "King Shaka International",
+            "city": "Durban"
+        },
+        "DUS": {
+            "airport": "D\u00fcsseldorf",
+            "city": "D\u00fcsseldorf"
+        },
+        "DVL": {
+            "airport": "Regional",
+            "city": "Devils Lake"
+        },
+        "DXB": {
+            "airport": "Dubai International",
+            "city": "Dubai"
+        },
+        "DYG": {
+            "airport": "Hehua",
+            "city": "Zhangjiajie"
+        },
+        "EAT": {
+            "airport": "Pangborn Memorial",
+            "city": "Wenatchee"
+        },
+        "EAU": {
+            "airport": "Chippewa Valley Regional",
+            "city": "Eau Claire"
+        },
+        "ECP": {
+            "airport": "NW Florida Beaches International",
+            "city": "Panama City"
+        },
+        "EDI": {
+            "airport": "Aeroporto",
+            "city": "Edimburgo"
+        },
+        "EGE": {
+            "airport": "Eagle County Regional",
+            "city": "Vail Eagle"
+        },
+        "EIN": {
+            "airport": "Eindhoven",
+            "city": "Eindhoven"
+        },
+        "EJA": {
+            "airport": "Yariguies",
+            "city": "Barrancabermeja"
+        },
+        "ELM": {
+            "airport": "Regional",
+            "city": "Elmira Corning"
+        },
+        "ELP": {
+            "airport": "El Paso Internacional",
+            "city": "El Paso"
+        },
+        "ELS": {
+            "airport": "East London",
+            "city": "East London"
+        },
+        "ENA": {
+            "airport": "Kenai Municipal",
+            "city": "Kenai"
+        },
+        "EOH": {
+            "airport": "Olaya Herrera",
+            "city": "Medellin"
+        },
+        "ERI": {
+            "airport": "Erie Internacional",
+            "city": "Erie"
+        },
+        "ESB": {
+            "airport": "Esenboga",
+            "city": "Ankara"
+        },
+        "ESM": {
+            "airport": "C Concha Torres International",
+            "city": "Esmeraldas"
+        },
+        "ESR": {
+            "airport": "Ricardo Garcia Posada",
+            "city": "El Salvador"
+        },
+        "EUG": {
+            "airport": "Mahlon Sweet Field",
+            "city": "Eugene"
+        },
+        "EVE": {
+            "airport": "Evenes Aeroporto",
+            "city": "Harstad-Narvik"
+        },
+        "EVV": {
+            "airport": "Dress Regional",
+            "city": "Evansville"
+        },
+        "EWN": {
+            "airport": "Coastal Carolina Regional",
+            "city": "New Bern"
+        },
+        "EWR": {
+            "airport": "Newark Liberty Internacional",
+            "city": "Nova Iorque"
+        },
+        "EYP": {
+            "airport": "El Alcaravan",
+            "city": "El Yopal"
+        },
+        "EYW": {
+            "airport": "Key West Internacional",
+            "city": "Key West"
+        },
+        "EZE": {
+            "airport": "Pistarini",
+            "city": "Buenos Aires"
+        },
+        "FAI": {
+            "airport": "Fairbanks Internacional",
+            "city": "Fairbanks"
+        },
+        "FAO": {
+            "airport": "Aeroporto",
+            "city": "Faro"
+        },
+        "FAR": {
+            "airport": "Hector International",
+            "city": "Fargo"
+        },
+        "FAT": {
+            "airport": "Fresno Yosemite Internacional",
+            "city": "Fresno"
+        },
+        "FAY": {
+            "airport": "Regional (Grannis Field)",
+            "city": "Fayetteville"
+        },
+        "FCA": {
+            "airport": "Glacier Park International",
+            "city": "Kalispell"
+        },
+        "FCO": {
+            "airport": "Fiumicino",
+            "city": "Roma"
+        },
+        "FDH": {
+            "airport": "Friedrichshafen",
+            "city": "Friedrichshafen"
+        },
+        "FKB": {
+            "airport": "Baden Airpark",
+            "city": "Karlsruhe/Baden Baden"
+        },
+        "FLL": {
+            "airport": "FLL International",
+            "city": "Fort Lauderdale"
+        },
+        "FLN": {
+            "airport": "Herc\u00edlio Luz International",
+            "city": "Florian\u00f3polis"
+        },
+        "FLO": {
+            "airport": "Regional",
+            "city": "Florence"
+        },
+        "FLR": {
+            "airport": "Peretola",
+            "city": "Florence"
+        },
+        "FMO": {
+            "airport": "Muenster/Osnabrueck",
+            "city": "Muenster/Osnabrueck"
+        },
+        "FNC": {
+            "airport": "Madeira",
+            "city": "Funchal"
+        },
+        "FNJ": {
+            "airport": "Sunan International",
+            "city": "Pyongyang"
+        },
+        "FNT": {
+            "airport": "Bishop International",
+            "city": "Flint"
+        },
+        "FOC": {
+            "airport": "Changle International",
+            "city": "Fuzhou"
+        },
+        "FOR": {
+            "airport": "Pinto Martins International",
+            "city": "Fortaleza"
+        },
+        "FRA": {
+            "airport": "Frankfurt Internacional",
+            "city": "Frankfurt"
+        },
+        "FSD": {
+            "airport": "Joe Foss Field",
+            "city": "Sioux Falls"
+        },
+        "FSM": {
+            "airport": "Regional",
+            "city": "Fort Smith"
+        },
+        "FTE": {
+            "airport": "Coandante A.Tola",
+            "city": "El Calafate"
+        },
+        "FUE": {
+            "airport": "Fuerteventura",
+            "city": "Fuerteventura"
+        },
+        "FUG": {
+            "airport": "Xiguan",
+            "city": "Fuyang"
+        },
+        "FUK": {
+            "airport": "Fukuoka",
+            "city": "Fukuoka"
+        },
+        "FWA": {
+            "airport": "International",
+            "city": "Fort Wayne"
+        },
+        "FYJ": {
+            "airport": "Fuyuan",
+            "city": "Fuyuan"
+        },
+        "FYM": {
+            "airport": "Fayetteville Municipal",
+            "city": "Fayetteville"
+        },
+        "GAJ": {
+            "airport": "Yamagata",
+            "city": "Yamagata"
+        },
+        "GCC": {
+            "airport": "Campbell County",
+            "city": "Gillette"
+        },
+        "GCI": {
+            "airport": "Guernsey",
+            "city": "Guernsey"
+        },
+        "GCK": {
+            "airport": "Regional",
+            "city": "Garden City"
+        },
+        "GCM": {
+            "airport": "Owen Roberts International",
+            "city": "Grand Cayman"
+        },
+        "GCN": {
+            "airport": "National",
+            "city": "Grand Canyon"
+        },
+        "GDL": {
+            "airport": "Miguel Hidalgo International",
+            "city": "Guadalajara"
+        },
+        "GDN": {
+            "airport": "Lech Walesa",
+            "city": "Gdansk"
+        },
+        "GEG": {
+            "airport": "Spokane Internacional",
+            "city": "Spokane"
+        },
+        "GGG": {
+            "airport": "East Texas Regional",
+            "city": "Longview"
+        },
+        "GIG": {
+            "airport": "Galeao A.C Jobim International",
+            "city": "Rio de Janeiro"
+        },
+        "GJT": {
+            "airport": "Regional",
+            "city": "Grand Junction"
+        },
+        "GLA": {
+            "airport": "Glasgow Internacional",
+            "city": "Glasgow"
+        },
+        "GMP": {
+            "airport": "Gimpo Internacional",
+            "city": "Seoul"
+        },
+        "GND": {
+            "airport": "Maurice Bishop International",
+            "city": "Grenada"
+        },
+        "GNV": {
+            "airport": "Gainesville Regional",
+            "city": "Gainesville"
+        },
+        "GOA": {
+            "airport": "Cristoforo Colombo",
+            "city": "Genoa"
+        },
+        "GOT": {
+            "airport": "Landvetter",
+            "city": "Goteborg"
+        },
+        "GPA": {
+            "airport": "Araxos Aeroporto",
+            "city": "Patrai"
+        },
+        "GPS": {
+            "airport": "Seymour",
+            "city": "Baltra Island"
+        },
+        "GPT": {
+            "airport": "Biloxi Regional",
+            "city": "Gulfport"
+        },
+        "GRB": {
+            "airport": "Austin-Straubel International",
+            "city": "Green Bay"
+        },
+        "GRI": {
+            "airport": "Central Nebraska Regional",
+            "city": "Grand Island"
+        },
+        "GRJ": {
+            "airport": "George",
+            "city": "George"
+        },
+        "GRK": {
+            "airport": "Regional R Gray Aaf",
+            "city": "Killeen Fort Hood"
+        },
+        "GRR": {
+            "airport": "Gerald R Ford International",
+            "city": "Grand Rapids"
+        },
+        "GRU": {
+            "airport": "Guarulhos International",
+            "city": "S\u00e3o Paulo"
+        },
+        "GRZ": {
+            "airport": "Graz Airport",
+            "city": "Graz"
+        },
+        "GSO": {
+            "airport": "Piedmont Triad Internacional",
+            "city": "Greensboro/High Point"
+        },
+        "GSP": {
+            "airport": "International",
+            "city": "Greenville/Spartanburg"
+        },
+        "GTF": {
+            "airport": "Great Falls International",
+            "city": "Great Falls"
+        },
+        "GUA": {
+            "airport": "La Aurora International",
+            "city": "Cidade da Guatemala"
+        },
+        "GUC": {
+            "airport": "Gunnison Crested Butte",
+            "city": "Gunnison"
+        },
+        "GUM": {
+            "airport": "A.B Won Pat Internacional",
+            "city": "Guam"
+        },
+        "GVA": {
+            "airport": "Geneva Internacional",
+            "city": "Genebra"
+        },
+        "GWT": {
+            "airport": "Sylt",
+            "city": "Westerland"
+        },
+        "GYE": {
+            "airport": "Jose Joaquin De Olmedo",
+            "city": "Guayaquil"
+        },
+        "GYN": {
+            "airport": "Santa Genoveva",
+            "city": "Goi\u00e2nia"
+        },
+        "GYS": {
+            "airport": "Panlong",
+            "city": "Guangyuan"
+        },
+        "GZP": {
+            "airport": "Gazipasa",
+            "city": "Gazipasa"
+        },
+        "HAJ": {
+            "airport": "Hannover",
+            "city": "Hannover"
+        },
+        "HAK": {
+            "airport": "Meilan International",
+            "city": "Haikou"
+        },
+        "HAM": {
+            "airport": "Hamburg",
+            "city": "Hamburgo"
+        },
+        "HAN": {
+            "airport": "Noi Bai International",
+            "city": "Hanoi"
+        },
+        "HAR": {
+            "airport": "Capital City",
+            "city": "Harrisburg"
+        },
+        "HAU": {
+            "airport": "Karmoy",
+            "city": "Haugesund"
+        },
+        "HAV": {
+            "airport": "Jose Marti Internacional",
+            "city": "Havana"
+        },
+        "HBA": {
+            "airport": "International",
+            "city": "Hobart"
+        },
+        "HDN": {
+            "airport": "Yampa Valley",
+            "city": "Hayden"
+        },
+        "HEL": {
+            "airport": "Helsinki Vantaa",
+            "city": "Hels\u00ednquia"
+        },
+        "HER": {
+            "airport": "Nikos Kazantzakis",
+            "city": "Heraklion"
+        },
+        "HET": {
+            "airport": "Baita International",
+            "city": "Hohhot"
+        },
+        "HFD": {
+            "airport": "Brainard",
+            "city": "Hartford"
+        },
+        "HFE": {
+            "airport": "Xinqiao International",
+            "city": "Hefei"
+        },
+        "HGH": {
+            "airport": "Xiaoshan International",
+            "city": "Hangzhou"
+        },
+        "HIJ": {
+            "airport": "Hiroshima Airport",
+            "city": "Hiroshima"
+        },
+        "HKD": {
+            "airport": "Hakodate",
+            "city": "Hakodate"
+        },
+        "HKG": {
+            "airport": "Hong Kong Internacional",
+            "city": "Hong Kong"
+        },
+        "HKT": {
+            "airport": "Phuket Internacional",
+            "city": "Phuket"
+        },
+        "HLD": {
+            "airport": "Dongshan",
+            "city": "Hailar"
+        },
+        "HLH": {
+            "airport": "Ulanhot",
+            "city": "Ulanhot"
+        },
+        "HLN": {
+            "airport": "Helena Regional",
+            "city": "Helena"
+        },
+        "HMO": {
+            "airport": "I.Pesqueira Garcia",
+            "city": "Hermosillo"
+        },
+        "HNA": {
+            "airport": "Hanamaki",
+            "city": "Morioka"
+        },
+        "HND": {
+            "airport": "Tokyo International Haneda",
+            "city": "Tokyo"
+        },
+        "HNL": {
+            "airport": "Honolulu Internacional",
+            "city": "Honolulu"
+        },
+        "HOB": {
+            "airport": "Lea County Regional",
+            "city": "Hobbs"
+        },
+        "HOU": {
+            "airport": "William P Hobby",
+            "city": "Houston"
+        },
+        "HPN": {
+            "airport": "Westchester County",
+            "city": "White Plains"
+        },
+        "HRB": {
+            "airport": "Taiping International",
+            "city": "Harbin"
+        },
+        "HRE": {
+            "airport": "International",
+            "city": "Harare"
+        },
+        "HRG": {
+            "airport": "International",
+            "city": "Hurghada"
+        },
+        "HRL": {
+            "airport": "Valley Internacional",
+            "city": "Harlingen"
+        },
+        "HSV": {
+            "airport": "International-Carl T.Jones Field",
+            "city": "Huntsville"
+        },
+        "HTA": {
+            "airport": "Kadala",
+            "city": "Chita"
+        },
+        "HTI": {
+            "airport": "Great Barrier Reef",
+            "city": "Hamilton Island"
+        },
+        "HTS": {
+            "airport": "Tri-State",
+            "city": "Huntington/Ashland Ky"
+        },
+        "HUX": {
+            "airport": "Bahias De Huatulco International",
+            "city": "Huatulco"
+        },
+        "HUZ": {
+            "airport": "Huizhou",
+            "city": "Huizhou"
+        },
+        "HYA": {
+            "airport": "Barnstable Municipal",
+            "city": "Hyannis"
+        },
+        "HYD": {
+            "airport": "Rajiv Gandhi International",
+            "city": "Hyderabad"
+        },
+        "HYN": {
+            "airport": "Luqiao",
+            "city": "Taizhou"
+        },
+        "HYS": {
+            "airport": "Regional",
+            "city": "Hays"
+        },
+        "IAD": {
+            "airport": "Dulles Internacional",
+            "city": "Washington"
+        },
+        "IAH": {
+            "airport": "George Bush Intercont",
+            "city": "Houston"
+        },
+        "IBE": {
+            "airport": "Perales",
+            "city": "Ibague"
+        },
+        "IBZ": {
+            "airport": "Ibiza",
+            "city": "Ibiza"
+        },
+        "ICN": {
+            "airport": "Incheon Internacional",
+            "city": "Seoul"
+        },
+        "ICT": {
+            "airport": "Dwight D Eisenhower",
+            "city": "Wichita"
+        },
+        "IDA": {
+            "airport": "Idaho Falls Regional",
+            "city": "Idaho Falls"
+        },
+        "IEV": {
+            "airport": "Zhuliany International",
+            "city": "Kiev"
+        },
+        "IGR": {
+            "airport": "Cataratas Del Iguazu",
+            "city": "Iguazu"
+        },
+        "IGU": {
+            "airport": "Cataratas",
+            "city": "Foz Do Iguacu"
+        },
+        "IKA": {
+            "airport": "Imam Khomeini Internacional",
+            "city": "Tehran"
+        },
+        "ILE": {
+            "airport": "Skylark Field",
+            "city": "Killeen Fort Hood"
+        },
+        "ILM": {
+            "airport": "International",
+            "city": "Wilmington"
+        },
+        "IMP": {
+            "airport": "Renato Moreira",
+            "city": "Imperatriz"
+        },
+        "INC": {
+            "airport": "Hedong",
+            "city": "Yinchuan"
+        },
+        "IND": {
+            "airport": "Indianapolis Internacional",
+            "city": "Indianapolis"
+        },
+        "INN": {
+            "airport": "Innsbruck Airport",
+            "city": "Innsbruck"
+        },
+        "IOS": {
+            "airport": "Jorge Amado",
+            "city": "Ilh\u00e9us"
+        },
+        "IPC": {
+            "airport": "Mataveri Internacional",
+            "city": "Ilha de P\u00e1scoa"
+        },
+        "IPT": {
+            "airport": "Williamsport Reg Airport",
+            "city": "Williamsport"
+        },
+        "IQQ": {
+            "airport": "Diego Aracena",
+            "city": "Iquique"
+        },
+        "IQT": {
+            "airport": "F Secada Vignetta",
+            "city": "Iquitos"
+        },
+        "ISB": {
+            "airport": "Benazir Bhutto Internacional",
+            "city": "Islamabad"
+        },
+        "ISN": {
+            "airport": "Sloulin Field",
+            "city": "Williston"
+        },
+        "IST": {
+            "airport": "Ataturk",
+            "city": "Istanbul"
+        },
+        "ITH": {
+            "airport": "Tompkins Regional",
+            "city": "Ithaca"
+        },
+        "ITM": {
+            "airport": "Osaka International (Itami)",
+            "city": "Osaka"
+        },
+        "ITO": {
+            "airport": "Hilo Internacional",
+            "city": "Hilo"
+        },
+        "IZO": {
+            "airport": "Izumo",
+            "city": "Izumo"
+        },
+        "JAC": {
+            "airport": "Jackson Hole",
+            "city": "Jackson"
+        },
+        "JAL": {
+            "airport": "El Lencero",
+            "city": "Jalapa"
+        },
+        "JAN": {
+            "airport": "Medgar W.Evers International",
+            "city": "Jackson"
+        },
+        "JAX": {
+            "airport": "Jacksonville Internacional",
+            "city": "Jacksonville"
+        },
+        "JDZ": {
+            "airport": "Jingdezhen",
+            "city": "Jingdezhen"
+        },
+        "JER": {
+            "airport": "Jersey",
+            "city": "Jersey"
+        },
+        "JFK": {
+            "airport": "John F Kennedy International",
+            "city": "Nova Iorque"
+        },
+        "JGS": {
+            "airport": "Jinggangshan",
+            "city": "Ji'an"
+        },
+        "JJG": {
+            "airport": "Humberto Bortoluzzi",
+            "city": "Jaguaruna"
+        },
+        "JKT": {
+            "airport": "Jakarta",
+            "city": "Jakarta"
+        },
+        "JLN": {
+            "airport": "Regional",
+            "city": "Joplin"
+        },
+        "JMK": {
+            "airport": "Mykonos",
+            "city": "Mykonos"
+        },
+        "JMS": {
+            "airport": "Regional",
+            "city": "Jamestown"
+        },
+        "JMU": {
+            "airport": "Dongjiao",
+            "city": "Jiamusi"
+        },
+        "JNB": {
+            "airport": "O.R. Tambo Internacional",
+            "city": "Joanesburgo"
+        },
+        "JOI": {
+            "airport": "Lauro Carneiro Loyola",
+            "city": "Joinville"
+        },
+        "JPA": {
+            "airport": "Castro Pinto International",
+            "city": "Jo\u00e3o Pessoa"
+        },
+        "JST": {
+            "airport": "John Murtha Cambria Co",
+            "city": "Johnstown"
+        },
+        "JTC": {
+            "airport": "Moussa Nakhl Tobias",
+            "city": "Bauru"
+        },
+        "JTR": {
+            "airport": "Santorini",
+            "city": "Thira"
+        },
+        "JUJ": {
+            "airport": "Gobernador H.Guzman",
+            "city": "Jujuy"
+        },
+        "JUL": {
+            "airport": "Inco Mnco Capac International",
+            "city": "Juliaca"
+        },
+        "JZH": {
+            "airport": "Jiuzhai Huanglong",
+            "city": "Jiuzhaigou"
+        },
+        "KBP": {
+            "airport": "Boryspil International",
+            "city": "Kiev"
+        },
+        "KCZ": {
+            "airport": "Kochi",
+            "city": "Kochi"
+        },
+        "KEF": {
+            "airport": "Keflavik Internacional",
+            "city": "Reykjavik"
+        },
+        "KGD": {
+            "airport": "Khrabrovo",
+            "city": "Kaliningrad"
+        },
+        "KGS": {
+            "airport": "Ippokratis",
+            "city": "Kos"
+        },
+        "KHG": {
+            "airport": "Kashi",
+            "city": "Kashi"
+        },
+        "KHH": {
+            "airport": "Kaohsiung Internacional",
+            "city": "Kaohsiung"
+        },
+        "KHI": {
+            "airport": "Jinnah Internacional",
+            "city": "Karachi"
+        },
+        "KHN": {
+            "airport": "Changbei International",
+            "city": "Nanchang"
+        },
+        "KIG": {
+            "airport": "Koingnaas",
+            "city": "Koingnaas"
+        },
+        "KIN": {
+            "airport": "Norman Manley International",
+            "city": "Kingston"
+        },
+        "KIX": {
+            "airport": "Kansai Internacional",
+            "city": "Osaka"
+        },
+        "KKJ": {
+            "airport": "Kitakyushu",
+            "city": "Kitakyushu"
+        },
+        "KKN": {
+            "airport": "Hoybuktmoen",
+            "city": "Kirkenes"
+        },
+        "KLR": {
+            "airport": "Kalmar",
+            "city": "Kalmar"
+        },
+        "KMG": {
+            "airport": "Kunming",
+            "city": "Kunming"
+        },
+        "KMI": {
+            "airport": "Miyazaki",
+            "city": "Miyazaki"
+        },
+        "KMJ": {
+            "airport": "Kumamoto",
+            "city": "Kumamoto"
+        },
+        "KMQ": {
+            "airport": "Komatsu",
+            "city": "Komatsu"
+        },
+        "KOA": {
+            "airport": "Keahole",
+            "city": "Kona"
+        },
+        "KOJ": {
+            "airport": "Kagoshima",
+            "city": "Kagoshima"
+        },
+        "KOW": {
+            "airport": "Huangjin",
+            "city": "Ganzhou"
+        },
+        "KRK": {
+            "airport": "John Paul Ii Balice",
+            "city": "Krakow"
+        },
+        "KRL": {
+            "airport": "Korla",
+            "city": "Korla"
+        },
+        "KRN": {
+            "airport": "Kiruna",
+            "city": "Kiruna"
+        },
+        "KRR": {
+            "airport": "Pashkovsky",
+            "city": "Krasnodar"
+        },
+        "KRS": {
+            "airport": "Kjevik",
+            "city": "Kristiansand"
+        },
+        "KRY": {
+            "airport": "Karamay",
+            "city": "Karamay"
+        },
+        "KSA": {
+            "airport": "International",
+            "city": "Kosrae"
+        },
+        "KSU": {
+            "airport": "Kvernberget",
+            "city": "Kristiansund"
+        },
+        "KTM": {
+            "airport": "Tribhuvan International",
+            "city": "Kathmandu"
+        },
+        "KTN": {
+            "airport": "Ketchikan Internacional",
+            "city": "Ketchikan"
+        },
+        "KUF": {
+            "airport": "Kurumoch International Psc",
+            "city": "Samara"
+        },
+        "KUH": {
+            "airport": "Kushiro",
+            "city": "Kushiro"
+        },
+        "KUL": {
+            "airport": "Kuala Lumpur Internacional",
+            "city": "Kuala Lumpur"
+        },
+        "KVA": {
+            "airport": "Megas Alexandros Aeroporto",
+            "city": "Kavala"
+        },
+        "KWA": {
+            "airport": "Bucholz AAF",
+            "city": "Kwajalein Island"
+        },
+        "KWE": {
+            "airport": "Longdongbao International",
+            "city": "Guiyang"
+        },
+        "KWI": {
+            "airport": "Kuwait Internacional",
+            "city": "Kuwait"
+        },
+        "KWL": {
+            "airport": "Liangjiang International",
+            "city": "Guilin"
+        },
+        "KZN": {
+            "airport": "Kazan Internacional",
+            "city": "Kazan"
+        },
+        "LAN": {
+            "airport": "Capital Region International",
+            "city": "Lansing"
+        },
+        "LAP": {
+            "airport": "Manuel Marquez De Leon",
+            "city": "La Paz"
+        },
+        "LAR": {
+            "airport": "Regional",
+            "city": "Laramie"
+        },
+        "LAS": {
+            "airport": "McCarran Internacional",
+            "city": "Las Vegas"
+        },
+        "LAW": {
+            "airport": "Regional",
+            "city": "Lawton Fort Sill"
+        },
+        "LAX": {
+            "airport": "Los Angeles",
+            "city": "Los Angeles"
+        },
+        "LBB": {
+            "airport": "Preston Smith International",
+            "city": "Lubbock"
+        },
+        "LCA": {
+            "airport": "Larnaca",
+            "city": "Larnaca"
+        },
+        "LCG": {
+            "airport": "A Coru\u00f1a Aeroporto",
+            "city": "A Corunha"
+        },
+        "LCH": {
+            "airport": "Regional",
+            "city": "Lake Charles"
+        },
+        "LCY": {
+            "airport": "London City Airport",
+            "city": "Londres"
+        },
+        "LDB": {
+            "airport": "Jose Richa",
+            "city": "Londrina"
+        },
+        "LEB": {
+            "airport": "Municipal",
+            "city": "Lebanon Hanover"
+        },
+        "LED": {
+            "airport": "Pulkovo",
+            "city": "S\u00e3o Petersburgo"
+        },
+        "LEJ": {
+            "airport": "Leipzig/Halle",
+            "city": "Leipzig/Halle"
+        },
+        "LET": {
+            "airport": "Alfredo V Cobb International",
+            "city": "Leticia"
+        },
+        "LEX": {
+            "airport": "Blue Grass",
+            "city": "Lexington"
+        },
+        "LFT": {
+            "airport": "Lafayette Regional",
+            "city": "Lafayette"
+        },
+        "LGA": {
+            "airport": "Laguardia",
+            "city": "Nova Iorque"
+        },
+        "LGB": {
+            "airport": "Daugherty Field",
+            "city": "Long Beach"
+        },
+        "LHR": {
+            "airport": "Heathrow",
+            "city": "Londres"
+        },
+        "LIH": {
+            "airport": "Lihue",
+            "city": "Lihue"
+        },
+        "LIL": {
+            "airport": "Lesquin",
+            "city": "Lille"
+        },
+        "LIM": {
+            "airport": "Jorge Chavez International",
+            "city": "Lima"
+        },
+        "LIN": {
+            "airport": "Linate",
+            "city": "Mil\u00e3o"
+        },
+        "LIR": {
+            "airport": "D.Oduber Quiros International",
+            "city": "Lib\u00e9ria"
+        },
+        "LIS": {
+            "airport": "Aeroporto",
+            "city": "Lisboa"
+        },
+        "LIT": {
+            "airport": "B And H Clinton Natl",
+            "city": "Little Rock"
+        },
+        "LJG": {
+            "airport": "Sanyi",
+            "city": "Lijiang"
+        },
+        "LJU": {
+            "airport": "Ljubljana",
+            "city": "Ljubljana"
+        },
+        "LLA": {
+            "airport": "Kallax",
+            "city": "Lulea"
+        },
+        "LMM": {
+            "airport": "Fed. Valle Del Fuerte",
+            "city": "Los Mochis"
+        },
+        "LNK": {
+            "airport": "Lincoln Municipal",
+            "city": "Lincoln"
+        },
+        "LNZ": {
+            "airport": "Blue Danube",
+            "city": "Linz"
+        },
+        "LON": {
+            "airport": "Londres",
+            "city": "Londres"
+        },
+        "LOS": {
+            "airport": "Murtala Muhammed International",
+            "city": "Lagos"
+        },
+        "LPA": {
+            "airport": "Gran Canaria",
+            "city": "Gran Canaria"
+        },
+        "LPB": {
+            "airport": "El Alto International",
+            "city": "La Paz"
+        },
+        "LPI": {
+            "airport": "City Airport",
+            "city": "Linkoping"
+        },
+        "LPL": {
+            "airport": "Liverpool John Lennon",
+            "city": "Liverpool"
+        },
+        "LRD": {
+            "airport": "Laredo Internacional",
+            "city": "Laredo"
+        },
+        "LRM": {
+            "airport": "Casa De Campo International",
+            "city": "La Romana"
+        },
+        "LSC": {
+            "airport": "La Florida",
+            "city": "La Serena"
+        },
+        "LSE": {
+            "airport": "Regional",
+            "city": "La Crosse"
+        },
+        "LST": {
+            "airport": "Launceston",
+            "city": "Launceston"
+        },
+        "LUG": {
+            "airport": "Agno",
+            "city": "Lugano"
+        },
+        "LUL": {
+            "airport": "Hesler-Noble Field",
+            "city": "Hattiesburg/Laurel"
+        },
+        "LUQ": {
+            "airport": "D.Cesar Raul Ojeda",
+            "city": "San Luis"
+        },
+        "LUX": {
+            "airport": "Luxembourg",
+            "city": "Luxemburgo"
+        },
+        "LVI": {
+            "airport": "Livingstone",
+            "city": "Livingstone"
+        },
+        "LWB": {
+            "airport": "Greenbrier Valley",
+            "city": "Lewisburg"
+        },
+        "LWH": {
+            "airport": "Lawn Hill",
+            "city": "Lawn Hill"
+        },
+        "LWS": {
+            "airport": "Nez Perce County",
+            "city": "Lewiston"
+        },
+        "LXA": {
+            "airport": "Gonggar",
+            "city": "Lhasa/Lasa"
+        },
+        "LXR": {
+            "airport": "International",
+            "city": "Luxor"
+        },
+        "LYH": {
+            "airport": "Regional-P. Glenn Field",
+            "city": "Lynchburg"
+        },
+        "LYR": {
+            "airport": "Svalbard",
+            "city": "Longyearbyen"
+        },
+        "LYS": {
+            "airport": "Saint Exupery",
+            "city": "Lyon"
+        },
+        "LZH": {
+            "airport": "Bailian",
+            "city": "Liuzhou"
+        },
+        "LZO": {
+            "airport": "Lantian",
+            "city": "Luzhou"
+        },
+        "LZY": {
+            "airport": "Mainling/Milin",
+            "city": "Nyingchi/Linzhi"
+        },
+        "MAA": {
+            "airport": "Chennai International",
+            "city": "Chennai"
+        },
+        "MAB": {
+            "airport": "Joao Correa Da Rocha",
+            "city": "Marab\u00e1"
+        },
+        "MAD": {
+            "airport": "Adolfo Suarez Barajas",
+            "city": "Madrid"
+        },
+        "MAF": {
+            "airport": "International",
+            "city": "Midland"
+        },
+        "MAH": {
+            "airport": "Menorca",
+            "city": "Menorca"
+        },
+        "MAJ": {
+            "airport": "Amata Kabua Internacional",
+            "city": "Majuro"
+        },
+        "MAM": {
+            "airport": "Servando Canales International",
+            "city": "Matamoros"
+        },
+        "MAN": {
+            "airport": "Manchester Airport",
+            "city": "Manchester"
+        },
+        "MAO": {
+            "airport": "Eduardo Gomes International",
+            "city": "Manaus"
+        },
+        "MBJ": {
+            "airport": "Sangster Internacional",
+            "city": "Montego Bay"
+        },
+        "MBS": {
+            "airport": "Mbs International",
+            "city": "Saginaw Midland Bay C"
+        },
+        "MCI": {
+            "airport": "Kansas City Internacional",
+            "city": "Kansas City"
+        },
+        "MCO": {
+            "airport": "Orlando Internacional",
+            "city": "Orlando"
+        },
+        "MCP": {
+            "airport": "Alberto Alcolumbre International",
+            "city": "Macap\u00e1"
+        },
+        "MCT": {
+            "airport": "Muscat Internacional",
+            "city": "Muscat"
+        },
+        "MCY": {
+            "airport": "Maroochydore",
+            "city": "Sunshine Coast"
+        },
+        "MCZ": {
+            "airport": "Zumbi dos Palmares",
+            "city": "Macei\u00f3"
+        },
+        "MDE": {
+            "airport": "Jose Maria Cordova International",
+            "city": "Medellin"
+        },
+        "MDG": {
+            "airport": "Hailang",
+            "city": "Mudanjiang"
+        },
+        "MDT": {
+            "airport": "Harrisburg Internacional",
+            "city": "Harrisburg"
+        },
+        "MDZ": {
+            "airport": "El Plumerillo",
+            "city": "Mendoza"
+        },
+        "MEC": {
+            "airport": "Eloy Alfaro International",
+            "city": "Manta"
+        },
+        "MEI": {
+            "airport": "Regional (Key Field)",
+            "city": "Meridian"
+        },
+        "MEL": {
+            "airport": "Melbourne Airport",
+            "city": "Melbourne"
+        },
+        "MEM": {
+            "airport": "Memphis Internacional",
+            "city": "Memphis"
+        },
+        "MEX": {
+            "airport": "Benito Juarez Internacional",
+            "city": "M\u00e9xico"
+        },
+        "MFE": {
+            "airport": "Miller Internacional",
+            "city": "McAllen Mission"
+        },
+        "MFM": {
+            "airport": "Internacional",
+            "city": "Macau"
+        },
+        "MFR": {
+            "airport": "Rogue Valley International",
+            "city": "Medford"
+        },
+        "MGA": {
+            "airport": "Augusto C.Sandino Int",
+            "city": "Man\u00e1gua"
+        },
+        "MGM": {
+            "airport": "Regional-Dannelly Field",
+            "city": "Montgomery"
+        },
+        "MHC": {
+            "airport": "Mocopulli",
+            "city": "Castro"
+        },
+        "MHK": {
+            "airport": "Regional",
+            "city": "Manhattan"
+        },
+        "MHT": {
+            "airport": "Manchester Boston Regional",
+            "city": "Manchester"
+        },
+        "MIA": {
+            "airport": "Miami Internacional",
+            "city": "Miami"
+        },
+        "MID": {
+            "airport": "M. Crescencio Rejon",
+            "city": "Merida"
+        },
+        "MIG": {
+            "airport": "Nanjiao",
+            "city": "Mianyang"
+        },
+        "MIL": {
+            "airport": "Mil\u00e3o",
+            "city": "Mil\u00e3o"
+        },
+        "MJT": {
+            "airport": "Odysseas Elytis",
+            "city": "Mytilini"
+        },
+        "MKC": {
+            "airport": "Cb Wheeler Downtown",
+            "city": "Kansas City"
+        },
+        "MKE": {
+            "airport": "Milwaukee",
+            "city": "Milwaukee"
+        },
+        "MKG": {
+            "airport": "Muskegon County",
+            "city": "Muskegon"
+        },
+        "MKK": {
+            "airport": "Molokai",
+            "city": "Hoolehua"
+        },
+        "MLA": {
+            "airport": "Luqa International",
+            "city": "Malta"
+        },
+        "MLB": {
+            "airport": "Melbourne Internacional",
+            "city": "Melbourne"
+        },
+        "MLE": {
+            "airport": "Velana International",
+            "city": "Male"
+        },
+        "MLI": {
+            "airport": "Quad City International",
+            "city": "Moline"
+        },
+        "MLM": {
+            "airport": "F.J. Mujica International",
+            "city": "Morelia"
+        },
+        "MLU": {
+            "airport": "Regional",
+            "city": "Monroe"
+        },
+        "MMB": {
+            "airport": "Memanbetsu",
+            "city": "Memanbetsu"
+        },
+        "MMH": {
+            "airport": "Mammoth Lakes",
+            "city": "Mammoth Lakes"
+        },
+        "MMX": {
+            "airport": "Malmo",
+            "city": "Malmo"
+        },
+        "MNL": {
+            "airport": "Ninoy Aquino Internacional",
+            "city": "Manila"
+        },
+        "MOB": {
+            "airport": "Regional",
+            "city": "Mobile"
+        },
+        "MOL": {
+            "airport": "Aro",
+            "city": "Molde"
+        },
+        "MOT": {
+            "airport": "Minot Internacional",
+            "city": "Minot"
+        },
+        "MOW": {
+            "airport": "Moscovo",
+            "city": "Moscovo"
+        },
+        "MPL": {
+            "airport": "Mediterranee",
+            "city": "Montpellier"
+        },
+        "MPN": {
+            "airport": "Mount Pleasant",
+            "city": "Mount Pleasant"
+        },
+        "MQT": {
+            "airport": "Sawyer Internacional",
+            "city": "Marquette"
+        },
+        "MRS": {
+            "airport": "Marseille Provence",
+            "city": "Marselha"
+        },
+        "MRU": {
+            "airport": "Sir S.Ramgoolam International",
+            "city": "Mauritius"
+        },
+        "MRY": {
+            "airport": "Monterey Regional",
+            "city": "Monterey Carmel"
+        },
+        "MSJ": {
+            "airport": "Misawa",
+            "city": "Misawa"
+        },
+        "MSN": {
+            "airport": "Dane Couty Regio",
+            "city": "Madison"
+        },
+        "MSO": {
+            "airport": "Missoula International",
+            "city": "Missoula"
+        },
+        "MSP": {
+            "airport": "St Paul International",
+            "city": "Minneapolis/St Paul"
+        },
+        "MSQ": {
+            "airport": "Minsk",
+            "city": "Minsk"
+        },
+        "MSY": {
+            "airport": "L Armstrong Internacional",
+            "city": "New Orleans"
+        },
+        "MTJ": {
+            "airport": "Montrose Regional",
+            "city": "Montrose"
+        },
+        "MTR": {
+            "airport": "Los Garzones",
+            "city": "Monteria"
+        },
+        "MTT": {
+            "airport": "Coatzacoalcos",
+            "city": "Minatitlan"
+        },
+        "MTY": {
+            "airport": "General Mariano Escobedo International",
+            "city": "Monterrey"
+        },
+        "MUC": {
+            "airport": "Munich Internacional",
+            "city": "Munique"
+        },
+        "MVD": {
+            "airport": "Carrasco",
+            "city": "Montevideu"
+        },
+        "MVY": {
+            "airport": "Marthas Vineyard",
+            "city": "Marthas Vineyard"
+        },
+        "MWA": {
+            "airport": "Williamson County Regional",
+            "city": "Marion"
+        },
+        "MXL": {
+            "airport": "Rodolfo Sanchez Taboada International",
+            "city": "Mexicali"
+        },
+        "MXP": {
+            "airport": "Malpensa",
+            "city": "Mil\u00e3o"
+        },
+        "MYJ": {
+            "airport": "Matsuyama",
+            "city": "Matsuyama"
+        },
+        "MYR": {
+            "airport": "International",
+            "city": "Myrtle Beach"
+        },
+        "MZL": {
+            "airport": "La Nubia",
+            "city": "Manizales"
+        },
+        "MZT": {
+            "airport": "General Rafael Buelna International",
+            "city": "Mazatlan"
+        },
+        "NAP": {
+            "airport": "Capodichino Aeroporto",
+            "city": "Naples"
+        },
+        "NAS": {
+            "airport": "Lynden Pindling International",
+            "city": "Nassau"
+        },
+        "NAT": {
+            "airport": "International",
+            "city": "Natal"
+        },
+        "NBE": {
+            "airport": "Hammamet",
+            "city": "Enfidha"
+        },
+        "NBO": {
+            "airport": "Jomo Kenyatta International",
+            "city": "Nairobi"
+        },
+        "NCE": {
+            "airport": "C\u00f4te D'Azur",
+            "city": "Nice"
+        },
+        "NCL": {
+            "airport": "International",
+            "city": "Newcastle"
+        },
+        "NDG": {
+            "airport": "Sanjiazi",
+            "city": "Qiqihar"
+        },
+        "NGB": {
+            "airport": "Lishe International",
+            "city": "Ningbo"
+        },
+        "NGO": {
+            "airport": "Chubu Centrair International",
+            "city": "Nagoya"
+        },
+        "NGS": {
+            "airport": "Nagasaki Airport",
+            "city": "Nagasaki"
+        },
+        "NKG": {
+            "airport": "Lukou International",
+            "city": "Nanjing"
+        },
+        "NLD": {
+            "airport": "Quetzalcoatl International",
+            "city": "Nuevo Laredo"
+        },
+        "NNG": {
+            "airport": "Wuxu International",
+            "city": "Nanning"
+        },
+        "NOU": {
+            "airport": "La Tontouta",
+            "city": "Noumea"
+        },
+        "NPE": {
+            "airport": "Hawkes Bay",
+            "city": "Napier Hastings"
+        },
+        "NQN": {
+            "airport": "Presidente Peron",
+            "city": "Neuquen"
+        },
+        "NRT": {
+            "airport": "Narita International",
+            "city": "Tokyo"
+        },
+        "NSN": {
+            "airport": "Nelson",
+            "city": "Nelson"
+        },
+        "NTE": {
+            "airport": "Atlantique",
+            "city": "Nantes"
+        },
+        "NTG": {
+            "airport": "Xingdong",
+            "city": "Nantong"
+        },
+        "NUE": {
+            "airport": "Aeroporto Nuremberga",
+            "city": "Nuremberg"
+        },
+        "NVA": {
+            "airport": "Benito Salas",
+            "city": "Neiva"
+        },
+        "NVT": {
+            "airport": "Victor Konder International",
+            "city": "Navegantes"
+        },
+        "NYC": {
+            "airport": "Nova Iorque",
+            "city": "Nova Iorque"
+        },
+        "NZH": {
+            "airport": "Xijiao",
+            "city": "Manzhouli"
+        },
+        "OAJ": {
+            "airport": "A J Ellis",
+            "city": "Jacksonville"
+        },
+        "OAK": {
+            "airport": "Oakland Internacional",
+            "city": "Oakland"
+        },
+        "OAX": {
+            "airport": "Xoxocotlan International",
+            "city": "Oaxaca"
+        },
+        "OBO": {
+            "airport": "Obihiro",
+            "city": "Obihiro"
+        },
+        "OGG": {
+            "airport": "Kahului",
+            "city": "Kahului"
+        },
+        "OIT": {
+            "airport": "Oita",
+            "city": "Oita"
+        },
+        "OKA": {
+            "airport": "Naha",
+            "city": "Okinawa"
+        },
+        "OKC": {
+            "airport": "Will Rogers World",
+            "city": "Oklahoma City"
+        },
+        "OKJ": {
+            "airport": "Okayama",
+            "city": "Okayama"
+        },
+        "OLB": {
+            "airport": "Costa Smeralda",
+            "city": "Olbia"
+        },
+        "OMA": {
+            "airport": "Eppley Airfield",
+            "city": "Omaha"
+        },
+        "ONT": {
+            "airport": "LA/Ontario Internacional",
+            "city": "Ont\u00e1rio"
+        },
+        "OOL": {
+            "airport": "Coolangatta",
+            "city": "Gold Coast"
+        },
+        "OPO": {
+            "airport": "Francisco SA Carneiro",
+            "city": "Porto"
+        },
+        "OPS": {
+            "airport": "Jao B.Figueiredo",
+            "city": "Sinop"
+        },
+        "ORD": {
+            "airport": "O Hare International",
+            "city": "Chicago"
+        },
+        "ORF": {
+            "airport": "Norfolk Internacional",
+            "city": "Norfolk"
+        },
+        "ORH": {
+            "airport": "Regional",
+            "city": "Worcester"
+        },
+        "ORL": {
+            "airport": "Executive",
+            "city": "Orlando"
+        },
+        "ORY": {
+            "airport": "Orly",
+            "city": "Paris"
+        },
+        "OSA": {
+            "airport": "Osaka",
+            "city": "Osaka"
+        },
+        "OSD": {
+            "airport": "Are Ostersund",
+            "city": "Are Ostersund"
+        },
+        "OSL": {
+            "airport": "Gardermoen",
+            "city": "Oslo"
+        },
+        "OTH": {
+            "airport": "Southwest Oregon Regional",
+            "city": "N Bend Coosbay"
+        },
+        "OTP": {
+            "airport": "Henri Coanda",
+            "city": "Bucareste"
+        },
+        "OVD": {
+            "airport": "Ast\u00farias",
+            "city": "Oviedo"
+        },
+        "PAD": {
+            "airport": "Paderborn/Lippstadt",
+            "city": "Paderborn/Lippstadt"
+        },
+        "PAH": {
+            "airport": "Barkley Regional",
+            "city": "Paducah"
+        },
+        "PAP": {
+            "airport": "Toussaint Louverture",
+            "city": "Porto Pr\u00edncipe"
+        },
+        "PAR": {
+            "airport": "Paris",
+            "city": "Paris"
+        },
+        "PAZ": {
+            "airport": "El Tajin",
+            "city": "Poza Rica"
+        },
+        "PBC": {
+            "airport": "Hermanos Serdan International",
+            "city": "Puebla"
+        },
+        "PBI": {
+            "airport": "Palm Beach Internacional",
+            "city": "West Palm Beach"
+        },
+        "PCL": {
+            "airport": "David Abenzur Rengifo International",
+            "city": "Pucallpa"
+        },
+        "PDL": {
+            "airport": "Joao Paulo II",
+            "city": "Ponta Delgada Azores"
+        },
+        "PDP": {
+            "airport": "Punta Del Este",
+            "city": "Punta del Este"
+        },
+        "PDS": {
+            "airport": "International",
+            "city": "Piedras Negras"
+        },
+        "PDX": {
+            "airport": "Portland Internacional",
+            "city": "Portland"
+        },
+        "PEG": {
+            "airport": "St. Francis of Assisi",
+            "city": "Perugia"
+        },
+        "PEI": {
+            "airport": "Matecana International",
+            "city": "Pereira"
+        },
+        "PEK": {
+            "airport": "Capital International",
+            "city": "Pequim"
+        },
+        "PEM": {
+            "airport": "Padre Aldamiz International",
+            "city": "Puerto Maldonado"
+        },
+        "PER": {
+            "airport": "Perth",
+            "city": "Perth"
+        },
+        "PGV": {
+            "airport": "Pitt-Greenville",
+            "city": "Greenville"
+        },
+        "PHF": {
+            "airport": "International",
+            "city": "Newport News/Williamsburg"
+        },
+        "PHL": {
+            "airport": "Philadelphia Internacional",
+            "city": "Philadelphia"
+        },
+        "PHX": {
+            "airport": "Sky Harbor International",
+            "city": "Phoenix"
+        },
+        "PIA": {
+            "airport": "General Downing International",
+            "city": "Peoria"
+        },
+        "PIT": {
+            "airport": "Pittsburgh Internacional",
+            "city": "Pittsburgh"
+        },
+        "PIU": {
+            "airport": "G Concha Iberico International",
+            "city": "Piura"
+        },
+        "PKB": {
+            "airport": "Mid-Ohio Valley Regional",
+            "city": "Parkersburg"
+        },
+        "PLQ": {
+            "airport": "Palanga Internacional",
+            "city": "Klaipeda/Palanga"
+        },
+        "PLS": {
+            "airport": "Providenciales",
+            "city": "Providenciales"
+        },
+        "PLU": {
+            "airport": "Pampulha",
+            "city": "Belo Horizonte"
+        },
+        "PLZ": {
+            "airport": "Port Elizabeth",
+            "city": "Port Elizabeth"
+        },
+        "PMC": {
+            "airport": "El Tepual",
+            "city": "Puerto Montt"
+        },
+        "PMI": {
+            "airport": "Palma Mallorca",
+            "city": "Palma Mallorca"
+        },
+        "PMO": {
+            "airport": "Punta Raisi",
+            "city": "Palermo"
+        },
+        "PMR": {
+            "airport": "Palmerston North",
+            "city": "Palmerston North"
+        },
+        "PMW": {
+            "airport": "Lysias Rodrigues",
+            "city": "Palmas"
+        },
+        "PNI": {
+            "airport": "International",
+            "city": "Pohnpei"
+        },
+        "PNS": {
+            "airport": "International",
+            "city": "Pensacola"
+        },
+        "POA": {
+            "airport": "Salgado Filho International",
+            "city": "Porto Alegre"
+        },
+        "POP": {
+            "airport": "Gregorio Luperon International",
+            "city": "Puerto Plata"
+        },
+        "POS": {
+            "airport": "Piarco International",
+            "city": "Port Of Spain"
+        },
+        "POZ": {
+            "airport": "Lawica",
+            "city": "Poznan"
+        },
+        "PPN": {
+            "airport": "Guillermo L Valencia",
+            "city": "Popayan"
+        },
+        "PPT": {
+            "airport": "Faaa",
+            "city": "Tahiti"
+        },
+        "PRG": {
+            "airport": "Ruzyne",
+            "city": "Prague"
+        },
+        "PRN": {
+            "airport": "Pristina Internacional",
+            "city": "Pristina"
+        },
+        "PSA": {
+            "airport": "Galileo Galilei",
+            "city": "Pisa"
+        },
+        "PSC": {
+            "airport": "Tri Cities",
+            "city": "Pasco"
+        },
+        "PSE": {
+            "airport": "Mercedita",
+            "city": "Ponce"
+        },
+        "PSO": {
+            "airport": "Antonio Narino",
+            "city": "Pasto"
+        },
+        "PSP": {
+            "airport": "International",
+            "city": "Palm Springs"
+        },
+        "PSR": {
+            "airport": "Abruzzo",
+            "city": "Pescara"
+        },
+        "PSS": {
+            "airport": "Jose de San Martin",
+            "city": "Posadas"
+        },
+        "PTY": {
+            "airport": "Tocumen Internacional",
+            "city": "Cidade do Panam\u00e1"
+        },
+        "PUJ": {
+            "airport": "International",
+            "city": "Punta Cana"
+        },
+        "PUQ": {
+            "airport": "C.Ibanez Del Campo",
+            "city": "Punta Arenas"
+        },
+        "PUS": {
+            "airport": "Gimhae International",
+            "city": "Busan"
+        },
+        "PUU": {
+            "airport": "Tres De Mayo",
+            "city": "Puerto Asis"
+        },
+        "PUW": {
+            "airport": "Moscow Regional",
+            "city": "Pullman Moscow Id"
+        },
+        "PUY": {
+            "airport": "Pula",
+            "city": "Pula"
+        },
+        "PVD": {
+            "airport": "T F Green State Airport",
+            "city": "Providence"
+        },
+        "PVG": {
+            "airport": "Pudong Internacional",
+            "city": "Shanghai"
+        },
+        "PVH": {
+            "airport": "J.T De Oliveira International",
+            "city": "Porto Velho"
+        },
+        "PVK": {
+            "airport": "Aktion",
+            "city": "Preveza Lefkada"
+        },
+        "PVR": {
+            "airport": "G.Diaz Ordaz International",
+            "city": "Puerto Vallarta"
+        },
+        "PWM": {
+            "airport": "Portland Internacional",
+            "city": "Portland"
+        },
+        "PXM": {
+            "airport": "International",
+            "city": "Puerto Escondido"
+        },
+        "PXO": {
+            "airport": "Porto Santo",
+            "city": "Porto Santo"
+        },
+        "PZI": {
+            "airport": "Bao Angong",
+            "city": "Panzhihua"
+        },
+        "QRO": {
+            "airport": "Intercontinental",
+            "city": "Queretaro"
+        },
+        "RAK": {
+            "airport": "Menara",
+            "city": "Marrakech"
+        },
+        "RAO": {
+            "airport": "Leite Lopes",
+            "city": "Ribeir\u00e3o Preto"
+        },
+        "RAP": {
+            "airport": "Rapid City Regional",
+            "city": "Rapid City"
+        },
+        "RBR": {
+            "airport": "Placido De Castro International",
+            "city": "Rio Branco"
+        },
+        "RDD": {
+            "airport": "Municipal",
+            "city": "Redding"
+        },
+        "RDM": {
+            "airport": "Roberts Field",
+            "city": "Redmond/Bend"
+        },
+        "RDU": {
+            "airport": "International",
+            "city": "Raleigh Durham"
+        },
+        "REC": {
+            "airport": "Guararapes",
+            "city": "Recife"
+        },
+        "REL": {
+            "airport": "Almirante M.A.Zar",
+            "city": "Trelew"
+        },
+        "RES": {
+            "airport": "Resistencia",
+            "city": "Resistencia"
+        },
+        "REX": {
+            "airport": "General Lucio Blanco International",
+            "city": "Reynosa"
+        },
+        "RGL": {
+            "airport": "Piloto N.Fernandez",
+            "city": "Rio Gallegos"
+        },
+        "RGN": {
+            "airport": "Mingaladon",
+            "city": "Yangon"
+        },
+        "RHO": {
+            "airport": "Diagoras Aeroporto",
+            "city": "Rhodes"
+        },
+        "RIC": {
+            "airport": "Richmond Internacional",
+            "city": "Richmond"
+        },
+        "RIO": {
+            "airport": "Rio de Janeiro",
+            "city": "Rio de Janeiro"
+        },
+        "RIX": {
+            "airport": "Riga International",
+            "city": "Riga"
+        },
+        "RKD": {
+            "airport": "Knox County Regional",
+            "city": "Rockland"
+        },
+        "RKS": {
+            "airport": "Sweetwater",
+            "city": "Rock Springs"
+        },
+        "RLK": {
+            "airport": "Tianjitai",
+            "city": "Bayannur"
+        },
+        "RMF": {
+            "airport": "International",
+            "city": "Marsa Alam"
+        },
+        "RMI": {
+            "airport": "Miramare",
+            "city": "Rimini"
+        },
+        "RMQ": {
+            "airport": "Cingcyuangang",
+            "city": "Taichung"
+        },
+        "RNB": {
+            "airport": "Kallinge",
+            "city": "Ronneby/Karlskrona"
+        },
+        "RNO": {
+            "airport": "Tahoe Internacional",
+            "city": "Reno"
+        },
+        "RNS": {
+            "airport": "St Jacques",
+            "city": "Rennes"
+        },
+        "ROA": {
+            "airport": "Regional (Woodrum Field)",
+            "city": "Roanoke"
+        },
+        "ROC": {
+            "airport": "Greater Rochester International",
+            "city": "Rochester"
+        },
+        "ROO": {
+            "airport": "Maestro Marinho Franco",
+            "city": "Rondon\u00f3polis"
+        },
+        "ROP": {
+            "airport": "International",
+            "city": "Rota"
+        },
+        "ROR": {
+            "airport": "Palau International",
+            "city": "Koror"
+        },
+        "ROS": {
+            "airport": "Islas Malvinas",
+            "city": "Rosario"
+        },
+        "ROW": {
+            "airport": "International Air Center",
+            "city": "Roswell"
+        },
+        "RST": {
+            "airport": "International",
+            "city": "Rochester"
+        },
+        "RSW": {
+            "airport": "Southwest Florida International",
+            "city": "Fort Myers"
+        },
+        "RTB": {
+            "airport": "Juan Manuel Galvez",
+            "city": "Roatan"
+        },
+        "RTM": {
+            "airport": "Rotterdam",
+            "city": "Roterd\u00e3o"
+        },
+        "RUH": {
+            "airport": "King Khalid International",
+            "city": "Riyadh"
+        },
+        "SAC": {
+            "airport": "Sacramento Executive",
+            "city": "Sacramento"
+        },
+        "SAF": {
+            "airport": "Santa Fe",
+            "city": "Santa Fe"
+        },
+        "SAL": {
+            "airport": "El Salvador International",
+            "city": "San Salvador"
+        },
+        "SAN": {
+            "airport": "International",
+            "city": "San Diego"
+        },
+        "SAO": {
+            "airport": "S\u00e3o Paulo",
+            "city": "S\u00e3o Paulo"
+        },
+        "SAP": {
+            "airport": "Ramon V.Morales International",
+            "city": "San Pedro Sula"
+        },
+        "SAT": {
+            "airport": "San Antonio Internacional",
+            "city": "San Antonio"
+        },
+        "SAV": {
+            "airport": "Hilton Head International",
+            "city": "Savannah"
+        },
+        "SAW": {
+            "airport": "Sabiha Gokcen",
+            "city": "Istanbul"
+        },
+        "SBA": {
+            "airport": "St Ba Municipal",
+            "city": "Santa Barbara"
+        },
+        "SBN": {
+            "airport": "International",
+            "city": "South Bend"
+        },
+        "SBP": {
+            "airport": "San Luis County Regional",
+            "city": "San Luis Obispo"
+        },
+        "SBS": {
+            "airport": "Bob Adams Field",
+            "city": "Hayden"
+        },
+        "SBY": {
+            "airport": "Wicomico Regional",
+            "city": "Salisbury/Ocean City"
+        },
+        "SCC": {
+            "airport": "Deadhorse",
+            "city": "Prudhoe Bay Deadh"
+        },
+        "SCE": {
+            "airport": "University Park",
+            "city": "State College"
+        },
+        "SCL": {
+            "airport": "A Merino Benitez",
+            "city": "Santiago"
+        },
+        "SCN": {
+            "airport": "Saarbruecken Aeroporto",
+            "city": "Saarbruecken"
+        },
+        "SCQ": {
+            "airport": "Santiago de Compostela",
+            "city": "Santiago de Compostela"
+        },
+        "SCY": {
+            "airport": "San Cristobal",
+            "city": "San Cristobal Island"
+        },
+        "SDF": {
+            "airport": "International-Standiford Field",
+            "city": "Louisville"
+        },
+        "SDJ": {
+            "airport": "Sendai",
+            "city": "Sendai"
+        },
+        "SDL": {
+            "airport": "Sundsvall-Timra",
+            "city": "Sundsvall/Harnosand"
+        },
+        "SDQ": {
+            "airport": "Las Americas International",
+            "city": "Santo Domingo"
+        },
+        "SDU": {
+            "airport": "Santos Dumont",
+            "city": "Rio de Janeiro"
+        },
+        "SEA": {
+            "airport": "Seattle",
+            "city": "Seattle"
+        },
+        "SEL": {
+            "airport": "Seoul",
+            "city": "Seoul"
+        },
+        "SFO": {
+            "airport": "San Francisco Internacional",
+            "city": "S\u00e3o Francisco"
+        },
+        "SFT": {
+            "airport": "Skelleftea",
+            "city": "Skelleftea"
+        },
+        "SGF": {
+            "airport": "Springfld Branson Natl",
+            "city": "Springfield"
+        },
+        "SGN": {
+            "airport": "Tan Son Nhat International",
+            "city": "Ho Chi Minh City"
+        },
+        "SGU": {
+            "airport": "Saint George Municipal",
+            "city": "Saint George"
+        },
+        "SHA": {
+            "airport": "Hongqiao Internacional",
+            "city": "Shanghai"
+        },
+        "SHE": {
+            "airport": "Taoxian International",
+            "city": "Shenyang"
+        },
+        "SHM": {
+            "airport": "Nanki-Shirahama",
+            "city": "Shirahama"
+        },
+        "SHV": {
+            "airport": "Shreveport Regional",
+            "city": "Shreveport"
+        },
+        "SIN": {
+            "airport": "Changi",
+            "city": "Singapore"
+        },
+        "SJC": {
+            "airport": "San Jose Municipal",
+            "city": "San Jose"
+        },
+        "SJD": {
+            "airport": "Los Cabos International",
+            "city": "San Jose del Cabo"
+        },
+        "SJJ": {
+            "airport": "Sarajevo Internacional",
+            "city": "Sarajevo"
+        },
+        "SJK": {
+            "airport": "U.E Stumpf International",
+            "city": "S\u00e3o Jos\u00e9 dos Campos"
+        },
+        "SJO": {
+            "airport": "Juan Santamaria",
+            "city": "San Jose"
+        },
+        "SJP": {
+            "airport": "Eribelto Manoel Reino",
+            "city": "S\u00e3o Jos\u00e9 do Rio Preto"
+        },
+        "SJT": {
+            "airport": "Regional Mathis Field",
+            "city": "San Angelo"
+        },
+        "SJU": {
+            "airport": "Luis Munoz Marin",
+            "city": "San Juan"
+        },
+        "SKG": {
+            "airport": "Makedonia Aeroporto",
+            "city": "Thessaloniki"
+        },
+        "SKP": {
+            "airport": "Alexander The Great",
+            "city": "Skopje"
+        },
+        "SLA": {
+            "airport": "Martin M.De Guemes",
+            "city": "Salta"
+        },
+        "SLC": {
+            "airport": "Salt Lake City Internacional",
+            "city": "Salt Lake City"
+        },
+        "SLP": {
+            "airport": "Ponciano Arriaga International",
+            "city": "San Luis Potosi"
+        },
+        "SLW": {
+            "airport": "Plan De Guadalupe International",
+            "city": "Saltillo"
+        },
+        "SLZ": {
+            "airport": "Cunha Machado International",
+            "city": "S\u00e3o Lu\u00eds"
+        },
+        "SMF": {
+            "airport": "Internacional",
+            "city": "Sacramento"
+        },
+        "SMI": {
+            "airport": "Aristarchos of Samos",
+            "city": "Samos"
+        },
+        "SMR": {
+            "airport": "Simon Bolivar International",
+            "city": "Santa Marta"
+        },
+        "SMT": {
+            "airport": "Sorriso",
+            "city": "Sorriso"
+        },
+        "SMX": {
+            "airport": "Public Airport",
+            "city": "Santa Maria"
+        },
+        "SNA": {
+            "airport": "John Wayne",
+            "city": "Santa Ana"
+        },
+        "SNN": {
+            "airport": "Shannon",
+            "city": "Shannon"
+        },
+        "SNU": {
+            "airport": "Abel Santamaria",
+            "city": "Santa Clara"
+        },
+        "SOF": {
+            "airport": "Sofia",
+            "city": "Sofia"
+        },
+        "SPC": {
+            "airport": "La Palma",
+            "city": "Santa Cruz de la Palma"
+        },
+        "SPI": {
+            "airport": "A Lincoln Capital",
+            "city": "Springfield"
+        },
+        "SPK": {
+            "airport": "Sapporo",
+            "city": "Sapporo"
+        },
+        "SPN": {
+            "airport": "Francisco C Ada International",
+            "city": "Saipan"
+        },
+        "SPS": {
+            "airport": "Municipal Sheppard Afb",
+            "city": "Wichita Falls"
+        },
+        "SPU": {
+            "airport": "Split",
+            "city": "Split"
+        },
+        "SRQ": {
+            "airport": "International",
+            "city": "Sarasota/Bradenton"
+        },
+        "SSA": {
+            "airport": "D.L.E.Magalhaes",
+            "city": "Salvador"
+        },
+        "SSM": {
+            "airport": "Sault Ste Marie",
+            "city": "Sault Ste Marie"
+        },
+        "STI": {
+            "airport": "Cibao International",
+            "city": "Santiago"
+        },
+        "STL": {
+            "airport": "Lambert",
+            "city": "St Louis"
+        },
+        "STM": {
+            "airport": "Santar\u00e9m",
+            "city": "Santar\u00e9m"
+        },
+        "STO": {
+            "airport": "Estocolmo",
+            "city": "Estocolmo"
+        },
+        "STR": {
+            "airport": "Stuttgart Aeroporto",
+            "city": "Estugarda"
+        },
+        "STS": {
+            "airport": "Charles M Schulz",
+            "city": "Santa Rosa"
+        },
+        "STT": {
+            "airport": "Cyril E. King",
+            "city": "St Thomas Island"
+        },
+        "STX": {
+            "airport": "Henry E Rohlsen",
+            "city": "St Croix Island"
+        },
+        "SUB": {
+            "airport": "Juanda",
+            "city": "Surabaya"
+        },
+        "SUF": {
+            "airport": "Lamezia Terme",
+            "city": "Lamezia Terme"
+        },
+        "SUN": {
+            "airport": "Sun Valley",
+            "city": "Hailey"
+        },
+        "SUX": {
+            "airport": "Siouc Gateway",
+            "city": "Sioux City"
+        },
+        "SVG": {
+            "airport": "Sola",
+            "city": "Stavanger"
+        },
+        "SVO": {
+            "airport": "Sheremetyevo Internacional",
+            "city": "Moscovo"
+        },
+        "SVQ": {
+            "airport": "Sevilla Aeroporto",
+            "city": "Sevilla"
+        },
+        "SWA": {
+            "airport": "Jieyang Chaoshan",
+            "city": "Shantou"
+        },
+        "SWF": {
+            "airport": "Stewart International",
+            "city": "Nova Iorque"
+        },
+        "SXM": {
+            "airport": "Princess Juliana International",
+            "city": "St Maarten"
+        },
+        "SYD": {
+            "airport": "Kingsford Smith",
+            "city": "Sydney"
+        },
+        "SYR": {
+            "airport": "Hancock Internacional",
+            "city": "Syracuse"
+        },
+        "SYX": {
+            "airport": "Phoenix International",
+            "city": "Sanya"
+        },
+        "SZG": {
+            "airport": "Wolfgang A Mozart",
+            "city": "Salzburg"
+        },
+        "SZX": {
+            "airport": "Bao An International",
+            "city": "Shenzhen"
+        },
+        "TAE": {
+            "airport": "International",
+            "city": "Daegu"
+        },
+        "TAK": {
+            "airport": "Takamatsu",
+            "city": "Takamatsu"
+        },
+        "TAL": {
+            "airport": "Ralph M Calhum Mem",
+            "city": "Tanana"
+        },
+        "TAM": {
+            "airport": "F. Javier Mina International",
+            "city": "Tampico"
+        },
+        "TAO": {
+            "airport": "Liuting International",
+            "city": "Qingdao"
+        },
+        "TAP": {
+            "airport": "Tapachula Internacional",
+            "city": "Tapachula Intl"
+        },
+        "TBP": {
+            "airport": "Pedro Canga Rodriguez",
+            "city": "Tumbes"
+        },
+        "TCQ": {
+            "airport": "C Ciriani Santa Rosa",
+            "city": "Tacna"
+        },
+        "TFN": {
+            "airport": "Tenerife Norte",
+            "city": "Tenerife"
+        },
+        "TFS": {
+            "airport": "Tenerife Sur",
+            "city": "Tenerife"
+        },
+        "TGO": {
+            "airport": "Tongliao",
+            "city": "Tongliao"
+        },
+        "TGU": {
+            "airport": "Toncontin International",
+            "city": "Tegucigalpa"
+        },
+        "TGZ": {
+            "airport": "Angel Albino Corzo International",
+            "city": "Tuxtla Gutierrez"
+        },
+        "THE": {
+            "airport": "Petronio Portella",
+            "city": "Teresina"
+        },
+        "TIJ": {
+            "airport": "A.L. Rodriguez International",
+            "city": "Tijuana"
+        },
+        "TIV": {
+            "airport": "Tivat",
+            "city": "Tivat"
+        },
+        "TJL": {
+            "airport": "Plinio Alarcom",
+            "city": "Tr\u00eas Lagoas"
+        },
+        "TKK": {
+            "airport": "International",
+            "city": "Chuuk"
+        },
+        "TKS": {
+            "airport": "Tokushima",
+            "city": "Tokushima"
+        },
+        "TKU": {
+            "airport": "Turku",
+            "city": "Turku"
+        },
+        "TLH": {
+            "airport": "International",
+            "city": "Tallahassee"
+        },
+        "TLL": {
+            "airport": "Lennart Meri",
+            "city": "Tallinn"
+        },
+        "TLS": {
+            "airport": "Blagnac",
+            "city": "Toulouse"
+        },
+        "TLV": {
+            "airport": "Ben Gurion Internacional",
+            "city": "Tel Aviv Yafo"
+        },
+        "TMP": {
+            "airport": "Tampere Pirkkala",
+            "city": "Tampere"
+        },
+        "TNA": {
+            "airport": "Yaoqiang International",
+            "city": "Jinan"
+        },
+        "TNH": {
+            "airport": "Sanyuanpu",
+            "city": "Tonghua"
+        },
+        "TOL": {
+            "airport": "Toledo Express",
+            "city": "Toledo"
+        },
+        "TOS": {
+            "airport": "Langnes",
+            "city": "Tromso"
+        },
+        "TPA": {
+            "airport": "Tampa Internacional",
+            "city": "Tampa"
+        },
+        "TPE": {
+            "airport": "Taiwan Taoyuan Internacional",
+            "city": "Taipei"
+        },
+        "TPP": {
+            "airport": "G Del Castillo Paredes",
+            "city": "Tarapoto"
+        },
+        "TRC": {
+            "airport": "Francisco Sarabia International",
+            "city": "Torreon"
+        },
+        "TRD": {
+            "airport": "Vaernes",
+            "city": "Trondheim"
+        },
+        "TRI": {
+            "airport": "Tri-Cities Regional Tn/Va",
+            "city": "Bristol/Johnson/Kingsp"
+        },
+        "TRN": {
+            "airport": "Caselle",
+            "city": "Turim"
+        },
+        "TRS": {
+            "airport": "Ronchi dei Legionari",
+            "city": "Trieste"
+        },
+        "TRU": {
+            "airport": "C Martinez De Pinillos",
+            "city": "Trujillo"
+        },
+        "TSA": {
+            "airport": "Songshan",
+            "city": "Taipei"
+        },
+        "TSN": {
+            "airport": "Binhai International",
+            "city": "Tianjin"
+        },
+        "TUC": {
+            "airport": "Benjamin Matienzo",
+            "city": "Tucuman"
+        },
+        "TUF": {
+            "airport": "Val De Loire",
+            "city": "Tours"
+        },
+        "TUL": {
+            "airport": "Tulsa Internacional",
+            "city": "Tulsa"
+        },
+        "TUN": {
+            "airport": "Carthage",
+            "city": "Tunis"
+        },
+        "TUS": {
+            "airport": "Tucson Internacional",
+            "city": "Tucson"
+        },
+        "TVC": {
+            "airport": "Cherry Capital",
+            "city": "Traverse City"
+        },
+        "TXK": {
+            "airport": "Regional Webb Field",
+            "city": "Texarkana"
+        },
+        "TXL": {
+            "airport": "Tegel",
+            "city": "Berlim"
+        },
+        "TXN": {
+            "airport": "Tunxi International",
+            "city": "Huangshan"
+        },
+        "TYL": {
+            "airport": "Victor Monteas Arias",
+            "city": "Talara"
+        },
+        "TYN": {
+            "airport": "Wusu International",
+            "city": "Taiyuan"
+        },
+        "TYO": {
+            "airport": "Tokyo",
+            "city": "Tokyo"
+        },
+        "TYR": {
+            "airport": "Pounds Regional",
+            "city": "Tyler"
+        },
+        "TYS": {
+            "airport": "Mcghee Tyson",
+            "city": "Knoxville"
+        },
+        "UAQ": {
+            "airport": "Domingo F.Sarmiento",
+            "city": "San Juan"
+        },
+        "UBA": {
+            "airport": "M.De Almeida Franco",
+            "city": "Uberaba"
+        },
+        "UBJ": {
+            "airport": "Yamaguchi-Ube",
+            "city": "Ube"
+        },
+        "UDI": {
+            "airport": "C\u00e9sar Bombonato",
+            "city": "Uberl\u00e2ndia"
+        },
+        "UIB": {
+            "airport": "El Carano",
+            "city": "Quibdo"
+        },
+        "UIN": {
+            "airport": "Regional (Baldwin Field)",
+            "city": "Quincy"
+        },
+        "UIO": {
+            "airport": "Mariscal Sucre International",
+            "city": "Quito"
+        },
+        "ULN": {
+            "airport": "Chinggis Khaan International",
+            "city": "Ulaanbaatar"
+        },
+        "UME": {
+            "airport": "Umea",
+            "city": "Umea"
+        },
+        "URC": {
+            "airport": "Diwopu International",
+            "city": "\u00dcr\u00fcmqi"
+        },
+        "URT": {
+            "airport": "Surat Thani",
+            "city": "Surat Thani"
+        },
+        "USH": {
+            "airport": "Malvinas Argentinas",
+            "city": "Ushuaia"
+        },
+        "UVF": {
+            "airport": "Hewanorra International",
+            "city": "St Lucia"
+        },
+        "UYN": {
+            "airport": "Yuyang",
+            "city": "Yulin"
+        },
+        "VAA": {
+            "airport": "Vaasa",
+            "city": "Vaasa"
+        },
+        "VBY": {
+            "airport": "Visby",
+            "city": "Visby"
+        },
+        "VCE": {
+            "airport": "Marco Polo",
+            "city": "Veneza"
+        },
+        "VCP": {
+            "airport": "Campinas - Viracopos",
+            "city": "S\u00e3o Paulo"
+        },
+        "VDC": {
+            "airport": "P.Otacilio Figueiredo",
+            "city": "Vitoria Da Cnquis"
+        },
+        "VER": {
+            "airport": "Heriberto Jara International",
+            "city": "Veracruz"
+        },
+        "VFA": {
+            "airport": "Aeroporto de Victoria Falls",
+            "city": "Victoria Falls"
+        },
+        "VGO": {
+            "airport": "Vigo Airport",
+            "city": "Vigo"
+        },
+        "VIE": {
+            "airport": "Vienna Internacional",
+            "city": "Viena"
+        },
+        "VIX": {
+            "airport": "E.De Aguiar Salles",
+            "city": "Vitoria"
+        },
+        "VKO": {
+            "airport": "Vnukovo Internacional",
+            "city": "Moscovo"
+        },
+        "VLC": {
+            "airport": "Valencia Airport",
+            "city": "Val\u00eancia"
+        },
+        "VLD": {
+            "airport": "Valdosta Regional",
+            "city": "Valdosta"
+        },
+        "VLL": {
+            "airport": "Aeroporto",
+            "city": "Valladolid"
+        },
+        "VNO": {
+            "airport": "Vilnius International",
+            "city": "Vilnius"
+        },
+        "VPS": {
+            "airport": "Destin Ft Walton Beach",
+            "city": "Destin Ft Walton Beach"
+        },
+        "VRA": {
+            "airport": "Juan G. Gomez International",
+            "city": "Varadero"
+        },
+        "VRN": {
+            "airport": "Villafranca",
+            "city": "Verona"
+        },
+        "VSA": {
+            "airport": "C.Rovirosa Perez International",
+            "city": "Villahermosa"
+        },
+        "VUP": {
+            "airport": "Alfonso Lopez Pumarejo",
+            "city": "Valledupar"
+        },
+        "VVC": {
+            "airport": "La Vanguardia",
+            "city": "Villavicencio"
+        },
+        "VVI": {
+            "airport": "Viru Viru Internacional",
+            "city": "Santa Cruz"
+        },
+        "WAW": {
+            "airport": "Frederic Chopin",
+            "city": "Warsaw"
+        },
+        "WDH": {
+            "airport": "Windhoek",
+            "city": "Windhoek"
+        },
+        "WEH": {
+            "airport": "Dashuibo",
+            "city": "Weihai"
+        },
+        "WGA": {
+            "airport": "Wagga Wagga",
+            "city": "Wagga Wagga"
+        },
+        "WLG": {
+            "airport": "Wellington",
+            "city": "Wellington"
+        },
+        "WNZ": {
+            "airport": "Yongqiang International",
+            "city": "Wenzhou"
+        },
+        "WUA": {
+            "airport": "Wuhai",
+            "city": "Wuhai"
+        },
+        "WUH": {
+            "airport": "Tianhe International",
+            "city": "Wuhan"
+        },
+        "WUX": {
+            "airport": "Sunan Shuofang",
+            "city": "Wuxi"
+        },
+        "WXN": {
+            "airport": "Wuqiao",
+            "city": "Wanzhou"
+        },
+        "XFN": {
+            "airport": "Liuji",
+            "city": "Xiangyang"
+        },
+        "XIC": {
+            "airport": "Qingshan",
+            "city": "Xichang"
+        },
+        "XIL": {
+            "airport": "Xilinhot",
+            "city": "Xilinhot"
+        },
+        "XIY": {
+            "airport": "Xianyang International",
+            "city": "Xi An"
+        },
+        "XMN": {
+            "airport": "Gaoqi International",
+            "city": "Xiamen"
+        },
+        "XNA": {
+            "airport": "Nw Arkansas Rgn",
+            "city": "Fayetteville Springdale"
+        },
+        "XNN": {
+            "airport": "Caojiabao",
+            "city": "Xining"
+        },
+        "XRY": {
+            "airport": "Jerez Airport",
+            "city": "Jerez"
+        },
+        "YAM": {
+            "airport": "Sault Ste Marie",
+            "city": "Sault Ste Marie"
+        },
+        "YAP": {
+            "airport": "International",
+            "city": "Yap"
+        },
+        "YBG": {
+            "airport": "Bagotville",
+            "city": "Bagotville"
+        },
+        "YBL": {
+            "airport": "Aeroporto",
+            "city": "Campbell River"
+        },
+        "YBP": {
+            "airport": "Caiba",
+            "city": "Yibin"
+        },
+        "YBR": {
+            "airport": "Municipal",
+            "city": "Brandon"
+        },
+        "YCD": {
+            "airport": "Nanaimo Aeroporto",
+            "city": "Nanaimo"
+        },
+        "YCG": {
+            "airport": "West Kootenay Regional",
+            "city": "Castlegar"
+        },
+        "YCU": {
+            "airport": "Guangong",
+            "city": "Yuncheng"
+        },
+        "YDF": {
+            "airport": "Regional",
+            "city": "Deer Lake"
+        },
+        "YEA": {
+            "airport": "Edmonton",
+            "city": "Edmonton"
+        },
+        "YEG": {
+            "airport": "Edmonton Internacional",
+            "city": "Edmonton"
+        },
+        "YFC": {
+            "airport": "International",
+            "city": "Fredericton"
+        },
+        "YGK": {
+            "airport": "Norman Rogers",
+            "city": "Kingston"
+        },
+        "YHM": {
+            "airport": "Hamilton JC Munro Internacional",
+            "city": "Toronto"
+        },
+        "YHZ": {
+            "airport": "Stanfield International",
+            "city": "Halifax"
+        },
+        "YIH": {
+            "airport": "Sanxia",
+            "city": "Yichang"
+        },
+        "YIN": {
+            "airport": "Yining",
+            "city": "Yining"
+        },
+        "YIW": {
+            "airport": "Yiwu",
+            "city": "Yiwu"
+        },
+        "YKA": {
+            "airport": "Kamloops",
+            "city": "Kamloops"
+        },
+        "YKF": {
+            "airport": "Region Of Waterloo Int",
+            "city": "Toronto"
+        },
+        "YLW": {
+            "airport": "International",
+            "city": "Kelowna"
+        },
+        "YMM": {
+            "airport": "Fort McMurray",
+            "city": "Fort Mcmurray"
+        },
+        "YNJ": {
+            "airport": "Chaoyangchuan",
+            "city": "Yanji"
+        },
+        "YNT": {
+            "airport": "Penglai International",
+            "city": "Yantai"
+        },
+        "YNZ": {
+            "airport": "Nanyang",
+            "city": "Yancheng"
+        },
+        "YOW": {
+            "airport": "Macdonald Cartier International",
+            "city": "Ottawa"
+        },
+        "YQB": {
+            "airport": "Jean Lesage International",
+            "city": "Quebec"
+        },
+        "YQG": {
+            "airport": "Aeroporto",
+            "city": "Windsor"
+        },
+        "YQL": {
+            "airport": "Lethbridge County",
+            "city": "Lethbridge"
+        },
+        "YQM": {
+            "airport": "Greater Moncton International",
+            "city": "Moncton"
+        },
+        "YQQ": {
+            "airport": "Comox",
+            "city": "Comox"
+        },
+        "YQR": {
+            "airport": "International",
+            "city": "Regina"
+        },
+        "YQT": {
+            "airport": "International",
+            "city": "Thunder Bay"
+        },
+        "YQU": {
+            "airport": "Grande Prairie",
+            "city": "Grande Prairie"
+        },
+        "YQX": {
+            "airport": "International",
+            "city": "Gander"
+        },
+        "YQY": {
+            "airport": "J.A. Douglas McCurdy",
+            "city": "Sydney"
+        },
+        "YSB": {
+            "airport": "Sudbury",
+            "city": "Sudbury"
+        },
+        "YSJ": {
+            "airport": "Saint John",
+            "city": "Saint John"
+        },
+        "YTO": {
+            "airport": "Toronto",
+            "city": "Toronto"
+        },
+        "YTS": {
+            "airport": "Victor M.Power",
+            "city": "Timmins"
+        },
+        "YTY": {
+            "airport": "Taizhou",
+            "city": "Yangzhou"
+        },
+        "YUL": {
+            "airport": "Pierre E. Trudeau Internacional",
+            "city": "Montreal"
+        },
+        "YUM": {
+            "airport": "Yuma Internacional",
+            "city": "Yuma"
+        },
+        "YUY": {
+            "airport": "Rouyn-Noranda",
+            "city": "Rouyn-Noranda"
+        },
+        "YVO": {
+            "airport": "Val D'Or",
+            "city": "Val D'Or"
+        },
+        "YVR": {
+            "airport": "Vancouver Internacional",
+            "city": "Vancouver"
+        },
+        "YWG": {
+            "airport": "Winnipeg",
+            "city": "Winnipeg"
+        },
+        "YXC": {
+            "airport": "Canadian Rockies International",
+            "city": "Cranbrook"
+        },
+        "YXE": {
+            "airport": "J.G.Diefenbaker International",
+            "city": "Saskatoon"
+        },
+        "YXH": {
+            "airport": "Medicine Hat",
+            "city": "Medicine Hat"
+        },
+        "YXJ": {
+            "airport": "North Peace",
+            "city": "Fort St John"
+        },
+        "YXS": {
+            "airport": "Aeroporto",
+            "city": "Prince George"
+        },
+        "YXT": {
+            "airport": "Northwest Regional",
+            "city": "Terrace"
+        },
+        "YXU": {
+            "airport": "International",
+            "city": "London"
+        },
+        "YXX": {
+            "airport": "International",
+            "city": "Abbotsford"
+        },
+        "YXY": {
+            "airport": "Erik Nielsen International",
+            "city": "Whitehorse"
+        },
+        "YYB": {
+            "airport": "Jack Garland",
+            "city": "North Bay"
+        },
+        "YYC": {
+            "airport": "Calgary Internacional",
+            "city": "Calgary"
+        },
+        "YYD": {
+            "airport": "Smithers",
+            "city": "Smithers"
+        },
+        "YYF": {
+            "airport": "Regional",
+            "city": "Penticton"
+        },
+        "YYG": {
+            "airport": "Charlottetown",
+            "city": "Charlottetown"
+        },
+        "YYJ": {
+            "airport": "Victoria Internacional",
+            "city": "Victoria"
+        },
+        "YYR": {
+            "airport": "Goose Bay",
+            "city": "Goose Bay"
+        },
+        "YYT": {
+            "airport": "International",
+            "city": "St Johns"
+        },
+        "YYZ": {
+            "airport": "Lester B. Pearson Internacional",
+            "city": "Toronto"
+        },
+        "YZF": {
+            "airport": "Yellowknife",
+            "city": "Yellowknife"
+        },
+        "ZAD": {
+            "airport": "Zadar",
+            "city": "Zadar"
+        },
+        "ZAG": {
+            "airport": "Pleso",
+            "city": "Zagreb"
+        },
+        "ZAL": {
+            "airport": "Pichoy",
+            "city": "Valdivia"
+        },
+        "ZBF": {
+            "airport": "Bathurst",
+            "city": "Bathurst"
+        },
+        "ZCL": {
+            "airport": "Leobardo C. Ruiz International",
+            "city": "Zacatecas"
+        },
+        "ZCO": {
+            "airport": "La Araucania",
+            "city": "Temuco"
+        },
+        "ZHA": {
+            "airport": "Zhanjiang",
+            "city": "Zhanjiang"
+        },
+        "ZIH": {
+            "airport": "Ixtapa Zihuatanej Internacional",
+            "city": "Ixtapa Zihuatanejo"
+        },
+        "ZLO": {
+            "airport": "Playa De Oro International",
+            "city": "Manzanillo"
+        },
+        "ZOS": {
+            "airport": "Canal Bajo",
+            "city": "Osorno"
+        },
+        "ZPC": {
+            "airport": "Pucon",
+            "city": "Pucon"
+        },
+        "ZRH": {
+            "airport": "Zurich Airport",
+            "city": "Zurique"
+        },
+        "ZTH": {
+            "airport": "Dionisios Salomos",
+            "city": "Zakinthos Island"
+        },
+        "ZUH": {
+            "airport": "Sanzao International",
+            "city": "Zhuhai"
+        },
+        "ZYI": {
+            "airport": "Xinzhou",
+            "city": "Zunyi"
+        }
+    },
+    "MARKET_BY_LANGUAGE": {
+        "BR": "BR",
+        "ES": "OC",
+        "GB": "OC"
+    },
+    "MSG_PAGE_CODE": null,
+    "PAGE_CODE": "BKGD",
+    "PNR_WITH_AIR": true,
+    "PORTAL_DOMAIN": "www.latam.com",
+    "PROFILE": null,
+    "REDEMPTION_FLOW": "true",
+    "REMARKETING": {
+        "NUMBER_OF_ADT_AND_CHD": 1,
+        "NUMBER_OF_INF": 0,
+        "REMARKETING_BOOKING_FLOW": "REDEMPTION",
+        "REMARKETING_ENABLED": true,
+        "REMARKETING_ENABLED_ON_EXIT": true,
+        "REMARKETING_URL": "https://wslatam.pmweb.com.br/DataNavigation.asmx/SendNavigation"
+    },
+    "REQUEST_SMS": false,
+    "SESSION_INTERVAL": "5",
+    "SESSION_TIMEOUT": "600",
+    "SHOW_CEP_LOOKUP": true,
+    "SITE": "JJBKJJBK",
+    "SKIN": "desktopLATAM",
+    "TRIP_TYPE": null,
+    "VirtualAssistantJs": "https://agentevirtual.tam.com.br/ui/includes/NIT.Embed.js https://agentevirtual.tam.com.br/ui/includes/NIT.Embed.js",
+    "WDS_ASSISTANT_ENABLED_MARKETS": true,
+    "WDS_ASSISTANT_ERROR_HANDLING": false,
+    "WDS_ASSISTANT_TIMEOUT_HANDLING": false,
+    "WDS_BEFORE_TIMEOUT": "450",
+    "WDS_CAR_TEASER_TIMEOUT": 8,
+    "WDS_CORPORATE_SALES": false,
+    "WDS_DISABLE_ASSISTANT": true,
+    "WDS_DISABLE_ATC_LOGIN": true,
+    "WDS_DISABLE_BKGL": false,
+    "WDS_DISABLE_GTM": false,
+    "WDS_ENABLE_KEEP_SESSION_POPIN": true,
+    "WDS_GA_CDN_FILE_NAME": "GA_JJ_ACC.js",
+    "WDS_GA_CDN_HTTPS_DOMAIN": "https://eba-amadeus.netdna-ssl.com",
+    "WDS_GA_CDN_HTTP_DOMAIN": "https://eba.amadeus.netdna-cdn.com",
+    "WDS_GOOGLE_ANALYTICS": true,
+    "WDS_GTM_ID": "GTM-8SMZ",
+    "WDS_HOTEL_TEASER_NEW_PROGRESSIVE": 20,
+    "WDS_HOTEL_TEASER_PROGRESSIVE_TIMEOUT": 30,
+    "WDS_HOTEL_TEASER_TIMEOUT": 6,
+    "WDS_LATE_LOGIN_SERVICE": "https://www.latam.com/b2c/jsp/latam/TAMFacadeAction.jhtml",
+    "WDS_MARKET": "BR",
+    "WDS_MAX_DATE_REDEMPTION_DOM": "360",
+    "WDS_MAX_DATE_REDEMPTION_INT": "360",
+    "WDS_MAX_DATE_REVENUE": "360",
+    "WDS_SHOW_PRICE_PANEL_EXPANDED": true,
+    "WDS_TEASER_CAR_OR_HOTEL_FIRST": "HOTEL",
+    "WDS_WEBAPP_URL": "https://book.latam.com/TAM",
+    "WDS_WEBAPP_URL_RELATIVE": "/TAM",
+    "cookies": [],
+    "jSessionId": "Gn4Mjm-rB-Kd8q0y85AMxWXfmVLr6TF1wajWp4iqx3gmh4q58HEf!-2061821755!1305248371!1503449214891"
+}

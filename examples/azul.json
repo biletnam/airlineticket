@@ -1,0 +1,248 @@
+{
+    "Message":"sucesso",
+    "ReturnObject":{
+        "BookingInHold":false,
+        "CultureCode":"pt-BR",
+        "CurrencyCode":"BRL",
+        "FareType":"PointsAndMoney",
+        "FormatedTotalMoney":"R$ 59,03",
+        "FormatedTotalPoints":"20.000 Pts",
+        "HasTarifaAzul":false,
+        "HoldDate":null,
+        "HoldTime":null,
+        "IsBookingTaws":true,
+        "IsCancelable":true,
+        "IsChangeable":true,
+        "IsInternacional":false,
+        "IsPaymentDeclined":false,
+        "ItineraryContact":{
+            "AddressLine1":"RUA ANTONIO PARREIRAS",
+            "AddressLine2":"138 AP 704",
+            "AddressLine3":"IPANEMA",
+            "City":"RIO DE JANEIRO",
+            "Country":"BR",
+            "EmailAddress":"RODRIGO.KALINOWSKI@GMAIL.COM",
+            "FirstName":"RODRIGO",
+            "FoneNumber":"(21) 8757-0000",
+            "LastName":"KALINOWSKI",
+            "MiddleName":"",
+            "PostalCode":"22411020",
+            "ProvinceState":"RJ"
+        },
+        "ItineraryCrossSellList":[],
+        "ItineraryJourneyList":[
+            {
+                "AdditionalBaggage":{
+                    "FareValue":0.0,
+                    "FormatedFareValue":"R$ 0,00",
+                    "Quantity":"00"
+                },
+                "Arrival":"Belo Horizonte - Confins (CNF)",
+                "ArrivalIATA":"CNF",
+                "BoardingFee":29.9,
+                "ConvenienceFee":0.0,
+                "Departure":"Rio de Janeiro - Santos Dumont (SDU)",
+                "DepartureIATA":"SDU",
+                "FareValue":0.0,
+                "FareValuePoints":13000.0,
+                "FeesValue":29.9,
+                "FormatedBoardingFee":"R$ 29,90",
+                "FormatedFareValue":"R$ 0,00",
+                "FormatedFareValuePoints":"13.000 Pts",
+                "FormatedFeesValue":"R$ 29,90",
+                "FormatedSubtotalFareFees":"R$ 29,90",
+                "FormatedSubtotalFarePoints":"13.000 Pts",
+                "SegmentList":[
+                    {
+                        "ArrivalDate":"19/08/2017",
+                        "ArrivalStation":"CNF",
+                        "ArrivalTime":"11:20",
+                        "CarrierCode":"AD",
+                        "DepartureDate":"19/08/2017",
+                        "DepartureStation":"SDU",
+                        "DepartureTime":"10:15",
+                        "FlightNumber":"2590",
+                        "LegList":[
+                            {
+                                "ArrivalStation":"CNF",
+                                "ArrivalTime":"11:20",
+                                "CarrierCode":"AD",
+                                "DepartureStation":"SDU",
+                                "DepartureTime":"10:15",
+                                "EquipmentType":"Embraer 195",
+                                "FlightNumber":"2590",
+                                "ProductClass":"f"
+                            }
+                        ],
+                        "PassengerAdditionalBaggage":[
+                            {
+                                "AdditionalBaggage":"",
+                                "BagsQty":1,
+                                "CarryOn":"10kg",
+                                "HasButtonAdditionalBaggage":true,
+                                "PassengerNumber":0,
+                                "PassengerTier":""
+                            }
+                        ],
+                        "PassengerSeat":[
+                            {
+                                "ButtonSeats":"MarcarAssento",
+                                "PassengerNumber":0,
+                                "PassengerSeat":""
+                            }
+                        ],
+                        "ProductClass":"f"
+                    }
+                ],
+                "SubtotalFareFees":29.9,
+                "SubtotalFarePoints":13000.0,
+                "WarningMessage":false,
+                "isCheckinAvailableButton":true
+            },
+            {
+                "AdditionalBaggage":{
+                    "FareValue":0.0,
+                    "FormatedFareValue":"R$ 0,00",
+                    "Quantity":"00"
+                },
+                "Arrival":"Rio de Janeiro - Santos Dumont (SDU)",
+                "ArrivalIATA":"SDU",
+                "BoardingFee":29.13,
+                "ConvenienceFee":0.0,
+                "Departure":"Belo Horizonte - Confins (CNF)",
+                "DepartureIATA":"CNF",
+                "FareValue":0.0,
+                "FareValuePoints":7000.0,
+                "FeesValue":29.13,
+                "FormatedBoardingFee":"R$ 29,13",
+                "FormatedFareValue":"R$ 0,00",
+                "FormatedFareValuePoints":"7.000 Pts",
+                "FormatedFeesValue":"R$ 29,13",
+                "FormatedSubtotalFareFees":"R$ 29,13",
+                "FormatedSubtotalFarePoints":"7.000 Pts",
+                "SegmentList":[
+                    {
+                        "ArrivalDate":"20/08/2017",
+                        "ArrivalStation":"SDU",
+                        "ArrivalTime":"11:25",
+                        "CarrierCode":"AD",
+                        "DepartureDate":"20/08/2017",
+                        "DepartureStation":"CNF",
+                        "DepartureTime":"10:15",
+                        "FlightNumber":"4264",
+                        "LegList":[
+                            {
+                                "ArrivalStation":"SDU",
+                                "ArrivalTime":"11:25",
+                                "CarrierCode":"AD",
+                                "DepartureStation":"CNF",
+                                "DepartureTime":"10:15",
+                                "EquipmentType":"Embraer 195",
+                                "FlightNumber":"4264",
+                                "ProductClass":"Promo"
+                            }
+                        ],
+                        "PassengerAdditionalBaggage":[
+                            {
+                                "AdditionalBaggage":"",
+                                "BagsQty":1,
+                                "CarryOn":"10kg",
+                                "HasButtonAdditionalBaggage":true,
+                                "PassengerNumber":0,
+                                "PassengerTier":""
+                            }
+                        ],
+                        "PassengerSeat":[
+                            {
+                                "ButtonSeats":"MarcarAssento",
+                                "PassengerNumber":0,
+                                "PassengerSeat":""
+                            }
+                        ],
+                        "ProductClass":"Promo"
+                    }
+                ],
+                "SubtotalFareFees":29.13,
+                "SubtotalFarePoints":7000.0,
+                "WarningMessage":false,
+                "isCheckinAvailableButton":true
+            }
+        ],
+        "ItineraryPassengerList":[
+            {
+                "CustomerNumber":"",
+                "FirstName":"yuri",
+                "LastName":"mourao",
+                "MiddleName":"",
+                "PassengerIsInfant":false,
+                "PassengerNumber":0
+            }
+        ],
+        "ItineraryPaymentList":[
+            {
+                "AccountNumber":"",
+                "Amount":610.4,
+                "AuthorizationCode":"",
+                "FormatAmount":"R$ 610,40",
+                "Installments":1,
+                "IsItauCard":false,
+                "MethodCode":"XX",
+                "MethodType":0,
+                "Status":0
+            },
+            {
+                "AccountNumber":"XXXXXXXXXXXX2164",
+                "Amount":118.06,
+                "AuthorizationCode":"042038",
+                "FormatAmount":"R$ 118,06",
+                "Installments":1,
+                "IsItauCard":false,
+                "MethodCode":"MC",
+                "MethodType":1,
+                "Status":0
+            },
+            {
+                "AccountNumber":"XXXXXXXXXXXX2164",
+                "Amount":-59.03,
+                "AuthorizationCode":"",
+                "FormatAmount":"R$ -59,03",
+                "Installments":1,
+                "IsItauCard":false,
+                "MethodCode":"MC",
+                "MethodType":1,
+                "Status":0
+            },
+            {
+                "AccountNumber":"",
+                "Amount":-305.2,
+                "AuthorizationCode":"",
+                "FormatAmount":"R$ -305,20",
+                "Installments":1,
+                "IsItauCard":false,
+                "MethodCode":"XX",
+                "MethodType":0,
+                "Status":0
+            }
+        ],
+        "ItineraryServiceList":[],
+        "RecordLocator":"GER2WQ",
+        "TotalMoney":59.03,
+        "TotalPoints":20000.0,
+        "actionTravelDocs":null,
+        "hasCancelButton":true,
+        "hasCarouselCar":false,
+        "hasCarouselHotel":false,
+        "hasChangeButton":true,
+        "hasCheckinButton":true,
+        "hasEmailButton":true,
+        "hasEspacoAzulButton":false,
+        "hasExtraBaggage":false,
+        "hasInsurance":false,
+        "hasPaymentButton":false,
+        "hasPrintItineraryButton":true,
+        "hasTSAButton":false,
+        "hasVoucher":false
+    },
+    "StackTrace":null,
+    "Status":true
+}
