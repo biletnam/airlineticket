@@ -33,6 +33,16 @@ $mismatch = 0;  # Ticket found but its data does not match
 $notfound = 0;  # Ticket was not found
 $error    = 0;  # Error trying to access ticket data
 
+
+# Check each field for data mismatch
+function check_fields($a1, $a2) {
+	foreach($a1 as $k => $v)
+		if(!isset($a2[$k]) || $v != $a2[$k])
+			return FALSE;
+	return TRUE;
+}
+
+
 foreach (list_tickets() as $key => $data) {
 
 	if($data['companhia'] != 'AZUL')
@@ -44,17 +54,25 @@ foreach (list_tickets() as $key => $data) {
 		continue;
 	}
 
-	echo("\n${key}\n");
-	print_r($data);
+	echo("Ticket ${key}: ");
 
 	$web = scrape_ticket($data['companhia'], $data['ticket'], $data['passageiro']);
-	print_r($web);
 	if(is_array($web) && isset($web['error'])) {
-		echo("Error in ticket ${data['ticket']}: ${web['error']}\n");
+		echo($web['error'] . "\n");
 		$error++;
 		continue;
 	}
 
+	if(!check_fields($data, $web)) {
+		echo("data mismatch\n");
+		print_r($data);
+		print_r($web);
+		echo("\n");
+		$mismatch++;
+		continue;
+	}
+
+	echo("OK!\n");
 	$match++;
 }
 

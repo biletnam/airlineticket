@@ -37,10 +37,10 @@ function scrape_AZUL($pnr, $name)
 
 	switch($json['Message']) {
 		case 'sucesso': return extract_AZUL($data, $json['ReturnObject']);
-		case 'Booking Invalid':  # Not found
-		case 'noJourneysError':  # Cancelled
+		case 'Booking Invalid': return array('error' => 'not found');
+		case 'noJourneysError': return array('error' => 'cancelled');
 		default:
-			return $json;
+			return array('error' => $json);
 	}
 
 	return $data;
