@@ -95,9 +95,18 @@ function date_TAM($date, $hour)
 }
 
 
+$CITY_TAM = array(
+	'CNF' => 'BELO HORIZ  CNF',  # BELO HORIZONTE CNF
+	'IOS' => 'ILHEUS JORGE',     # ILHEUS
+	'MAD' => 'MADRID A.SUAREZ',  # MADRID
+);
 function location_TAM($data)
 {
-	$location = strtoupper($data['CITY_NAME']);
+	global $CITY_TAM;
+	if(isset($CITY_TAM[$data['LOCATION_CODE']]))
+		return $CITY_TAM[$data['LOCATION_CODE']];
+
+	$location = strtoupper(iconv('UTF-8', 'ASCII//TRANSLIT//IGNORE', $data['CITY_NAME']));
 
 	# Check if city has more than 1 airport
 	if($data['CITY_CODE'] != $data['LOCATION_CODE'])

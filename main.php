@@ -33,6 +33,7 @@ $mismatch = 0;  # Ticket found but its data does not match
 $notfound = 0;  # Ticket was not found
 $error    = 0;  # Error trying to access ticket data
 
+setlocale(LC_ALL, "en_US.utf8");
 
 # Check each field for data mismatch, recursively
 function check_fields($a1, $a2) {
