@@ -26,13 +26,13 @@ function scrape_AZUL($pnr, $name)
 	$url = 'https://viajemais.voeazul.com.br/RetrieveBookingAjax.aspx';
 	$data = array();
 
-	# Get first passenger's last name
+	# Get first passenger's "last name", ie, all but the first name
 	$name = explode(', ', $name);
 	$name = explode(' ', $name[0]);
-	$name = $name[count($name)-1];
+	$name = implode(' ', array_slice($name, 1));
+	$name = urlencode($name);
 
-	$url .= "?pnr=${pnr}&lastName=${name}";
-
+	$url .= "?culture=pt-br&_authkey_=&pnr=${pnr}&lastName=${name}";
 	$json = json_decode(file_get_contents($url), TRUE);
 
 	switch($json['Message']) {
