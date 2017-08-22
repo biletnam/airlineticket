@@ -51,7 +51,7 @@ function check_fields($a1, $a2) {
 
 foreach (list_tickets() as $key => $data) {
 
-	if($data['companhia'] != 'AZUL')
+	if($data['companhia'] != 'TAM')
 		continue;
 
 	# Ignore old tickets

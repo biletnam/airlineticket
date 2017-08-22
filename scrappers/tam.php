@@ -16,24 +16,34 @@
 #    You should have received a copy of the GNU General Public License
 #    along with this program. If not, see <http://www.gnu.org/licenses/gpl.html>
 
-# Scrapper manager
+# Scrapper for TAM
 
 ################################################################################
 
-include "scrappers/azul.php";
-include "scrappers/tam.php";
 
-
-function scrape_ticket($airline, $pnr, $name)
+function scrape_TAM($pnr, $name)
 {
-	switch($airline) {
-		case "AZUL"   : return scrape_AZUL   ($pnr, $name);
-		case "TAM"    : return scrape_TAM    ($pnr, $name);
-#		case "GOL"    : return scrape_GOL    ($pnr, $name);
-#		case "AVIANCA": return scrape_AVIANCA($pnr, $name);
-#		case "TAP"    : return scrape_TAP    ($pnr, $name);
-		default:
-			return array('error' => "No scrapper for airline ${airline}!");
-	}
+	$data = array();
+	return $data;
+}
+
+
+function extract_TAM($data, $json)
+{
+	# [companhia ] => Airline company name (AZUL, GOL, TAM)
+	# [ticket    ] => Ticket reservation code, ie, record locator
+	# [origem    ] => Origin location, as written on ticket
+	# [destino   ] => Destination location. For round-trips not the return destination!
+	# [idaevolta ] => Flag for round-trip tickets. 0 or 1
+	# [saida     ] => Date/time of departure, 'YYYY-MM-DD HH:mm'
+	# [chegada   ] => Date/time of arrival on destination
+	# [passageiro] => Passengers list, multiple names joined with ', ' (for AZUL only)
+	# [voo       ] => flight code, as written on ticket
+	# [milhas    ] => Miles spent, integer
+	# [taxas     ] => Boarding fees, float
+	# [moeda     ] => Currency (BRL, USD)
+
+	$data = array();
+	return $data;
 }
 ?>
