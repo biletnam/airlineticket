@@ -77,8 +77,8 @@ function extract_TAM($json)
 	$data['chegada']    = date_TAM($idachegada['E_DATE'], $idachegada['E_TIME']);
 
 	$data['milhas']     = 0;
-	$data['taxas']      = 0;
-	$data['moeda']      = '';
+	$data['taxas']      = floatval($json['ArVal'][67]);
+	$data['moeda']      = $json['ArVal'][66];
 
 	$data['voo']        = $idasaida['AIRLINE']['CODE'] . ' ' . $idasaida['FLIGHT_NUMBER'];
 
