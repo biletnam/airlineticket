@@ -34,11 +34,17 @@ $notfound = 0;  # Ticket was not found
 $error    = 0;  # Error trying to access ticket data
 
 
-# Check each field for data mismatch
+# Check each field for data mismatch, recursively
 function check_fields($a1, $a2) {
-	foreach($a1 as $k => $v)
-		if(!isset($a2[$k]) || $v != $a2[$k])
+	foreach($a1 as $k => $v1) {
+		if(!isset($a2[$k]))
 			return FALSE;
+		$v2 = $a2[$k];
+		if(is_array($v1) && !(is_array($v2) && check_fields($v1, $v2)))
+			return FALSE;
+		if($v1 != $v2)
+			return FALSE;
+	}
 	return TRUE;
 }
 
