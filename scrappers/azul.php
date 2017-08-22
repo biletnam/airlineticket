@@ -62,7 +62,7 @@ function extract_AZUL($data, $json)
 	# [taxas     ] => Boarding fees, float
 	# [moeda     ] => Currency (BRL, USD)
 
-	$idaevolta = (count($json['ItineraryJourneyList']) > 1);
+	$idaevolta = (count($json['ItineraryJourneyList']) > 1) ? 1 : 0;
 
 	$ida   =              $json['ItineraryJourneyList'][0];
 	$volta = $idaevolta ? $json['ItineraryJourneyList'][1] : false;
@@ -70,15 +70,22 @@ function extract_AZUL($data, $json)
 	$idasaida   = $ida['SegmentList'][0];
 	$idachegada = $ida['SegmentList'][count($ida['SegmentList'])-1];
 
+	$apass = array();
+	foreach($json['ItineraryPassengerList'] as $pass) {
+		$apass[] =
+			name_AZUL($pass['FirstName']) . ' ' .
+			($pass['MiddleName'] ? name_AZUL($pass['MiddleName']) . ' ' : '') .
+			name_AZUL($pass['LastName']);
+	}
+
 	$data['companhia']  = 'AZUL';
 	$data['ticket']     = $json['RecordLocator'];
 
-	$data['origem']     = $ida['Departure'];  #  Rio de Janeiro - Santos Dumont (SDU)
-	$data['destino']    = $ida['Arrival'];    #  Belo Horizonte - Confins (CNF)
+	$data['origem']     = str_replace(' - ', ', ', $ida['Departure']);  # Rio de Janeiro - Santos Dumont (SDU)
+	$data['destino']    = str_replace(' - ', ', ', $ida['Arrival']);    # Belo Horizonte - Confins (CNF)
 
 	# Dates and likely other fields are formatted using locale $json['CultureCode'] == 'pt-BR'
-	$data['saida']      = date('Y-m-d H:i', strtotime($idasaida['DepartureDate']));  # 19/08/2017
-	$data['saida']     .= ' ' . $idasaida['DepartureTime'];  # 10:15
+	$data['saida']      = date_AZUL($idasaida['DepartureDate'], $idasaida['DepartureTime']);
 
 	$data['idaevolta']  = $idaevolta;
 
@@ -88,18 +95,11 @@ function extract_AZUL($data, $json)
 
 	$data['voo']        = $idasaida['FlightNumber'];  # 2590
 
-	$apass = array();
-	foreach($json['ItineraryPassengerList'] as $pass) {
-		$apass[] =
-			name_AZUL($pass['FirstName']) . ' ' .
-			($pass['MiddleName'] ? name_AZUL($pass['MiddleName']) . ' ' : '') .
-			name_AZUL($pass['LastName']);
-	}
 	$data['passageiro'] = implode(', ', $apass);
 
 	# Other fields of interest
-	$data[''] = $json['ItineraryJourneyList'][0]['DepartureIATA'];  # SDU
-	$data[''] = $json['ItineraryJourneyList'][0]['SegmentList'][0]['CarrierCode'];  # AD
+	$data['DepartureIATA'] = $ida['DepartureIATA'];  # SDU
+	$data['CarrierCode']   = $idasaida['CarrierCode'];  # AD
 
 	return $data;
 }
@@ -108,5 +108,13 @@ function extract_AZUL($data, $json)
 function name_AZUL($name)
 {
 	return ucfirst(strtolower($name));
+}
+
+
+function date_AZUL($date, $hour)
+{
+	return date('Y-m-d H:i',
+		strtotime(str_replace('/', '-', $date) .  # 19/08/2017
+			' ' . $hour));  # 10:15
 }
 ?>
