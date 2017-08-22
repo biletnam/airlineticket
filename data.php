@@ -29,7 +29,8 @@ function list_tickets()
 	$filenames = glob(dirname(__FILE__) . "/data/*.json");
 	foreach($filenames as $filename)
 		if ($data = @json_decode(@file_get_contents($filename), TRUE))
-			$adata["${data['companhia']}.${data['ticket']}"] = $data;
+			if (isset($data['companhia']) && isset($data['ticket']))
+				$adata["${data['companhia']}.${data['ticket']}"] = $data;
 	return $adata;
 }
 

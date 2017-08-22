@@ -49,7 +49,7 @@ foreach (list_tickets() as $key => $data) {
 
 	$web = scrape_ticket($data['companhia'], $data['ticket'], $data['passageiro']);
 	print_r($web);
-	if(isset($web['error'])) {
+	if(is_array($web) && isset($web['error'])) {
 		echo("Error in ticket ${data['ticket']}: ${web['error']}\n");
 		$error++;
 		continue;
