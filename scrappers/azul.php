@@ -85,7 +85,8 @@ function extract_AZUL($data, $json)
 	$data['destino']    = str_replace(' - ', ', ', $ida['Arrival']);    # Belo Horizonte - Confins (CNF)
 
 	# Dates and likely other fields are formatted using locale $json['CultureCode'] == 'pt-BR'
-	$data['saida']      = date_AZUL($idasaida['DepartureDate'], $idasaida['DepartureTime']);
+	$data['saida']      = date_AZUL($idasaida  ['DepartureDate'], $idasaida  ['DepartureTime']);
+	$data['chegada']    = date_AZUL($idachegada['ArrivalDate'],   $idachegada['ArrivalTime']);
 
 	$data['idaevolta']  = $idaevolta;
 
@@ -99,6 +100,7 @@ function extract_AZUL($data, $json)
 
 	# Other fields of interest
 	$data['DepartureIATA'] = $ida['DepartureIATA'];  # SDU
+	$data['ArrivalIATA']   = $ida['ArrivalIATA'];    # CNF
 	$data['CarrierCode']   = $idasaida['CarrierCode'];  # AD
 
 	return $data;
