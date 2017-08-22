@@ -33,12 +33,14 @@ function scrape_TAM($pnr, $name)
 	$url .= "&REC_LOC=${pnr}&DIRECT_RETRIEVE_LASTNAME=${name}";
 
 	$html = file_get_contents($url);
-
 	if(!preg_match('/<script> var clientSideData = (?P<json>{[^;]*});/U', $html, $match))
 		return array('error' => substr($html, 0, 30));
 	$json = json_decode($match['json'], TRUE);
 
-	return extract_TAM($json);
+	$data = extract_TAM($json);
+	$data['passageiro'] = name_TAM($html);
+
+	return $data;
 }
 
 
@@ -80,9 +82,9 @@ function extract_TAM($json)
 	$data['taxas']      = floatval($json['ArVal'][67]);
 	$data['moeda']      = $json['ArVal'][66];
 
-	$data['voo']        = $idasaida['AIRLINE']['CODE'] . ' ' . $idasaida['FLIGHT_NUMBER'];
+	$data['voo']        = sprintf("%s %04d", $idasaida['AIRLINE']['CODE'], $idasaida['FLIGHT_NUMBER']);
 
-	$data['passageiro'] = '';
+	$data['passageiro'] = '';  # In HTML, not JSON
 
 	return $data;
 }
@@ -99,6 +101,8 @@ $CITY_TAM = array(
 	'CNF' => 'BELO HORIZ  CNF',  # BELO HORIZONTE CNF
 	'IOS' => 'ILHEUS JORGE',     # ILHEUS
 	'MAD' => 'MADRID A.SUAREZ',  # MADRID
+	'GIG' => 'RIO JANEIRO GIG',  # RIO DE JANEIRO GIG
+	'SDU' => 'RIO JANEIRO SDU',  # RIO DE JANEIRO SDU
 );
 function location_TAM($data)
 {
@@ -113,5 +117,21 @@ function location_TAM($data)
 		$location .= ' ' . $data['LOCATION_CODE'];
 
 	return $location;
+}
+
+$NAME_TAM = array(
+	'Sr'   => 'MR',
+	'Sra'  => 'MRS',
+	'Srta' => 'MS'  # Also 'MISS'
+);
+function name_TAM($html)
+{
+	global $NAME_TAM;
+
+	if(!preg_match('/<strong id="eTicketName"[^>]*>(?P<name>[^<]+)<\/strong>/', $html, $match))
+		return '';
+
+	$name = explode('&nbsp;', trim($match['name']));
+	return strtoupper($name[2] . '/' . $name[1] . ' ' . $NAME_TAM[$name[0]]);
 }
 ?>
