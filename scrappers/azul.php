@@ -84,11 +84,11 @@ function extract_AZUL($data, $json)
 	$data['origem']     = str_replace(' - ', ', ', $ida['Departure']);  # Rio de Janeiro - Santos Dumont (SDU)
 	$data['destino']    = str_replace(' - ', ', ', $ida['Arrival']);    # Belo Horizonte - Confins (CNF)
 
+	$data['idaevolta']  = $idaevolta;
+
 	# Dates and likely other fields are formatted using locale $json['CultureCode'] == 'pt-BR'
 	$data['saida']      = date_AZUL($idasaida  ['DepartureDate'], $idasaida  ['DepartureTime']);
 	$data['chegada']    = date_AZUL($idachegada['ArrivalDate'],   $idachegada['ArrivalTime']);
-
-	$data['idaevolta']  = $idaevolta;
 
 	$data['milhas']     = $json['TotalPoints'];
 	$data['taxas']      = $json['TotalMoney'];
@@ -117,6 +117,6 @@ function date_AZUL($date, $hour)
 {
 	return date('Y-m-d H:i',
 		strtotime(str_replace('/', '-', $date) .  # 19/08/2017
-			' ' . $hour));  # 10:15
+			' ' . $hour));  # 9:15
 }
 ?>
