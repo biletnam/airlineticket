@@ -68,7 +68,7 @@ function extract_TAM($json)
 	$data = array();
 
 	$data['companhia']  = 'TAM';
-	$data['ticket']     = $idasaida['REC_LOC'];
+	$data['ticket']     = isset($idasaida['REC_LOC']) ? $idasaida['REC_LOC'] : $json['ArVal'][68];
 
 	$data['origem']     = location_TAM($ida['B_LOCATION']);
 	$data['destino']    = location_TAM($ida['E_LOCATION']);
@@ -132,6 +132,6 @@ function name_TAM($html)
 		return '';
 
 	$name = explode('&nbsp;', trim($match['name']));
-	return strtoupper($name[2] . '/' . $name[1] . ' ' . $NAME_TAM[$name[0]]);
+	return strtoupper($name[2] . '/' . trim(substr($name[1] . ' ' . $NAME_TAM[$name[0]], 0, 18)));
 }
 ?>
