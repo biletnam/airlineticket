@@ -59,10 +59,10 @@ foreach (list_tickets() as $key => $data) {
 		continue;
 
 	# Ignore old tickets
-	if(strtotime($data['saida']) < time()) {
-		$old++;
-		continue;
-	}
+#	if(strtotime($data['saida']) < time()) {
+#		$old++;
+#		continue;
+#	}
 
 	echo("Ticket ${key}: ");
 
