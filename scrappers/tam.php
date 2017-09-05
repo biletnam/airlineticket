@@ -142,7 +142,7 @@ function name_TAM($html)
 {
 	global $NAMEPREF_TAM;
 
-	if(!preg_match('/<strong id="eTicketName"[^>]*>(?P<name>[^<]+)<\/strong>/', $html, $match))
+	if(!preg_match('/class="paxNameFields"[^>]*> *<strong[^>]*>(?P<name>[^<]+)<\/strong>/', $html, $match))
 		return '';
 
 	$name = explode('&nbsp;', trim($match['name']));
