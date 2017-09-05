@@ -92,7 +92,7 @@ function extract_TAM($json)
 
 function date_TAM($date, $hour)
 {
-	return date('Y-m-d', intval($date)/1000) . ' ' .
+	return date('Y-m-d', substr($date, 0, -3)) . ' ' .
 		substr($hour, 0, 2) . ':' . substr($hour, 2, 2);
 }
 
