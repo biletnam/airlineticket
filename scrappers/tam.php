@@ -119,19 +119,23 @@ function location_TAM($data)
 	return $location;
 }
 
-$NAME_TAM = array(
+$NAMEPREF_TAM = array(
 	'Sr'   => 'MR',
 	'Sra'  => 'MRS',
 	'Srta' => 'MS'  # Also 'MISS'
 );
 function name_TAM($html)
 {
-	global $NAME_TAM;
+	global $NAMEPREF_TAM;
 
 	if(!preg_match('/<strong id="eTicketName"[^>]*>(?P<name>[^<]+)<\/strong>/', $html, $match))
 		return '';
 
 	$name = explode('&nbsp;', trim($match['name']));
-	return strtoupper($name[2] . '/' . trim(substr($name[1] . ' ' . $NAME_TAM[$name[0]], 0, 18)));
+	return substr(strtoupper($name[2] . '/' .
+		trim(substr($name[1] . ' ' .
+			$NAMEPREF_TAM[$name[0]],
+		0, 18))),  # 18 chars limit for first name
+	0, 29);            # 29 chars limit total
 }
 ?>
