@@ -33,9 +33,23 @@ function scrape_TAM($pnr, $name)
 	$url .= "&REC_LOC=${pnr}&DIRECT_RETRIEVE_LASTNAME=${name}";
 
 	$html = file_get_contents($url);
-	if(!preg_match('/<script> var clientSideData = (?P<json>{[^;]*});/U', $html, $match))
-		return array('error' => substr($html, 0, 30));
+
+	if(preg_match('/<title>Erro - LATAM Airlines Brasil<\/title>/', $html, $match))
+	{
+		if(preg_match('/>Error:<\/strong> O sobrenome informado/', $html, $match))
+			return array('error' => 'wrong name');
+		if(preg_match('/>Error:<\/strong> O sistema não pode/', $html, $match))
+			return array('error' => 'not found');
+		if(preg_match('/>Error:<\/strong> Infelizmente, não localizamos/', $html, $match))
+			return array('error' => 'cancelled');
+		return array('error' => 'general error');
+	}
+	if(!preg_match('/<script> var clientSideData = (?P<json>{.*}); var/', $html, $match))
+		return array('error' => substr(trim($html), 0, 50));
+
 	$json = json_decode($match['json'], TRUE);
+	if(!isset($json['ITINERARY_DATA']))
+		return array('error' => 'json');
 
 	$data = extract_TAM($json);
 	$data['passageiro'] = name_TAM($html);
