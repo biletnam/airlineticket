@@ -69,8 +69,12 @@ foreach (list_tickets() as $key => $data) {
 
 	$web = scrape_ticket($data['companhia'], $data['ticket'], $data['passageiro']);
 	if(is_array($web) && isset($web['error'])) {
-		echo($web['error'] . "\n");
-		$error++;
+		echo($web['error'] . "\t" . $data['passageiro'] . "\n");
+		switch($web['error']) {
+			case 'cancelled': $cancelled++; break;
+			case 'not found': $notfound++ ; break;
+			default:          $error++;
+		}
 		continue;
 	}
 
