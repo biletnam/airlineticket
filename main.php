@@ -27,11 +27,12 @@ include "data.php";
 include "scrapper.php";
 
 
-$old      = 0;  # Old ticket, departure date in the past
-$match    = 0;  # Ticket found and its data matches
-$mismatch = 0;  # Ticket found but its data does not match
-$notfound = 0;  # Ticket was not found
-$error    = 0;  # Error trying to access ticket data
+$old       = 0;  # Old ticket, departure date in the past
+$match     = 0;  # Ticket found and its data matches
+$mismatch  = 0;  # Ticket found but its data does not match
+$notfound  = 0;  # Ticket was not found
+$cancelled = 0;  # Ticket was cancelled
+$error     = 0;  # Error trying to access ticket data
 
 
 setlocale(LC_ALL, "en_US.utf8");
@@ -92,9 +93,10 @@ Old      : %3d
 Mismatch : %3d
 Error    : %3d
 NotFound : %3d
+Cancelled: %3d
 Total    : %3d
 ",
-$match,  $old,  $mismatch,  $error,  $notfound,
-$match + $old + $mismatch + $error + $notfound
+$match,  $old,  $mismatch,  $error,  $notfound,  $cancelled,
+$match + $old + $mismatch + $error + $notfound + $cancelled
 );
 ?>
