@@ -1,1 +1,1 @@
-{"companhia":"TAM","ticket":"JFANHM","origem":"SAO PAULO GRU","destino":"MANAUS","idaevolta":1,"saida":"2017-08-22 11:05","chegada":"2017-08-22 14:00","milhas":0,"taxas":60,"moeda":"BRL","voo":"JJ 3408","passageiro":"TOMYAMA\/DOMINGOS MR"}
+{"companhia":"TAM","ticket":"JFANHM","origem":"SAO PAULO GRU","destino":"MANAUS","idaevolta":1,"voo":"JJ 3408","saida":"2017-08-22 11:05","chegada":"2017-08-22 14:00","volta_voo":"JJ 3751","volta_saida":"2017-08-25 04:41","volta_chegada":"2017-08-25 09:35","milhas":0,"taxas":60,"moeda":"BRL","passageiro":"TOMYAMA\/DOMINGOS MR"}
