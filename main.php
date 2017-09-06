@@ -89,9 +89,17 @@ foreach (list_tickets() as $key => $data) {
 
 	if(($fields = check_fields($data, $web))) {
 		echo("data mismatch: " . implode($fields, ', ') . "\n");
-		print_r($data);
-		print_r($web);
-		echo("\n");
+		$onlyfees = true;
+		foreach($fields as $field)
+			if($field != 'taxas') {
+				$onlyfees = false;
+				break;
+			}
+		if(!$onlyfees) {
+			print_r($data);
+			print_r($web);
+			echo("\n");
+		}
 		$mismatch++;
 		continue;
 	}
