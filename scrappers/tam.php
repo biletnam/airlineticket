@@ -74,31 +74,41 @@ function extract_TAM($json)
 	# [moeda     ] => Currency (BRL, USD)
 
 	$idaevolta = (count($json['ITINERARY_DATA']) > 1) ? 1 : 0;
-
-	$ida        = $json['ITINERARY_DATA'][0];
-	$idasaida   = $ida['LIST_SEGMENT'][0];
-	$idachegada = $ida['LIST_SEGMENT'][count($ida['LIST_SEGMENT'])-1];
+	$ida       = $json['ITINERARY_DATA'][0];
 
 	$data = array();
 
 	$data['companhia']  = 'TAM';
-	$data['ticket']     = isset($idasaida['REC_LOC']) ? $idasaida['REC_LOC'] : $json['ArVal'][68];
-
+	$data['ticket']     = $json['ArVal'][68];
 	$data['origem']     = location_TAM($ida['B_LOCATION']);
 	$data['destino']    = location_TAM($ida['E_LOCATION']);
-
 	$data['idaevolta']  = $idaevolta;
 
-	$data['saida']      = date_TAM($idasaida  ['B_DATE'], $idasaida  ['B_TIME']);
-	$data['chegada']    = date_TAM($idachegada['E_DATE'], $idachegada['E_TIME']);
+	$data = trip_TAM($json, $data);  # Inbound
+	if($idaevolta)
+		$data = trip_TAM($json, $data, 1);  # Outbound
 
-	$data['milhas']     = 0;
+	$data['milhas']     = 0;  # could be in JSON, but is not in email
 	$data['taxas']      = floatval($json['ArVal'][67]);
 	$data['moeda']      = $json['ArVal'][66];
 
-	$data['voo']        = sprintf("%s %04d", $idasaida['AIRLINE']['CODE'], $idasaida['FLIGHT_NUMBER']);
-
 	$data['passageiro'] = '';  # In HTML, not JSON
+
+	return $data;
+}
+
+
+function trip_TAM($json, $data, $index=0)
+{
+	$tag = ($index) ? 'volta_' : '';
+
+	$trip = $json['ITINERARY_DATA'][$index];
+	$dep  = $trip['LIST_SEGMENT'][0];
+	$arr  = $trip['LIST_SEGMENT'][count($trip['LIST_SEGMENT'])-1];
+
+	$data[$tag . 'voo']     = sprintf("%s %04d", $dep['AIRLINE']['CODE'], $dep['FLIGHT_NUMBER']);
+	$data[$tag . 'saida']   = date_TAM($dep['B_DATE'], $dep['B_TIME']);
+	$data[$tag . 'chegada'] = date_TAM($arr['E_DATE'], $arr['E_TIME']);
 
 	return $data;
 }
@@ -132,6 +142,7 @@ function location_TAM($data)
 
 	return $location;
 }
+
 
 $NAMEPREF_TAM = array(
 	'Sr'   => 'MR',
