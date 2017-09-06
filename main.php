@@ -28,7 +28,8 @@ include "scrapper.php";
 
 
 $old       = 0;  # Old ticket, departure date in the past
-$match     = 0;  # Ticket found and its data matches
+$match     = 0;  # Ticket found and all of its data matches
+$fees      = 0;  # Ticket found and all but 'taxas' field matches
 $mismatch  = 0;  # Ticket found but its data does not match
 $notfound  = 0;  # Ticket was not found
 $cancelled = 0;  # Ticket was cancelled
@@ -71,12 +72,14 @@ foreach (list_tickets() as $key => $data) {
 				$onlyfees = false;
 				break;
 			}
-		if(!$onlyfees) {
+		if($onlyfees)
+			$fees++;
+		else {
 			print_r($data);
 			print_r($web);
 			echo("\n");
+			$mismatch++;
 		}
-		$mismatch++;
 		continue;
 	}
 
@@ -87,13 +90,14 @@ foreach (list_tickets() as $key => $data) {
 printf("
 OK       : %3d
 Old      : %3d
+Fees     : %3d
 Mismatch : %3d
 Error    : %3d
 NotFound : %3d
 Cancelled: %3d
 Total    : %3d
 ",
-$match,  $old,  $mismatch,  $error,  $notfound,  $cancelled,
-$match + $old + $mismatch + $error + $notfound + $cancelled
+$match,  $old,  $fees,  $mismatch,  $error,  $notfound,  $cancelled,
+$match + $old + $fees + $mismatch + $error + $notfound + $cancelled
 );
 ?>
