@@ -65,14 +65,14 @@ function check_fields($a1, $a2) {
 
 foreach (list_tickets() as $key => $data) {
 
-	if($data['companhia'] != 'TAM')
-		continue;
+#	if($data['companhia'] != 'TAM')
+#		continue;
 
 	# Ignore old tickets
-#	if(strtotime($data['saida']) < time()) {
-#		$old++;
-#		continue;
-#	}
+	if(strtotime($data['saida']) < time()) {
+		$old++;
+		continue;
+	}
 
 	echo("Ticket ${key}: ");
 
