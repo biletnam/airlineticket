@@ -39,30 +39,6 @@ setlocale(LC_ALL, "en_US.utf8");
 date_default_timezone_set('UTC');
 
 
-# Check each field for data mismatch, recursively
-function check_fields($a1, $a2) {
-	$d = array();
-	foreach($a1 as $k => $v1) {
-		if(!isset($a2[$k])) {
-			$d[] = $k;
-			continue;
-		}
-		$v2 = $a2[$k];
-		if(is_array($v1)) {
-			if (is_array($v2))
-				foreach(check_fields($v1, $v2) as $s)
-					$d[] = "$k/$s";
-			else
-				$d[] = $k;
-			continue;
-		}
-		if($v1 != $v2)
-			$d[] = $k;
-	}
-	return $d;
-}
-
-
 foreach (list_tickets() as $key => $data) {
 
 #	if($data['companhia'] != 'TAM')
