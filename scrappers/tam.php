@@ -159,10 +159,10 @@ function name_TAM($html)
 		return '';
 
 	$name = explode('&nbsp;', trim($match['name']));
-	return substr(strtoupper($name[2] . '/' .
+	return trim(substr(strtoupper($name[2] . '/' .
 		trim(substr($name[1] . ' ' .
 			$NAMEPREF_TAM[$name[0]],
-		0, 18))),  # 18 chars limit for first name
-	0, 29);            # 29 chars limit total
+		0, 21))),  # 21 chars limit for first name
+	0, 29));           # 29 chars limit total
 }
 ?>
