@@ -121,12 +121,14 @@ function date_TAM($date, $hour)
 }
 
 
+# Exceptions to location naming rule
 $CITY_TAM = array(
-	'CNF' => 'BELO HORIZ  CNF',  # BELO HORIZONTE CNF
-	'IOS' => 'ILHEUS JORGE',     # ILHEUS
-	'MAD' => 'MADRID A.SUAREZ',  # MADRID
-	'GIG' => 'RIO JANEIRO GIG',  # RIO DE JANEIRO GIG
-	'SDU' => 'RIO JANEIRO SDU',  # RIO DE JANEIRO SDU
+	'CNF' => 'BELO HORIZ  CNF',    # BELO HORIZONTE CNF
+	'IOS' => 'ILHEUS JORGE',       # ILHEUS
+	'MAD' => 'MADRID A.SUAREZ',    # MADRID
+	'GIG' => 'RIO JANEIRO GIG',    # RIO DE JANEIRO GIG
+	'SDU' => 'RIO JANEIRO SDU',    # RIO DE JANEIRO SDU
+	'BEL' => 'BELEM VAL DE CANS',  # BELEM
 );
 function location_TAM($data)
 {
